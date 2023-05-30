@@ -1,0 +1,41 @@
+<% if (resultPreSale) { %>
+<h2>本次新增入网楼栋：<%= resultPreSale.length %>个</h2>
+<ul>
+  <% resultPreSale.forEach(function(item){ %>
+  <li>
+    <p>
+      <a href="<%= item.url %>">
+        项目名称：<%= item.entryName %>
+      </a>
+    </p>
+    <p>楼幢号：<%= item.buildingNumber %></p>
+    <p>许可面积(㎡)：<%= item.permittedArea %></p>
+    <p>发放日期：<%= item.time %></p>
+  </li>
+  <% }); %>
+</ul>
+<% } %>
+
+<% if (resultList) { %>
+<h2>本次新增摇号项目：<%= resultList.length %>个</h2>
+<ul>
+  <% resultList.forEach(function(item){ %>
+  <li>
+    <p>
+      <a href="<%= item.url %>">
+        项目名称：<%= item.entryName %>
+      </a>
+    </p>
+    <p>楼幢：<%= item.building.join('，') %></p>
+    <p>企业名称：<%= item.enterpriseName %></p>
+    <p>区域：<%= item.region %></p>
+    <p>总数：<%= item.total %></p>
+    <p>登记状态：<%= item.registrationStatus %></p>
+    <p>登记开始时间：<%= item.start %></p>
+    <p>登记结束时间：<%= item.end %></p>
+  </li>
+  <% }); %>
+</ul>
+<% } %>
+
+<p>本次爬取时间：<%= currentTime %></p>
