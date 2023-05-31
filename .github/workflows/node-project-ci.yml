@@ -38,12 +38,12 @@ jobs:
         run: |
           pnpm run start
 
-      - name: Commit and push changes
-        uses: crazy-max/ghaction-git-push@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
-          force: true
+      # - name: Commit and push changes
+      #   uses: crazy-max/ghaction-git-push@v1
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: master
+      #     force: true
 
       - name: Stop services
         run: |
