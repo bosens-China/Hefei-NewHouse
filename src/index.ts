@@ -83,6 +83,7 @@ const App = async () => {
   process.exit(0);
 };
 
+console.log(`当前时间 : ${dayjs().format('YYYY-MM-DD HH:mm:ss')}`);
 App().catch((e) => {
   if (process.env.NODE_ENV === 'development') {
     console.log(e instanceof Error ? e.message : e);

@@ -47,6 +47,11 @@ jobs:
           cache: pnpm
 
       - name: Run tests or build
+        env:
+          EMAIL_ACCOUNT: ${{ secrets.EMAIL_ACCOUNT }}
+          EMAIL_AUTHORIZATION_CODE: ${{ secrets.EMAIL_AUTHORIZATION_CODE }}
+          MAILBOX: ${{ secrets.MAILBOX }}
+          NODE_ENV: ${{ secrets.production }}
         run: |
           pnpm run start
 
