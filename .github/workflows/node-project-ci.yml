@@ -68,20 +68,20 @@ jobs:
         run: |
           if git diff --quiet; then
             echo "No changes detected. Skipping subsequent tasks."
-            echo "::set-output name=skip_tasks::true"
+            echo "skip_tasks=true" >> "$GITHUB_ENV"
           else
-            echo "::set-output name=skip_tasks::false"
+            echo "skip_tasks=false" >> "$GITHUB_ENV"
           fi
 
       - name: Commit files
-        if: steps.check_changes.outputs.skip_tasks != 'true'
+        if: env.action_state != 'true'
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -a -m "Add changes"
 
       - name: Push changes
-        if: steps.check_changes.outputs.skip_tasks != 'true'
+        if: env.action_state != 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
