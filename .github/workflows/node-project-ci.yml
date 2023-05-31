@@ -56,7 +56,7 @@ jobs:
           EMAIL_ACCOUNT: ${{ secrets.EMAIL_ACCOUNT }}
           EMAIL_AUTHORIZATION_CODE: ${{ secrets.EMAIL_AUTHORIZATION_CODE }}
           MAILBOX: ${{ secrets.MAILBOX }}
-          NODE_ENV: ${{ secrets.production }}
+          NODE_ENV: production
         run: |
           pnpm run start
 
@@ -66,18 +66,22 @@ jobs:
 
       - name: Check for changes
         run: |
-          git diff --quiet || exit 0
-          exit 1
+          if git diff --quiet; then
+            echo "No changes detected. Skipping subsequent tasks."
+            echo "::set-output name=skip_tasks::true"
+          else
+            echo "::set-output name=skip_tasks::false"
+          fi
 
       - name: Commit files
-        if: ${{ success() }}
+        if: steps.check_changes.outputs.skip_tasks != 'true'
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -a -m "Add changes"
 
       - name: Push changes
-        if: ${{ success() }}
+        if: steps.check_changes.outputs.skip_tasks != 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
