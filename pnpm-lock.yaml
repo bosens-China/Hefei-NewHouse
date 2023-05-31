@@ -7,6 +7,7 @@ specifiers:
   '@types/nodemailer': ^6.4.8
   '@typescript-eslint/eslint-plugin': ^5.59.8
   '@typescript-eslint/parser': ^5.59.8
+  async-validator: ^4.1.0
   axios: ^1.4.0
   cheerio: 1.0.0-rc.12
   dayjs: ^1.11.7
@@ -27,6 +28,7 @@ specifiers:
   typescript: ^5.0.4
 
 dependencies:
+  async-validator: 4.1.0
   axios: 1.4.0
   cheerio: 1.0.0-rc.12
   dayjs: 1.11.7
@@ -428,6 +430,10 @@ packages:
       es-abstract: 1.21.2
       es-shim-unscopables: 1.0.0
     dev: true
+
+  /async-validator/4.1.0:
+    resolution: {integrity: sha512-FjmiC/asUPkfsi3taDPtpRVhxxCIiS4EWeR6OjOjppKaHsh3l4J13s7uQ++1zfl84mRaOFxjz7UDIxwy9l9zAQ==}
+    dev: false
 
   /async/3.2.4:
     resolution: {integrity: sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==}

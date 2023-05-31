@@ -24,6 +24,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "async-validator": "^4.1.0",
     "axios": "^1.4.0",
     "cheerio": "1.0.0-rc.12",
     "dayjs": "^1.11.7",

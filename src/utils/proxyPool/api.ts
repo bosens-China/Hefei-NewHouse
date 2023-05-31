@@ -25,8 +25,7 @@ export const getProxy1 = async (): Promise<Proxy[]> => {
       };
     });
   } catch {
-    console.error(`Proxy1 发生错误`);
-    return [];
+    throw new Error(`Proxy1 发生错误`);
   }
 };
 
@@ -41,7 +40,6 @@ export const getProxy2 = async (): Promise<Proxy[]> => {
       };
     });
   } catch {
-    console.error(`Proxy2 发生错误`);
-    return [];
+    throw new Error(`Proxy2 发生错误`);
   }
 };

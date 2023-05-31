@@ -26,16 +26,30 @@
         项目名称：<%= item.entryName %>
       </a>
     </p>
-    <p>楼幢：<%= item.building.join('，') %></p>
-    <p>企业名称：<%= item.enterpriseName %></p>
-    <p>区域：<%= item.region %></p>
+    <p>区域：<span class="region"><%= item.region %></span></p>
     <p>总数：<%= item.total %></p>
     <p>登记状态：<%= item.registrationStatus %></p>
-    <p>登记开始时间：<%= item.start %></p>
-    <p>登记结束时间：<%= item.end %></p>
+
+    <details>
+      <summary>展开其他信息</summary>
+      <p>企业名称：<%= item.enterpriseName %></p>
+      <p>楼幢：<%= item.building.join('，') %></p>
+      <p>刚需供应数：<%= Math.floor(item.total * 0.3) %></p>
+      <% if (['高新区', '经济区'].includes(item.region)) { %>
+      <p>职住平衡供应数：Math.floor(item.total * 0.5)</p>
+      <% } %>
+      <p>登记开始时间：<%= item.start %></p>
+      <p>登记结束时间：<%= item.end %></p>
+    </details>
   </li>
   <% }); %>
 </ul>
 <% } %>
 
 <p>本次爬取时间：<%= currentTime %></p>
+
+<style>
+  a {
+    color: #1677ff;
+  }
+</style>
