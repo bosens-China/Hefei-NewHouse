@@ -41,10 +41,6 @@ export const notice = async ({
 
   const { EMAIL_ACCOUNT, EMAIL_AUTHORIZATION_CODE, MAILBOX } = process.env;
   if (!EMAIL_ACCOUNT || !EMAIL_AUTHORIZATION_CODE || !MAILBOX) {
-    console.log(process.env);
-    console.log(process.env.secrets);
-    console.log((process as any).secrets);
-
     throw new Error(`EMAIL_ACCOUNT或EMAIL_AUTHORIZATION_CODE或MAILBOX不存在！`);
   }
   const transporter = nodemailer.createTransport({
