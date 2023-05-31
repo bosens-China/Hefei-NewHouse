@@ -13,6 +13,8 @@ services:
     image: 'redis'
 
   proxy2:
-    image: 'jackadam/ipproxypool'
+    image: 'boses/ipproxypool'
+    restart: always
+    privileged: true
     ports:
-      - '8000:8000'
+      - 8000:8000
