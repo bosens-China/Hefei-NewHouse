@@ -14,13 +14,34 @@
 
 ## 环境变量说明
 
-| 名称                     | 描述                                                               |
-| ------------------------ | ------------------------------------------------------------------ |
-| EMAIL_ACCOUNT            | 发送邮箱地址                                                       |
-| EMAIL_AUTHORIZATION_CODE | 发送邮箱授权码                                                     |
-| MAILBOX                  | 推送到的邮箱地址，可以使用 `,` 连接多个，例如xxx@qq.com,xxx@qq.com |
-| DOCKERHUB_USERNAME       | docker 账号                                                        |
-| DOCKERHUB_TOKEN          | docker 授权码                                                      |
+**EMAIL_ACCOUNT**
+
+发送邮箱地址
+
+**EMAIL_AUTHORIZATION_CODE**
+
+发送邮箱授权码
+
+**MAILBOX**
+
+字符串数组对象传递，详细参数如下
+
+- mailbox
+  发送的邮箱地址
+
+- monitoringArea
+  包含的区域，如果存在此参数不会使用 exclusionZone 参数
+
+- exclusionZone
+  排除的区域
+
+**DOCKERHUB_USERNAME**
+
+Docker 账号
+
+**DOCKERHUB_TOKEN**
+
+Docker 授权码
 
 ## 其他
 
