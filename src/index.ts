@@ -1,4 +1,4 @@
-import 'dotenv/config';
+import { config } from 'dotenv';
 import { getList } from './reptile/list.js';
 import { getPreSale } from './reptile/preSale.js';
 import { NUMBER_OF_COLUMNS, NUMBER_OF_PRE_SALE_COLUMNS } from './constant.js';
@@ -7,8 +7,13 @@ import { extension } from './utils/base.js';
 import { notice } from './notice/index.js';
 import dayjs from 'dayjs';
 import isSameOrBefore from 'dayjs/plugin/isSameOrBefore.js';
+import 'dayjs/locale/zh-cn.js';
+
+config();
+config({ path: '.env.local' });
 
 dayjs.extend(isSameOrBefore);
+dayjs.locale('zh-cn');
 
 const loadingList = async () => {
   db.read();
@@ -75,8 +80,13 @@ const App = async () => {
     resultPreSale,
   });
   console.timeEnd('发送通知');
+  process.exit(0);
 };
 
 App().catch((e) => {
+  if (process.env.NODE_ENV === 'development') {
+    console.log(e instanceof Error ? e.message : e);
+    return;
+  }
   console.error(e);
 });

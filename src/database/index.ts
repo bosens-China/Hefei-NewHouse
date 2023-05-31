@@ -2,10 +2,12 @@ import { LowSync } from 'lowdb';
 import { JSONFileSync } from 'lowdb/node';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { type Proxy } from '../utils/proxyPool/index.js';
 
 interface Data {
   list?: number;
   preSale?: number;
+  proxy?: Proxy;
 }
 
 const currentDirname = dirname(fileURLToPath(import.meta.url));

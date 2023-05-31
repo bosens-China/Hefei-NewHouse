@@ -1,4 +1,4 @@
-<% if (resultPreSale) { %>
+<% if (resultPreSale.length) { %>
 <h2>本次新增入网楼栋：<%= resultPreSale.length %>个</h2>
 <ul>
   <% resultPreSale.forEach(function(item){ %>
@@ -16,7 +16,7 @@
 </ul>
 <% } %>
 
-<% if (resultList) { %>
+<% if (resultList.length) { %>
 <h2>本次新增摇号项目：<%= resultList.length %>个</h2>
 <ul>
   <% resultList.forEach(function(item){ %>
