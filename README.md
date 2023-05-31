@@ -9,6 +9,8 @@
 | EMAIL_ACCOUNT            | 发送邮箱地址                            |
 | EMAIL_AUTHORIZATION_CODE | 发送邮箱授权码                          |
 | MAILBOX                  | 推送到的邮箱地址，可以使用 `,` 连接多个 |
+| DOCKERHUB_USERNAME       | docker 账号                             |
+| DOCKERHUB_TOKEN          | docker 密码                             |
 
 ## 其他
 
