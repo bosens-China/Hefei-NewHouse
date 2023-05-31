@@ -60,18 +60,25 @@ jobs:
         run: |
           pnpm run start
 
+      - name: Stop services
+        run: |
+          docker-compose down
+
+      - name: Check for changes
+        run: |
+          git diff --quiet || exit 0
+          exit 1
+
       - name: Commit files
+        if: ${{ success() }}
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -a -m "Add changes"
 
       - name: Push changes
+        if: ${{ success() }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
-
-      - name: Stop services
-        run: |
-          docker-compose down
