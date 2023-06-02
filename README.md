@@ -12,6 +12,12 @@
 - 找到可以使用的 proxy
 - 爬取资源，发送邮箱
 
+## 使用方式
+
+- Fork 项目
+- 把下面环境变量填写到仓库中， Settings => Secrets and variables => Actions => New repository secret
+- 等待定时运行
+
 ## 环境变量说明
 
 **EMAIL_ACCOUNT**
@@ -24,16 +30,19 @@
 
 **MAILBOX**
 
-字符串数组对象传递，详细参数如下
+字符串数组对象形式传递，详细参数如下
 
-- mailbox
-  发送的邮箱地址
+mailbox
+type: `string`
+发送的邮箱地址
 
-- monitoringArea
-  包含的区域，如果存在此参数不会使用 exclusionZone 参数
+monitoringArea
+type: `Array<string>`
+包含的区域，如果存在此参数不会使用 exclusionZone 参数
 
-- exclusionZone
-  排除的区域
+exclusionZone
+type: `Array<string>`
+排除的区域
 
 **DOCKERHUB_USERNAME**
 

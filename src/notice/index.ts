@@ -122,7 +122,7 @@ export const notice = async ({
       currentTime: dayjs().format('YYYY-MM-DD HH:mm:ss'),
     };
     // 白名单
-    if (monitoringArea) {
+    if (monitoringArea?.length) {
       values.resultList = resultList
         .filter((f) => {
           return monitoringArea.includes(f.region);
@@ -135,7 +135,7 @@ export const notice = async ({
           };
         });
       // 黑名单
-    } else if (exclusionZone) {
+    } else if (exclusionZone?.length) {
       values.resultList = resultList
         .filter((f) => {
           return !exclusionZone.includes(f.region);
