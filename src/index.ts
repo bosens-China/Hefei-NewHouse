@@ -16,7 +16,6 @@ dayjs.extend(isSameOrBefore);
 dayjs.locale('zh-cn');
 
 const loadingList = async () => {
-  db.read();
   const { values, total } = await extension(async () => await getList());
   const currentTotal = db.data.list;
   let page = 1;
@@ -28,18 +27,15 @@ const loadingList = async () => {
     values.push(...result.values);
   }
   db.data.list = total;
-  db.write();
   if (currentTotal) {
     return values.slice(0, total - currentTotal);
   }
-
   return values.filter((f) => {
     return f.registrationStatus !== '登记结束';
   });
 };
 
 const loadingPreSale = async () => {
-  db.read();
   const { values, total } = await extension(async () => await getPreSale());
   const currentTotal = db.data.preSale;
   let page = 1;
@@ -52,7 +48,7 @@ const loadingPreSale = async () => {
     values.push(...result.values);
   }
   db.data.preSale = total;
-  db.write();
+
   if (currentTotal) {
     return values.slice(0, total - currentTotal);
   }
@@ -64,16 +60,19 @@ const loadingPreSale = async () => {
 };
 
 const App = async () => {
-  console.time('开始爬取预售');
+  db.read();
+  console.time('爬取预售结束');
   const resultPreSale = (await loadingPreSale()) ?? [];
-  console.timeEnd('开始爬取预售');
-  console.time(`开始爬取列表`);
+  console.timeEnd('爬取预售结束');
+  console.time(`爬取列表结束`);
   const resultList = (await loadingList()) ?? [];
-  console.timeEnd('开始爬取列表');
+  console.timeEnd('爬取列表结束');
   if (!resultList.length && !resultPreSale.length) {
     console.log(`列表未更新，跳过本次爬取`);
     return;
   }
+
+  db.write();
   console.time(`发送通知`);
   await notice({
     resultList,
@@ -83,7 +82,7 @@ const App = async () => {
   process.exit(0);
 };
 
-console.log(`当前时间 : ${dayjs().format('YYYY-MM-DD HH:mm:ss')}`);
+console.log(`当前时间: ${dayjs().format('YYYY-MM-DD HH:mm:ss')}`);
 App().catch((e) => {
   if (process.env.NODE_ENV === 'development') {
     console.error(e);

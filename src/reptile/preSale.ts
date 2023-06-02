@@ -3,6 +3,8 @@ import { instance } from '../utils/request.js';
 import { load } from 'cheerio';
 import { BASE_URL } from '../constant.js';
 import dayjs from 'dayjs';
+import { getTotal } from '../utils/proxyPool/reptile.js';
+import { db } from '../database/index.js';
 
 export interface Props {
   url: string;
@@ -51,19 +53,24 @@ const analysis = (html: string): Props[] => {
   return arr;
 };
 
-const getTotal = (html: string) => {
-  const $ = load(html);
-  const total = $('.green-black em').text();
-  return Number(total.trim());
-};
-
-export const getPreSale = async (page = 1) => {
+export const getPreSale = async (
+  page = 1,
+): Promise<{
+  values: Props[];
+  total: number;
+}> => {
   const { data: html } = await instance.get<string>(
     `${BASE_URL}/spf/Permit?p=${page}&item=&use=%E4%BD%8F%E5%AE%85&permitno=`,
   );
   const arr = analysis(html);
+  const total = getTotal(html);
+
+  if (!total) {
+    db.data.proxy = undefined;
+    return await getPreSale(page);
+  }
   return {
     values: arr,
-    total: getTotal(html),
+    total,
   };
 };

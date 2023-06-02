@@ -9,17 +9,14 @@ export const instance = axios.create({
   },
 });
 
-db.read();
-let proxy = db.data.proxy;
-
 // 添加请求拦截器
 instance.interceptors.request.use(
   async function (config) {
-    if (!proxy) {
-      proxy = await getData();
+    if (!db.data.proxy) {
+      db.data.proxy = await getData();
     }
 
-    config.proxy = proxy;
+    config.proxy = db.data.proxy;
 
     return config;
   },
@@ -31,15 +28,11 @@ instance.interceptors.request.use(
 // 添加响应拦截器
 instance.interceptors.response.use(
   function (response) {
-    if (response.config.proxy) {
-      db.data.proxy = response.config.proxy;
-      db.write();
-    }
     return response;
   },
   async function (error) {
     const { config } = error;
-    proxy = await getData();
+    db.data.proxy = await getData();
     // 如果发生错误，直接包裹起来重新请求
     return await instance(config);
   },

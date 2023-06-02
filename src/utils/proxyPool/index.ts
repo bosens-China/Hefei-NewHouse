@@ -11,43 +11,52 @@ export interface Proxy {
 
 // 验证代理是否通过
 const test = async (url: string, proxy: Proxy) => {
-  const html = await axios.get<string>(url, {
+  const { data: html } = await axios.get<string>(url, {
     proxy,
     timeout: 10000,
   });
   if (!_.isString(html)) {
-    throw new Error(`返回内容错误`);
+    throw new Error(`返回内容错误:\n${JSON.stringify(html)}`);
   }
+
   return proxy;
 };
-// 并发验证
+
+const errorArr: Proxy[] = [];
+let j = 0;
+
+// 并发验证给定参数是否能通过测试
 const concurrentVerification = async (arr: Proxy[]) => {
   const url = [
     `${BASE_URL}/spf/Scheme`,
-    // `${BASE_URL}/spf/index`,
-    // `${BASE_URL}/spf/Permit`,
-    // `${BASE_URL}/spf/Bank`,
+    `${BASE_URL}/spf/Permit`,
+    `${BASE_URL}/spf/Bank`,
     `${BASE_URL}/spf/Project`,
+    `${BASE_URL}/spf/Company/3`,
   ];
 
   for (let position = 0; position <= arr.length; position += url.length) {
+    const str = `爬取代理地址第${++j}轮`;
+    console.time(str);
     const slice = arr.slice(position, position + url.length);
     try {
       const result = await Promise.any(
-        url.map(async (item, index) => {
-          return await test(item, slice[index]);
+        slice.map(async (item, index) => {
+          // 给一个递进的过程，防止一瞬间同时请求
+          return await extension(async () => await test(url[index], item), (index + 1) * 200);
         }),
       );
       return result;
     } catch (e) {
+      errorArr.push(...slice);
       //
+    } finally {
+      console.timeEnd(str);
+      // 暂停等待
+      await extension(() => {});
     }
-    // 暂停等待
-    await extension(() => {});
   }
 };
-
-const errorArr: Proxy[] = [];
 
 export const getData = async (time?: number): Promise<Proxy> => {
   await extension(() => {}, time ?? 0);
@@ -59,13 +68,14 @@ export const getData = async (time?: number): Promise<Proxy> => {
     }
     return !!errorArr.find((f) => _.isEqual(f, arr1) || _.isEqual(f, arr2));
   });
-  console.time(`开始爬取代理地址`);
+
   const result = await concurrentVerification(filteringValue);
-  console.timeEnd(`开始爬取代理地址`);
+
   if (result) {
     return result;
   }
   // 说明都没通过验证，继续等待1h后进行
   console.log(`爬取失败，等待1h后重试`);
+  errorArr.length = 0;
   return await getData(1000 * 60 * 60);
 };

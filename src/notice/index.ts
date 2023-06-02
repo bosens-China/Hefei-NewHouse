@@ -112,7 +112,7 @@ export const notice = async ({
       },
     );
 
-    const values: Record<string, any> = {
+    const values = {
       resultPreSale: resultPreSale.map((item) => {
         return {
           ...item,
@@ -120,34 +120,26 @@ export const notice = async ({
         };
       }),
       currentTime: dayjs().format('YYYY-MM-DD HH:mm:ss'),
+      resultList: resultList
+        .filter((f) => {
+          if (monitoringArea?.length) {
+            return monitoringArea.includes(f.region);
+          } else if (exclusionZone?.length) {
+            return !exclusionZone.includes(f.region);
+          } else {
+            // 都不存在返回true
+            return true;
+          }
+        })
+        .map((item) => {
+          return {
+            ...item,
+            start: dayjs(item.startTime).format('YYYY-MM-DD HH:mm:ss'),
+            end: dayjs(item.endTime).format('YYYY-MM-DD HH:mm:ss'),
+          };
+        }),
     };
-    // 白名单
-    if (monitoringArea?.length) {
-      values.resultList = resultList
-        .filter((f) => {
-          return monitoringArea.includes(f.region);
-        })
-        .map((item) => {
-          return {
-            ...item,
-            start: dayjs(item.startTime).format('YYYY-MM-DD HH:mm:ss'),
-            end: dayjs(item.endTime).format('YYYY-MM-DD HH:mm:ss'),
-          };
-        });
-      // 黑名单
-    } else if (exclusionZone?.length) {
-      values.resultList = resultList
-        .filter((f) => {
-          return !exclusionZone.includes(f.region);
-        })
-        .map((item) => {
-          return {
-            ...item,
-            start: dayjs(item.startTime).format('YYYY-MM-DD HH:mm:ss'),
-            end: dayjs(item.endTime).format('YYYY-MM-DD HH:mm:ss'),
-          };
-        });
-    }
+
     const html = ejs.render(tem, values);
 
     const transporter = nodemailer.createTransport({
