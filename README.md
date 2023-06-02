@@ -20,37 +20,29 @@
 
 ## 环境变量说明
 
-**EMAIL_ACCOUNT**
+注意，所有的环境变量都要通过字符串的形式传递，如果是要求对象等形式，需要使用 `JSON.stringify` 来进行字符串话。
 
-发送邮箱地址
+| 名称                     | 类型                  | 描述           |
+| ------------------------ | --------------------- | -------------- |
+| EMAIL_ACCOUNT            | `string`              | 发送邮箱地址   |
+| EMAIL_AUTHORIZATION_CODE | `string`              | 发送邮箱授权码 |
+| MAILBOX                  | `Array<MAILBOX_ITEM>` | 收件人配置     |
 
-**EMAIL_AUTHORIZATION_CODE**
+### MAILBOX_ITEM
 
-发送邮箱授权码
+| 名称           | 类型            | 描述                                                  |
+| -------------- | --------------- | ----------------------------------------------------- |
+| mailbox        | `string`        | 收件人邮箱地址                                        |
+| exclusionZone  | `Array<string>` | 排除的区域                                            |
+| monitoringArea | `Array<string>` | 包含的区域，如果存在此参数不会使用 exclusionZone 参数 |
 
-**MAILBOX**
-
-字符串数组对象形式传递，详细参数如下
-
-mailbox
-type: `string`
-发送的邮箱地址
-
-monitoringArea
-type: `Array<string>`
-包含的区域，如果存在此参数不会使用 exclusionZone 参数
-
-exclusionZone
-type: `Array<string>`
-排除的区域
-
-**DOCKERHUB_USERNAME**
+<!-- **DOCKERHUB_USERNAME**
 
 Docker 账号
 
 **DOCKERHUB_TOKEN**
 
-Docker 授权码
+Docker 授权码 -->
 
 ## 其他
 
