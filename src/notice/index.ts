@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 // 发送邮件
-import { type Props as PropsList } from '../reptile/list.js';
+import { type Props as PropsList } from '../reptile/list/list.js';
 import { type Props as PropsPreSale } from '../reptile/preSale.js';
 import dayjs from 'dayjs';
 import ejs from 'ejs';
@@ -141,7 +141,6 @@ export const notice = async ({
     };
 
     const html = ejs.render(tem, values);
-
     const transporter = nodemailer.createTransport({
       service: 'QQ',
       host: 'smtp.qq.email',

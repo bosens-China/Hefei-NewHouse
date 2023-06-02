@@ -1,9 +1,8 @@
 import { config } from 'dotenv';
-import { getList } from './reptile/list.js';
+import { getListResults } from './reptile/list/index.js';
 import { getPreSale } from './reptile/preSale.js';
 import { NUMBER_OF_COLUMNS, NUMBER_OF_PRE_SALE_COLUMNS } from './constant.js';
 import { db } from './database/index.js';
-import { extension } from './utils/base.js';
 import { notice } from './notice/index.js';
 import dayjs from 'dayjs';
 import isSameOrBefore from 'dayjs/plugin/isSameOrBefore.js';
@@ -16,14 +15,14 @@ dayjs.extend(isSameOrBefore);
 dayjs.locale('zh-cn');
 
 const loadingList = async () => {
-  const { values, total } = await extension(async () => await getList());
+  const { values, total } = await getListResults();
   const currentTotal = db.data.list;
   let page = 1;
   if (currentTotal) {
     page = Math.ceil((total - currentTotal) / NUMBER_OF_COLUMNS) + 1;
   }
   for (let index = 2; index <= page; index++) {
-    const result = await extension(async () => await getList(index));
+    const result = await getListResults(index);
     values.push(...result.values);
   }
   db.data.list = total;
@@ -36,7 +35,7 @@ const loadingList = async () => {
 };
 
 const loadingPreSale = async () => {
-  const { values, total } = await extension(async () => await getPreSale());
+  const { values, total } = await getPreSale();
   const currentTotal = db.data.preSale;
   let page = 1;
   if (currentTotal) {
@@ -44,7 +43,7 @@ const loadingPreSale = async () => {
   }
 
   for (let index = 2; index <= page; index++) {
-    const result = await extension(async () => await getPreSale(index));
+    const result = await getPreSale(index);
     values.push(...result.values);
   }
   db.data.preSale = total;

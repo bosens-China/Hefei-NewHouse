@@ -33,13 +33,23 @@
     <details>
       <summary>展开其他信息</summary>
       <p>企业名称：<%= item.enterpriseName %></p>
-      <p>楼幢：<%= item.building.join('，') %></p>
-      <p>刚需供应数：<%= Math.floor(item.total * 0.3) %></p>
+      <p>楼幢：
+        <% item.building.forEach(function(li){ %>
+        <a class="child-href" href='<%= li.url %>'><%= li.name %></a>
+        <% }); %>
+      </p>
+      <p>刚需供应数：<%= Math.ceil(item.total * 0.3) %></p>
       <% if (['高新区', '经济区'].includes(item.region)) { %>
-      <p>职住平衡供应数：Math.floor(item.total * 0.5)</p>
+      <p>职住平衡供应数：Math.ceil(item.total * 0.5)</p>
       <% } %>
       <p>登记开始时间：<%= item.start %></p>
       <p>登记结束时间：<%= item.end %></p>
+      <p>联系电话：
+        <% item.telephone.forEach(function(phone){ %>
+        <a class="child-href" href='tel:<%= phone %>'><%= phone %></a>
+        <% }); %>
+      </p>
+      <p>售楼部地址：<%= item.salesDepartmentAddress %></p>
     </details>
   </li>
   <% }); %>
@@ -51,5 +61,10 @@
 <style>
   a {
     color: #1677ff;
+  }
+
+  .child-href {
+    text-decoration: none;
+    color: #4a90e2;
   }
 </style>

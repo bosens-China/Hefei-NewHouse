@@ -3,6 +3,7 @@ import { BASE_URL } from '../../constant.js';
 import { getProxy1, getProxy2 } from './api.js';
 import * as _ from 'lodash-es';
 import { extension } from '../../utils/base.js';
+import { getTotal } from '../../utils/reptile.js';
 
 export interface Proxy {
   host: string;
@@ -15,7 +16,7 @@ const test = async (url: string, proxy: Proxy) => {
     proxy,
     timeout: 10000,
   });
-  if (!_.isString(html)) {
+  if (!_.isString(html) || !getTotal(html)) {
     throw new Error(`返回内容错误:\n${JSON.stringify(html)}`);
   }
 
@@ -33,6 +34,7 @@ const concurrentVerification = async (arr: Proxy[]) => {
     `${BASE_URL}/spf/Bank`,
     `${BASE_URL}/spf/Project`,
     `${BASE_URL}/spf/Company/3`,
+    `${BASE_URL}/spf/Company/4`,
   ];
 
   for (let position = 0; position <= arr.length; position += url.length) {

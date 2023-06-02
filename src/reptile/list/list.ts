@@ -1,15 +1,14 @@
 // 列表
-import { instance } from '../utils/request.js';
+import { instance } from '../../utils/request.js';
 import { load } from 'cheerio';
-import { BASE_URL } from '../constant.js';
+import { BASE_URL } from '../../constant.js';
 import dayjs from 'dayjs';
-import { getTotal } from '../utils/proxyPool/reptile.js';
-import { db } from '../database/index.js';
+import { getTotal } from '../../utils/reptile.js';
 
 export interface Props {
   url: string;
   entryName: string;
-  building: string[];
+  // building: string[];
   enterpriseName: string;
   region: string;
   startTime: number;
@@ -33,9 +32,9 @@ const analysis = (html: string): Props[] => {
             obj.url = `${BASE_URL}${a.attr('href') ?? ''}`;
             obj.entryName = a.text().trim();
             return;
-          case 1:
-            obj.building = value.split(',');
-            return;
+          // case 1:
+          //   obj.building = value.split(',');
+          //   return;
           case 2:
             obj.enterpriseName = value;
             return;
@@ -60,19 +59,11 @@ const analysis = (html: string): Props[] => {
   return arr;
 };
 
-export const getList = async (
-  page = 1,
-): Promise<{
-  values: Props[];
-  total: number;
-}> => {
+export const getList = async (page = 1) => {
   const { data: html } = await instance.get<string>(`${BASE_URL}/spf/Scheme?p=${page}&xmmc=&qy=&djzt=`);
   const arr = analysis(html);
   const total = getTotal(html);
-  if (!total) {
-    db.data.proxy = undefined;
-    return await getList(page);
-  }
+
   return {
     values: arr,
     total,

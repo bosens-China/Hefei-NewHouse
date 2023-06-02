@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { getData } from './proxyPool/index.js';
 import { db } from '../database/index.js';
+import { extension } from './base.js';
 
 export const instance = axios.create({
   headers: {
@@ -15,7 +16,7 @@ instance.interceptors.request.use(
     if (!db.data.proxy) {
       db.data.proxy = await getData();
     }
-
+    await extension(() => {});
     config.proxy = db.data.proxy;
 
     return config;
