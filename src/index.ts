@@ -1,12 +1,12 @@
 import { config } from 'dotenv';
-import { getListResults } from './reptile/list/index.js';
-import { getPreSale } from './reptile/preSale.js';
-import { NUMBER_OF_COLUMNS, NUMBER_OF_PRE_SALE_COLUMNS } from './constant.js';
-import { db } from './database/index.js';
-import { notice } from './notice/index.js';
+import { getListResults } from './reptile/list';
+import { getPreSale, mergeArrays } from './reptile/preSale';
+import { NUMBER_OF_COLUMNS, NUMBER_OF_PRE_SALE_COLUMNS } from './constant';
+import { db } from './database';
+import { notice } from './notice';
 import dayjs from 'dayjs';
-import isSameOrBefore from 'dayjs/plugin/isSameOrBefore.js';
-import 'dayjs/locale/zh-cn.js';
+import isSameOrBefore from 'dayjs/plugin/isSameOrBefore';
+import 'dayjs/locale/zh-cn';
 
 config();
 config({ path: '.env.local' });
@@ -14,6 +14,7 @@ config({ path: '.env.local' });
 dayjs.extend(isSameOrBefore);
 dayjs.locale('zh-cn');
 
+// 加载列表
 const loadingList = async () => {
   const { values, total } = await getListResults();
   const currentTotal = db.data.list;
@@ -34,6 +35,7 @@ const loadingList = async () => {
   });
 };
 
+// 加载预售
 const loadingPreSale = async () => {
   const { values, total } = await getPreSale();
   const currentTotal = db.data.preSale;
@@ -49,13 +51,16 @@ const loadingPreSale = async () => {
   db.data.preSale = total;
 
   if (currentTotal) {
-    return values.slice(0, total - currentTotal);
+    return mergeArrays(values.slice(0, total - currentTotal));
   }
-  const current = dayjs();
+  // const current = dayjs();
   // 只返回今天和之后的
-  return values.filter((f) => {
-    return dayjs(current).isSameOrBefore(dayjs(f.releaseDate), 'D');
-  });
+  return mergeArrays(
+    values,
+    // values.filter((f) => {
+    //   return dayjs(current).isSameOrBefore(dayjs(f.releaseDate), 'D');
+    // }),
+  );
 };
 
 const App = async () => {
@@ -66,18 +71,13 @@ const App = async () => {
   console.time(`爬取列表结束`);
   const resultList = (await loadingList()) ?? [];
   console.timeEnd('爬取列表结束');
-  if (!resultList.length && !resultPreSale.length) {
-    console.log(`列表未更新，跳过本次爬取`);
-    return;
-  }
-
-  db.write();
   console.time(`发送通知`);
   await notice({
     resultList,
     resultPreSale,
   });
   console.timeEnd('发送通知');
+  db.write();
   process.exit(0);
 };
 

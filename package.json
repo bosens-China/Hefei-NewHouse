@@ -5,12 +5,14 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@types/ejs": "^3.1.2",
     "@types/lodash-es": "^4.17.7",
     "@types/node": "^20.2.5",
     "@types/nodemailer": "^6.4.8",
+    "@types/vhtml": "^2.2.4",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.8",
+    "esbuild": "^0.17.19",
+    "esbuild-register": "^3.4.2",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-standard-with-typescript": "^34.0.1",
@@ -20,7 +22,6 @@
     "eslint-plugin-promise": "^6.0.0",
     "nodemailer": "^6.9.3",
     "prettier": "^2.8.8",
-    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
   "dependencies": {
@@ -29,11 +30,13 @@
     "cheerio": "1.0.0-rc.12",
     "dayjs": "^1.11.7",
     "dotenv": "^16.1.1",
-    "ejs": "^3.1.9",
+    "htm": "^3.1.1",
     "lodash-es": "^4.17.21",
-    "lowdb": "^6.0.1"
+    "lowdb": "^6.0.1",
+    "vhtml": "^2.2.0"
   },
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "checkForErrors": "tsc --noEmit",
+    "start": "node --loader esbuild-register/loader -r esbuild-register src/index.ts"
   }
 }

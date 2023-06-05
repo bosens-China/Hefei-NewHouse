@@ -1,5 +1,5 @@
-import Schema from 'async-validator';
-import * as _ from 'lodash-es';
+import Schema, { type Rules } from 'async-validator';
+import _ from 'lodash-es';
 
 export const randomNumber = (min: number, max: number) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -24,10 +24,10 @@ export const stringToObject = <T>(value?: string) => {
   }
 };
 
-export const verificationObject = async (obj: Record<string, any>, descriptor: Schema.Rules) => {
+export const verificationObject = async (obj: Record<string, any>, descriptor: Rules) => {
   // eslint-disable-next-line new-cap
-  const validator = new Schema.default(descriptor);
-  return await validator
+  const validator = new Schema(descriptor);
+  return validator
     .validate(obj)
     .then(() => {
       return true;

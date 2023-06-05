@@ -1,20 +1,13 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 // 发送邮件
-import { type Props as PropsList } from '../reptile/list/list.js';
-import { type Props as PropsPreSale } from '../reptile/preSale.js';
+
+import { type Values } from '../reptile/preSale';
 import dayjs from 'dayjs';
-import ejs from 'ejs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
-import fs from 'fs';
+
 import nodemailer from 'nodemailer';
-import { load } from 'cheerio';
-import { stringToObject, verificationObject } from '../utils/base.js';
 
-const currentDirname = dirname(fileURLToPath(import.meta.url));
-const file = join(currentDirname, './template.ejs');
-
-const tem = fs.readFileSync(file, 'utf-8');
+import { stringToObject, verificationObject } from '../utils/base';
+import { getTemplate, type ResultList, type ResultPreSale } from './template';
 
 // 所有区域
 const allRegion = ['蜀山区', '庐阳区', '包河区', '瑶海区', '高新区', '经济区', '新站区', '政务区', '滨湖区'];
@@ -31,8 +24,8 @@ export const notice = async ({
   resultList,
   resultPreSale,
 }: {
-  resultList: PropsList[];
-  resultPreSale: PropsPreSale[];
+  resultList: Array<Omit<ResultList, 'start' | 'end'>>;
+  resultPreSale: Map<string, Omit<ResultPreSale, 'time'>>;
 }) => {
   const { EMAIL_ACCOUNT, EMAIL_AUTHORIZATION_CODE, MAILBOX } = process.env;
 
@@ -81,7 +74,7 @@ export const notice = async ({
         ],
         monitoringArea: {
           type: 'array',
-          asyncValidator(rule, value: string[] | undefined, callback) {
+          asyncValidator(_rule, value: string[] | undefined, callback) {
             if (!value) {
               callback();
               return;
@@ -96,7 +89,7 @@ export const notice = async ({
         },
         exclusionZone: {
           type: 'array',
-          asyncValidator(rule, value: string[] | undefined, callback) {
+          asyncValidator(_rule, value: string[] | undefined, callback) {
             if (!value) {
               callback();
               return;
@@ -112,13 +105,18 @@ export const notice = async ({
       },
     );
 
+    const newResultPreSale = new Map<string, Values & { time: string[] }>(resultPreSale.entries() as any);
+    for (const [name, value] of newResultPreSale) {
+      newResultPreSale.set(name, {
+        ...value,
+        time: value.releaseDate.map((item) => {
+          return dayjs(item).format('YYYY-MM-DD');
+        }),
+      });
+    }
+
     const values = {
-      resultPreSale: resultPreSale.map((item) => {
-        return {
-          ...item,
-          time: dayjs(item.releaseDate).format('YYYY-MM-DD HH:mm:ss'),
-        };
-      }),
+      resultPreSale: newResultPreSale,
       currentTime: dayjs().format('YYYY-MM-DD HH:mm:ss'),
       resultList: resultList
         .filter((f) => {
@@ -140,7 +138,12 @@ export const notice = async ({
         }),
     };
 
-    const html = ejs.render(tem, values);
+    // 说明被过滤了
+    if (!values.resultList.length && !values.resultPreSale.size) {
+      continue;
+    }
+
+    const { html, text } = getTemplate(values);
     const transporter = nodemailer.createTransport({
       service: 'QQ',
       host: 'smtp.qq.email',
@@ -150,8 +153,6 @@ export const notice = async ({
       },
     });
 
-    const $ = load(html, null, false);
-    const text = $.text();
     await transporter.sendMail({
       from: `"楼盘小助手 👻" <${EMAIL_ACCOUNT!}>`,
       to: mailbox,

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { type Proxy } from './index.js';
+import { type Proxy } from './index';
 
 export const getProxy1 = async (): Promise<Proxy[]> => {
   type Root = Root2[];

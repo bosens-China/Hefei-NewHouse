@@ -1,7 +1,7 @@
 // 列表详情
-import { instance } from '../../utils/request.js';
+import { instance } from '../../utils/request';
 import { load } from 'cheerio';
-import { BASE_URL } from '../../constant.js';
+import { BASE_URL } from '../../constant';
 
 export interface Building {
   url: string;
@@ -35,7 +35,7 @@ const analysis = (html: string): Props => {
     }
   });
   // 解析楼幢
-  $('.beihui a').each((i, el) => {
+  $('.beihui a').each((_i, el) => {
     const url = `${BASE_URL}${$(el).attr('href') ?? ''}`;
     const span = $(el).find('span').text().trim();
     const [, permit, name] = span.match(/预售许可证号：(.+?)楼幢：(.+?)$/) ?? [];

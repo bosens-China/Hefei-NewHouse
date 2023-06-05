@@ -1,9 +1,9 @@
 import axios from 'axios';
-import { BASE_URL } from '../../constant.js';
-import { getProxy1, getProxy2 } from './api.js';
-import * as _ from 'lodash-es';
-import { extension } from '../../utils/base.js';
-import { getTotal } from '../../utils/reptile.js';
+import { BASE_URL } from '../../constant';
+import { getProxy1, getProxy2 } from './api';
+import _ from 'lodash-es';
+import { extension } from '../../utils/base';
+import { getTotal } from '../../utils/reptile';
 
 export interface Proxy {
   host: string;
@@ -45,7 +45,7 @@ const concurrentVerification = async (arr: Proxy[]) => {
       const result = await Promise.any(
         slice.map(async (item, index) => {
           // 给一个递进的过程，防止一瞬间同时请求
-          return await extension(async () => await test(url[index], item), (index + 1) * 200);
+          return extension(async () => await test(url[index], item), (index + 1) * 200);
         }),
       );
       return result;
@@ -58,6 +58,7 @@ const concurrentVerification = async (arr: Proxy[]) => {
       await extension(() => {});
     }
   }
+  return undefined;
 };
 
 export const getData = async (time?: number): Promise<Proxy> => {

@@ -1,7 +1,7 @@
 import axios from 'axios';
-import { getData } from './proxyPool/index.js';
-import { db } from '../database/index.js';
-import { extension } from './base.js';
+import { getData } from './proxyPool';
+import { db } from '../database';
+import { extension } from './base';
 
 export const instance = axios.create({
   headers: {

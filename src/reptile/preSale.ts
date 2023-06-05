@@ -1,9 +1,9 @@
 // 预售
-import { instance } from '../utils/request.js';
+import { instance } from '../utils/request';
 import { load } from 'cheerio';
-import { BASE_URL } from '../constant.js';
+import { BASE_URL } from '../constant';
 import dayjs from 'dayjs';
-import { getTotal } from '../utils/reptile.js';
+import { getTotal } from '../utils/reptile';
 
 export interface Props {
   url: string;
@@ -22,7 +22,7 @@ export interface Props {
 const analysis = (html: string): Props[] => {
   const $ = load(html);
   const arr: Props[] = [];
-  $('tr:not(.table_bg)').each((i, el) => {
+  $('tr:not(.table_bg)').each((_i, el) => {
     const obj = {} as unknown as Props;
     $(el)
       .find('td')
@@ -52,13 +52,42 @@ const analysis = (html: string): Props[] => {
   return arr;
 };
 
+export type Values = {
+  [K in keyof Omit<Props, 'entryName'>]: Array<Props[K]>;
+};
+export type MergeValues = Map<string, Values>;
+
+// 作用是把重复名称转化为数组形式
+export const mergeArrays = (arr: Props[]) => {
+  const values = arr.reduce<MergeValues>((o, item) => {
+    const { entryName, url, licenseKey, buildingNumber, permittedArea, releaseDate } = item;
+    if (!o.has(entryName)) {
+      o.set(entryName, {
+        url: [],
+        licenseKey: [],
+        buildingNumber: [],
+        permittedArea: [],
+        releaseDate: [],
+      });
+    }
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    const value = o.get(entryName)!;
+    value.url.push(url);
+    value.licenseKey.push(licenseKey);
+    value.buildingNumber.push(buildingNumber);
+    value.permittedArea.push(permittedArea);
+    value.releaseDate.push(releaseDate);
+    return o;
+  }, new Map());
+  return values;
+};
+
 export const getPreSale = async (page = 1) => {
   const { data: html } = await instance.get<string>(
     `${BASE_URL}/spf/Permit?p=${page}&item=&use=%E4%BD%8F%E5%AE%85&permitno=`,
   );
   const arr = analysis(html);
   const total = getTotal(html);
-
   return {
     values: arr,
     total,

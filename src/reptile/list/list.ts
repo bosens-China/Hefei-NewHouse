@@ -1,9 +1,9 @@
 // 列表
-import { instance } from '../../utils/request.js';
+import { instance } from '../../utils/request';
 import { load } from 'cheerio';
-import { BASE_URL } from '../../constant.js';
+import { BASE_URL } from '../../constant';
 import dayjs from 'dayjs';
-import { getTotal } from '../../utils/reptile.js';
+import { getTotal } from '../../utils/reptile';
 
 export interface Props {
   url: string;
@@ -20,7 +20,7 @@ export interface Props {
 const analysis = (html: string): Props[] => {
   const $ = load(html);
   const arr: Props[] = [];
-  $('tr:not(.table_bg)').each((i, el) => {
+  $('tr:not(.table_bg)').each((_i, el) => {
     const obj = { building: [] } as unknown as Props;
     $(el)
       .find('td')

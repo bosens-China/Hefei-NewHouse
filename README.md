@@ -2,6 +2,8 @@
 
 借用 Github Actions 定时来爬取 [摇号公示 -- 合肥市房产市场信息平台](https://www.hfzfzlw.com/spf/Scheme/) 变更。
 
+![效果](./effect.png)
+
 ## 工作原理
 
 通过 Github Actions 的免费服务器来定时运行 ci 任务，Github 的服务器在国外对国内网站有墙的限制，所以需要先找到可以使用的代理地址，这里我在 Github 上找到了一些免费的代理池，封装到了 [docker-compose.yml](./docker-compose.yml) 中。

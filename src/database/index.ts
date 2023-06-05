@@ -2,7 +2,7 @@ import { LowSync } from 'lowdb';
 import { JSONFileSync } from 'lowdb/node';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { type Proxy } from '../utils/proxyPool/index.js';
+import { type Proxy } from '../utils/proxyPool';
 
 interface Data {
   list?: number;
