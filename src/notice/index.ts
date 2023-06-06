@@ -1,13 +1,11 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 // 发送邮件
 
-import { type Values } from '../reptile/preSale';
 import dayjs from 'dayjs';
-
+import { type Props as TemplateProps, getTemplate, type ResultList, type ResultPreSale } from './template';
 import nodemailer from 'nodemailer';
 
 import { stringToObject, verificationObject } from '../utils/base';
-import { getTemplate, type ResultList, type ResultPreSale } from './template';
 
 // 所有区域
 const allRegion = ['蜀山区', '庐阳区', '包河区', '瑶海区', '高新区', '经济区', '新站区', '政务区', '滨湖区'];
@@ -22,10 +20,12 @@ interface Mailbox {
 
 export const notice = async ({
   resultList,
+  residueList,
   resultPreSale,
 }: {
-  resultList: Array<Omit<ResultList, 'start' | 'end'>>;
-  resultPreSale: Map<string, Omit<ResultPreSale, 'time'>>;
+  resultPreSale: Map<string, ResultPreSale>;
+  resultList: ResultList[];
+  residueList: ResultList[];
 }) => {
   const { EMAIL_ACCOUNT, EMAIL_AUTHORIZATION_CODE, MAILBOX } = process.env;
 
@@ -105,37 +105,20 @@ export const notice = async ({
       },
     );
 
-    const newResultPreSale = new Map<string, Values & { time: string[] }>(resultPreSale.entries() as any);
-    for (const [name, value] of newResultPreSale) {
-      newResultPreSale.set(name, {
-        ...value,
-        time: value.releaseDate.map((item) => {
-          return dayjs(item).format('YYYY-MM-DD');
-        }),
-      });
-    }
-
-    const values = {
-      resultPreSale: newResultPreSale,
+    const values: TemplateProps = {
+      residueList,
+      resultPreSale,
       currentTime: dayjs().format('YYYY-MM-DD HH:mm:ss'),
-      resultList: resultList
-        .filter((f) => {
-          if (monitoringArea?.length) {
-            return monitoringArea.includes(f.region);
-          } else if (exclusionZone?.length) {
-            return !exclusionZone.includes(f.region);
-          } else {
-            // 都不存在返回true
-            return true;
-          }
-        })
-        .map((item) => {
-          return {
-            ...item,
-            start: dayjs(item.startTime).format('YYYY-MM-DD HH:mm:ss'),
-            end: dayjs(item.endTime).format('YYYY-MM-DD HH:mm:ss'),
-          };
-        }),
+      resultList: resultList.filter((f) => {
+        if (monitoringArea?.length) {
+          return monitoringArea.includes(f.region);
+        } else if (exclusionZone?.length) {
+          return !exclusionZone.includes(f.region);
+        } else {
+          // 都不存在返回true
+          return true;
+        }
+      }),
     };
 
     // 说明被过滤了

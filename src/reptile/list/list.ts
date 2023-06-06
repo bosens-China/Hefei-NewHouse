@@ -15,13 +15,17 @@ export interface Props {
   endTime: number;
   total: number;
   registrationStatus: string;
+  start: string;
+  end: string;
 }
 
 const analysis = (html: string): Props[] => {
   const $ = load(html);
   const arr: Props[] = [];
   $('tr:not(.table_bg)').each((_i, el) => {
-    const obj = { building: [] } as unknown as Props;
+    // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
+    const obj = {} as Props;
+
     $(el)
       .find('td')
       .each((index, item) => {
@@ -46,6 +50,8 @@ const analysis = (html: string): Props[] => {
             const [start, end] = value.split('至').map((f) => dayjs(f.trim()).valueOf()) as [number, number];
             obj.startTime = start;
             obj.endTime = end;
+            obj.start = dayjs(start).format('YYYY-MM-DD HH:mm:ss');
+            obj.end = dayjs(end).format('YYYY-MM-DD HH:mm:ss');
             return;
           case 5:
             obj.total = +value;

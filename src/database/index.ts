@@ -3,9 +3,13 @@ import { JSONFileSync } from 'lowdb/node';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { type Proxy } from '../utils/proxyPool';
+import { type Props as ListProps } from '../reptile/list/list';
+import { type Props as DetailsProps } from '../reptile/list/listDetails';
+
+export type List = ListProps & DetailsProps;
 
 interface Data {
-  list?: number;
+  list?: Array<List | null>;
   preSale?: number;
   proxy?: Proxy;
 }

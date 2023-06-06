@@ -17,6 +17,7 @@ export interface Props {
   permittedArea: string;
   // 发放日期
   releaseDate: number;
+  time: string;
 }
 
 const analysis = (html: string): Props[] => {
@@ -45,6 +46,7 @@ const analysis = (html: string): Props[] => {
             return;
           case 4:
             obj.releaseDate = dayjs(value).valueOf();
+            obj.time = dayjs(value).format('YYYY-MM-DD HH:mm:ss');
         }
       });
     arr.push(obj);
@@ -68,6 +70,7 @@ export const mergeArrays = (arr: Props[]) => {
         buildingNumber: [],
         permittedArea: [],
         releaseDate: [],
+        time: [],
       });
     }
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion

@@ -56,7 +56,6 @@ jobs:
           EMAIL_ACCOUNT: ${{ secrets.EMAIL_ACCOUNT }}
           EMAIL_AUTHORIZATION_CODE: ${{ secrets.EMAIL_AUTHORIZATION_CODE }}
           MAILBOX: ${{ secrets.MAILBOX }}
-          NODE_ENV: production
         run: |
           pnpm run start
 
