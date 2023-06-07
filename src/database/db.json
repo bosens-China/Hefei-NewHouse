@@ -2,6 +2,69 @@
   "preSale": 16557,
   "list": [
     {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/927",
+      "entryName": "合柴记忆文创园",
+      "enterpriseName": "合肥滨投文化创意发展有限公司",
+      "region": "包河区",
+      "startTime": 1686207600000,
+      "endTime": 1686553200000,
+      "start": "2023-06-08 15:00:00",
+      "end": "2023-06-12 15:00:00",
+      "total": 14,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/EdKVPveG1XpulCtn07HRR-OMfIz9S__49a6uRzbcBlD7DCzxcs059zp95HS6M78ixHwmykIdEoPFugkN3FiVK4hxiIuE4Jl4LCoPoawpr6uKcB2HEKDZfH6PoJVWgyby5n6zGtCOyC7iczbIbl9HJlJuS1DIFl6q9yiwgdMWNWI=",
+          "permit": "20220315,",
+          "name": "2-X-2住宅"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/hMUaLm_hwNEnkHN19mxJE9vuaDjPlDJ8PnMAKYTjOzdsJxDY_DdQ1tQyeUG-kMdCH3ccFfkZifBum2BQLMgOlO3gMhpbdviL1X6MBwhzHfxh90QMI1HnHRmvAJFlh3eDc4lQQbJjM3O_B7DiWTp5PG7HR32EsHNRWf8QrjA09YM=",
+          "permit": "20220316,",
+          "name": "2-X-3住宅"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/NNWx4N8v1KtBOuFh12TjfSl5vcAOqbr1Ce5vI3ykfClkGxGcP9OfMf7Z4-uiz3RI3cfY2R13S4TEnRLuEX41PMCc-nej2WCGm8l_z64oTUHu05_ci40tCAUUMem8zrqeLyR1YG57MJLZcaR64OGKBe0D1uproMYFDj8xK24s7KY=",
+          "permit": "20220107,",
+          "name": "2-X-4住宅"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Uyas2eotgio67oEj1LZJw9It3UCH-dDBdcF56brZORgP7P1hqqM69OkPM0jJdQe95uyp7Ik-hx9iYsQH611cKsaH3H9P6-fqmLUNH1nf0Nl3CSJRoVt6I1MyOoIaDurMLi72WX_dxZKtmv4nmg-KfPGDGgapvGNLO6vYzQ7JlXg=",
+          "permit": "20220106,",
+          "name": "2-X-5住宅"
+        }
+      ],
+      "telephone": [
+        "0551-63539777",
+        "15655162240"
+      ],
+      "salesDepartmentAddress": "合肥市包河区石棣路与万佛湖路交口向北100米滨河湾售楼部"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/922",
+      "entryName": "山湖云筑",
+      "enterpriseName": "合肥金中京湖房地产开发有限公司",
+      "region": "蜀山区",
+      "startTime": 1686121200000,
+      "endTime": 1686553200000,
+      "start": "2023-06-07 15:00:00",
+      "end": "2023-06-12 15:00:00",
+      "total": 40,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/M17NqWHGn9pIb-iqTcV1mhLPvnuLIkiZUgj3Bc85sFofg5g4-BUJQYscXBJ0BhVh7k_DuAhwmN9Miq1IBSWsDKIpXFzGCD5fvhouf8NEz42t9RCk8HnYQigjN-_J4QyyYM_bswTzTghBD96qNpaxnNRPl0BX79__6Pwudqt_YT0=",
+          "permit": "20230555,",
+          "name": "C地块3幢"
+        }
+      ],
+      "telephone": [
+        "0551-65228000",
+        "0551-65222208"
+      ],
+      "salesDepartmentAddress": "合肥市蜀山区植物园南路与樊洼西路交口东南角山湖云筑营销中心"
+    },
+    {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/926",
       "entryName": "滨语听湖小区",
       "enterpriseName": "合肥联滨房地产开发有限公司",
