@@ -1,6 +1,6 @@
 import { type Props as PropsList } from '../../reptile/list/list';
 import { type Props as PropsDetails } from '../../reptile/list/listDetails';
-import { type Values } from '../../reptile/preSale';
+import { type Values } from '../../reptile/preSale/base';
 import { List } from './List';
 import { PreSale } from './PreSale';
 import { render } from 'preact-render-to-string';

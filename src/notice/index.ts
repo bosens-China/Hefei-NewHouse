@@ -55,7 +55,7 @@ export const notice = async ({
   );
 
   const allMailboxs = stringToObject<Mailbox[]>(MAILBOX)!;
-
+  const sentEmails: string[] = [];
   for (const { mailbox, monitoringArea, exclusionZone } of allMailboxs) {
     // monitoringArea, exclusionZone 相当于白名单和黑名单，以白名单为主如果都存在
     // 验证后续参数正确性
@@ -143,5 +143,7 @@ export const notice = async ({
       text,
       html,
     });
+    sentEmails.push(EMAIL_ACCOUNT!);
   }
+  console.log(`发送邮箱数量：${sentEmails.length}`);
 };
