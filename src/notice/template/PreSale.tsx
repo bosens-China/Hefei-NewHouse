@@ -1,3 +1,4 @@
+import { Supply } from './Supply';
 import { type Props } from './index';
 
 export const PreSale = ({ resultPreSale }: Pick<Props, 'resultPreSale'>) => {
@@ -8,6 +9,10 @@ export const PreSale = ({ resultPreSale }: Pick<Props, 'resultPreSale'>) => {
       <h2>本次新增入网楼栋：{resultPreSale.size}个</h2>
       <ul>
         {Array.from(resultPreSale).map(([name, value]) => {
+          const { buildingAll, buildingNumber } = value;
+          const total = buildingNumber.reduce((x, key) => {
+            return x + buildingAll[key].numberOfResidences;
+          }, 0);
           return (
             <li>
               <p>
@@ -15,26 +20,34 @@ export const PreSale = ({ resultPreSale }: Pick<Props, 'resultPreSale'>) => {
               </p>
               <p>区域：{value.region}</p>
               <p>
-                楼幢号：
-                {value.buildingNumber.map((item, index) => {
-                  return <a href={value.url[index]}> {item} </a>;
+                楼幢：
+                {buildingNumber.map((item) => {
+                  const obj = buildingAll[item];
+                  return (
+                    <a href={obj.url} class="mr-12" style={{ color: '#000' }}>
+                      {item}，地上层数：{obj.numberOfFloorsUpstairs}，地下层数：
+                      {obj.numberOfUndergroundFloors}
+                    </a>
+                  );
                 })}
               </p>
-              <p>发放日期：{value.time[0]}</p>
+              <p>总数：{total}</p>
               <p>项目地址：{value.projectAddress}</p>
+              <p>发放日期：{value.time[0]}</p>
               <details>
                 <summary>展开其他信息</summary>
+                {value.developer && <p>开发商：{value.developer}</p>}
+                {value.propertyManagementCompany && <p>物业公司：{value.propertyManagementCompany}</p>}
+                {value.mainSet && <p>主力套型：{value.mainSet}</p>}
+                {value.greeningRate && !value.greeningRate.includes('0%') && <p>绿化率：{value.greeningRate}</p>}
+                {value.floorAreaRatio && !value.floorAreaRatio.includes('0%') && <p>容积率：{value.floorAreaRatio}</p>}
+                <Supply total={total} region={value.region}></Supply>
                 <p>
                   许可面积(㎡)：
                   {value.permittedArea.map((item) => {
-                    return <span class="mr-6">{item}(㎡)</span>;
+                    return <span>{item}(㎡)</span>;
                   })}
                 </p>
-                <p>开发商：{value.developer}</p>
-                <p>物业公司：{value.propertyManagementCompany}</p>
-                <p>主力套型：{value.mainSet}</p>
-                <p>绿化率：{value.greeningRate}</p>
-                <p>容积率：{value.floorAreaRatio}</p>
               </details>
             </li>
           );

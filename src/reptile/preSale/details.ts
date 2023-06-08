@@ -1,6 +1,6 @@
 // 获取详情信息
 import { instance } from '../../utils/request';
-import { load } from 'cheerio';
+import { type Element, load } from 'cheerio';
 import { BASE_URL } from '../../constant';
 
 function nscaler(a: string) {
@@ -67,6 +67,26 @@ function recode({ id, iptstamp }: RecodeProps) {
   return c + '-' + n + '-' + d + '-' + b;
 }
 
+export interface Building {
+  url: string;
+  // 名称;
+  // name: string;
+  // 许可证
+  license: string;
+  // 楼上层数
+  numberOfFloorsUpstairs: string;
+  // 地下层数
+  numberOfUndergroundFloors: string;
+  // 住宅数量
+  numberOfResidences: number;
+  // 商业数量
+  commercialQuantity: number;
+  // 办公数量
+  numberOfOffices: number;
+  // 其他数量
+  otherQuantities: number;
+}
+
 export interface preSaleDetailsProps {
   // 开发商
   developer: string;
@@ -90,6 +110,8 @@ export interface preSaleDetailsProps {
   projectAddress: string;
   // 详情地址
   detailsUrl: string;
+  // 楼幢信息
+  buildingAll: Record<string, Building>;
 }
 let developer: string;
 let propertyManagementCompany: string;
@@ -142,7 +164,34 @@ const analysis = (html: string, detailsUrl: string): preSaleDetailsProps => {
         break;
     }
   });
+  const buildingAll: Record<string, Building> = {};
+  $('.nav_2_2 td').each((_i, el) => {
+    const a = $(el).find('a');
+    const li = $(el).find('li');
+    const splitInformation = (item?: Element) => {
+      const ago = $(item?.children.filter((f) => f.nodeType === 3));
+      const after = $(item?.children.filter((f) => f.nodeType !== 3));
+      return [ago, after].map((e) => e.text().trim().split('：')[1]) as [string, string];
+    };
+    const url = a.attr('href') ?? '';
+    const [name, numberOfResidences] = splitInformation(li.get(0));
+    const [license, commercialQuantity] = splitInformation(li.get(1));
+    const [numberOfFloorsUpstairs, numberOfOffices] = splitInformation(li.get(2));
+    const [numberOfUndergroundFloors, otherQuantities] = splitInformation(li.get(3));
+    buildingAll[name] = {
+      url: `${BASE_URL}${url}`,
+      // name,
+      numberOfResidences: Number.parseInt(numberOfResidences),
+      license,
+      commercialQuantity: Number.parseInt(commercialQuantity),
+      numberOfFloorsUpstairs,
+      numberOfOffices: Number.parseInt(numberOfOffices),
+      numberOfUndergroundFloors,
+      otherQuantities: Number.parseInt(otherQuantities),
+    };
+  });
   return {
+    buildingAll,
     developer,
     propertyManagementCompany,
     floorArea,

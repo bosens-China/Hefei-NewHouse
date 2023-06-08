@@ -7,9 +7,9 @@ import { getTotal } from '../../utils/reptile';
 import { type preSaleDetailsProps, type RecodeProps } from './details';
 
 export interface Props extends RecodeProps {
-  url: string;
+  // url: string;
   // 许可证
-  licenseKey: string;
+  // licenseKey: string;
   // 项目名称
   entryName: string;
   // 楼栋号
@@ -25,7 +25,7 @@ export interface Props extends RecodeProps {
 
 export type PreSaleResult = Props & preSaleDetailsProps;
 
-type Arr = 'url' | 'licenseKey' | 'buildingNumber' | 'permittedArea' | 'releaseDate' | 'time';
+type Arr = 'buildingNumber' | 'permittedArea' | 'releaseDate' | 'time';
 
 export type Values = Omit<PreSaleResult, Arr> & {
   [K in keyof Pick<PreSaleResult, Arr>]: Array<PreSaleResult[K]>;
@@ -36,8 +36,8 @@ const analysis = (html: string): Props[] => {
   const $ = load(html);
   const arr: Props[] = [];
 
-  let url: string;
-  let licenseKey: string;
+  // let url: string;
+  // let licenseKey: string;
   let entryName: string;
   let buildingNumber: string;
   let permittedArea: string;
@@ -55,8 +55,8 @@ const analysis = (html: string): Props[] => {
         const value = $(item).text().trim();
         switch (index) {
           case 0:
-            url = `${BASE_URL}${a.attr('href') ?? ''}`;
-            licenseKey = a.text().trim();
+            // url = `${BASE_URL}${a.attr('href') ?? ''}`;
+            // licenseKey = a.text().trim();
             break;
           case 1:
             id = a.attr('id') ?? '';
@@ -78,8 +78,8 @@ const analysis = (html: string): Props[] => {
         }
       });
     arr.push({
-      url,
-      licenseKey,
+      // url,
+      // licenseKey,
       entryName,
       buildingNumber,
       permittedArea,

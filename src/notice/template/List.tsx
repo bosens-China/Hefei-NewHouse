@@ -1,5 +1,6 @@
 import { type JSXInternal } from 'preact/src/jsx';
 import { type ResultList } from './index';
+import { Supply } from './Supply';
 
 interface Props {
   resultList: ResultList[];
@@ -28,19 +29,20 @@ export const List = ({ resultList, title = <h2>本次新增摇号项目：{resul
 
               <details>
                 <summary>展开其他信息</summary>
-                <p>企业名称：{item.enterpriseName}</p>
+                <p>开发商：{item.enterpriseName}</p>
                 <p>
                   楼幢：
                   {item.building.map((li) => {
-                    return <a href={li.url}>{li.name}</a>;
+                    return (
+                      <a style={{ color: '#000' }} className="mr-12" href={li.url}>
+                        {li.name}
+                      </a>
+                    );
                   })}
                 </p>
-                <p>刚需供应数：{Math.ceil(item.total * 0.3)}</p>
-                {['高新区', '经济区'].includes(item.region) ? (
-                  <p>职住平衡供应数：{Math.ceil(item.total * 0.5)}</p>
-                ) : null}
-                <p>登记开始时间：{item.start}</p>
-                <p>登记结束时间：{item.end}</p>
+                <Supply {...item}></Supply>
+                <p>开始时间：{item.start}</p>
+                <p>结束时间：{item.end}</p>
                 <p>
                   联系电话：
                   {item.telephone.map((phone) => {
