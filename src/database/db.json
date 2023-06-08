@@ -11,7 +11,7 @@
       "start": "2023-06-08 15:00:00",
       "end": "2023-06-12 15:00:00",
       "total": 14,
-      "registrationStatus": "暂未开始",
+      "registrationStatus": "正在登记",
       "building": [
         {
           "url": "http://www.hfzfzlw.com/spf/details/W3jxoPULZ_nM9TgwUGQ_INFsXqA7KNocOA4_dkFdv0o976Ys-eFcBUeUrH_DhdLJnYYzVdJ9HaPHc_HARZRGpe9AtB0ywUoMhqxpZvj3Q0hw113-2By0RthmHIa_a2VyBOdz2Har3GgwVuVwogbtdn4yyTT9onfIufTaTcdi558=",
@@ -50,7 +50,7 @@
       "start": "2023-06-08 15:00:00",
       "end": "2023-06-12 15:00:00",
       "total": 14,
-      "registrationStatus": "暂未开始",
+      "registrationStatus": "正在登记",
       "building": [
         {
           "url": "http://www.hfzfzlw.com/spf/details/EdKVPveG1XpulCtn07HRR-OMfIz9S__49a6uRzbcBlD7DCzxcs059zp95HS6M78ixHwmykIdEoPFugkN3FiVK4hxiIuE4Jl4LCoPoawpr6uKcB2HEKDZfH6PoJVWgyby5n6zGtCOyC7iczbIbl9HJlJuS1DIFl6q9yiwgdMWNWI=",
@@ -103,59 +103,8 @@
       ],
       "salesDepartmentAddress": "合肥市蜀山区植物园南路与樊洼西路交口东南角山湖云筑营销中心"
     },
-    {
-      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/926",
-      "entryName": "滨语听湖小区",
-      "enterpriseName": "合肥联滨房地产开发有限公司",
-      "region": "滨湖区",
-      "startTime": 1685948400000,
-      "endTime": 1686207600000,
-      "start": "2023-06-05 15:00:00",
-      "end": "2023-06-08 15:00:00",
-      "total": 20,
-      "registrationStatus": "正在登记",
-      "building": [
-        {
-          "url": "http://www.hfzfzlw.com/spf/details/JpysDAwjWFE2Ijh0aFpOrugBYSPX0yaT3BCs1LDamv2pGWhDu3epXsd8j1LCjVEL4EZRlcMx-lS0mdpmvclwRR1DEUbTGk4WJqekMS07lulISxn7h4DuB6M_AfJyj-ntpP6kNbfmb5pGj6RDiZCV0zmnpafOK7hoVPpv4iK-5RY=",
-          "permit": "20220405,",
-          "name": "18幢"
-        },
-        {
-          "url": "http://www.hfzfzlw.com/spf/details/XKQ0duOAD0v7nv_rklcb-UFYbPlCdUc21TDMsSVI8V2dyjpuqDebGUfguvifDKig3S5LlH4GDBdBqI4jXFJwAxusIU7-dQyG3iKnQLG4eL8lqSlPFF1cDRdjMbvd2Pcu5krv543fiYSLPLxVFxxbg5FO3wv4qkzC8t7HGOejxT4=",
-          "permit": "20220819,",
-          "name": "5幢"
-        }
-      ],
-      "telephone": [
-        "0551-64906666",
-        "17730230606"
-      ],
-      "salesDepartmentAddress": "滨湖新区南宁路与大理路交口"
-    },
-    {
-      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/918",
-      "entryName": "观锦台",
-      "enterpriseName": "合肥瀚诚房地产开发有限公司",
-      "region": "新站区",
-      "startTime": 1685948400000,
-      "endTime": 1686207600000,
-      "start": "2023-06-05 15:00:00",
-      "end": "2023-06-08 15:00:00",
-      "total": 42,
-      "registrationStatus": "正在登记",
-      "building": [
-        {
-          "url": "http://www.hfzfzlw.com/spf/details/MCWWbez0nF8t4sMi-mfPi8QIJ-8Gg_54j5wNr6qZJu0odh-11lrNN_b549EmP-o-JYsKiklxM0_qEiC5CgXMkpJ_FgxGuR3qxjJHhLqCRvZ0_o-jom2rLiIaMoZ-WXKvsbz2GX3oGgZhYNbQv14gSPdeNboOxlRs-sS_rIQd2_k=",
-          "permit": "20230545,",
-          "name": "6幢"
-        }
-      ],
-      "telephone": [
-        "0551-63351666",
-        "18355193138"
-      ],
-      "salesDepartmentAddress": "合肥市新站区新海大道与淮南路交口西北角观锦台营销中心"
-    },
+    null,
+    null,
     null,
     null,
     null,
