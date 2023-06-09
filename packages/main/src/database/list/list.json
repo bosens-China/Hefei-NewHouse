@@ -1,6 +1,54 @@
 {
-  "total": 778,
+  "total": 780,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/934",
+      "entryName": "璟园",
+      "enterpriseName": "合肥启盛房地产开发有限公司",
+      "region": "经济区",
+      "startTime": 1686380400000,
+      "endTime": 1686639600000,
+      "start": "2023-06-10 15:00:00",
+      "end": "2023-06-13 15:00:00",
+      "total": 41,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/R2UANWmD3hR3r8Uq1bewRweNB8tGPGKtvg8ZiZHD9moHNjh7WhFdQ_XgSF5fIMw93OEpHINNaUiFCGxzegcexOwQ43QyzZS5Oy6Ak61mooLzKOUhrUunaHczITLOA0Amm7-IG_M-bG6IO0MWIrUubzKFa2e5_aU0LgSVVpwO3Hs=",
+          "permit": "20230565,",
+          "name": "2-Y5幢"
+        }
+      ],
+      "telephone": [
+        "0551-63889777",
+        "15556908742"
+      ],
+      "salesDepartmentAddress": "经开区芙蓉路与天都路交口东北角璟园营销中心"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/928",
+      "entryName": "悦璟轩",
+      "enterpriseName": "合肥和汇房地产开发有限公司",
+      "region": "包河区",
+      "startTime": 1686380400000,
+      "endTime": 1686639600000,
+      "start": "2023-06-10 15:00:00",
+      "end": "2023-06-13 15:00:00",
+      "total": 68,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/GAeeamoUkKL3z1LrMtfiica19DsIekwiep1oT9qDPCVJdqF7NAMjgCJ4AOFxJLq7ICxd6QRK9V5pqLVPVl3qETp4aF4ql_uacj-UQuybkw82_jp8-PmqtlnMuvcV87pwcECPQRh6PMOjdSl9QW_ceyQcNyeD0fte34yaRXCkif4=",
+          "permit": "20230564,",
+          "name": "G16幢"
+        }
+      ],
+      "telephone": [
+        "0551-62729999",
+        "13965135227"
+      ],
+      "salesDepartmentAddress": "合肥市包河区上海路与牯牛降路交口保利和光熙悦营销中心"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/933",
       "entryName": "璟悦湾",
