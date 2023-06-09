@@ -1,0 +1,126 @@
+{
+  "total": 777,
+  "current": {
+    "0": {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/929",
+      "entryName": "璟源台",
+      "enterpriseName": "合肥贸昌房地产有限公司",
+      "region": "新站区",
+      "startTime": 1686294000000,
+      "endTime": 1686553200000,
+      "start": "2023-06-09 15:00:00",
+      "end": "2023-06-12 15:00:00",
+      "total": 156,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/GQdeKdaYpn_ILDBbLmrhq7dsJxHM_WqLiscsxmTxhH2WlIq2zNuaXKPvKgl6uUhFF_pZMz3hHYohmX3pYNHD7jMJyTU5u7TT-LTtRa8vanXzplL_REa9XFw1MtnJrZ_HOLEMu3bDgxIQMiBFODfbqaiewSzU-EH4ruskWzcSARo=",
+          "permit": "20230560,",
+          "name": "16幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/huBWYy4qKGJqgxZMoTaTOxWWdwW-SmZS31mc8oWWlHa8BsgzPDgpzIXzNmlfjU7OaalnsLQ9o4hIyVcAS2_ekUT4RoA7hC2ulPPVp-0A0XNlxUZ-7pPytEZRMgzLUGPSDmCt6fK8BongifgbvB0vfUhUFm59qSBbXL0ge7DWlPM=",
+          "permit": "20230558,",
+          "name": "5幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/NGtTj4GYWoLwrruhMGzaMyJtYFt2g2ZRmdqKtU6857-fplzGdR3GzFD-pvuy2TaBHUU4KE6Imt4j7wIPE3v846sORLYItLmzYcAQPq46wiVZ40tDsZHUkW3saCB5CFmvs1887Xt5JuV6ulHIN_pguVXu3WHO99BqD1xhr78GjHg=",
+          "permit": "20230559,",
+          "name": "6幢"
+        }
+      ],
+      "telephone": [
+        "0551-65987700",
+        "15956910675"
+      ],
+      "salesDepartmentAddress": "合肥市新站区文忠路与龙子湖路交叉口国贸璟原营销中心"
+    },
+    "1": {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/927",
+      "entryName": "合柴记忆文创园",
+      "enterpriseName": "合肥滨投文化创意发展有限公司",
+      "region": "包河区",
+      "startTime": 1686207600000,
+      "endTime": 1686553200000,
+      "start": "2023-06-08 15:00:00",
+      "end": "2023-06-12 15:00:00",
+      "total": 14,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/ngdY4L9FwK4_Hnagm7kf41dpYoLoTHbn7cCckME61G6FsQAfaPJAt35xpJ1caMcjK5tClmvs9tRcO1C0U_Y-7oFEf_3GhBS1y_KNyCnOWQ31IBgoe-otua7Rgkrqbkc5PRSRn2BrW2Vji3aNuA0SoFgXwByPdxURsrUQQ_urchg=",
+          "permit": "20220315,",
+          "name": "2-X-2住宅"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/X1aC-DpXRl-u2nfzHNev_bZlZlvAiqLkw04EsgUcqtLFneKOXNNgYBq-hV-MGmnwhZlT-Sz09qdMg893pm59JVe4xnOVKr31Ldi0uglBAIETvyl5i8ZscindJmGgGlZZD8cdM6zth7m6ygt5L_N_d-C4jc1UudMuAQv9bcEGcHk=",
+          "permit": "20220316,",
+          "name": "2-X-3住宅"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/NSEbCJH56qSS3rGyDKU2C6nHOp60hcsOy2eaLdJCElGu6kE9L7CcG3fplFMwEoG2P2VvQ2u54ulOAr9dYxCKU1E1ILX2qSJOgtNIB3VAzjK-wqTPJVzC-xTmZVKwNvas6EcgTVScO82gf11P0ntjwDT5qsDlR8C4AkHn3XA5TnQ=",
+          "permit": "20220107,",
+          "name": "2-X-4住宅"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/GTFtKMRwhplmb4zmQwkxlBgM8P_KYCxpkN_Hct-dQwGG2ZNJ6WXsGVyo_DP3fMPB_QQyUwSpyw4-i52EzkJ2CzbsapQOwMI48qUsM_Xg8glADisZ2cQzGBG468zvkRAqvwCRsMMRhDZ8vMFS15yJNLNgqXr6PGOC0C7OZjVg_DM=",
+          "permit": "20220106,",
+          "name": "2-X-5住宅"
+        }
+      ],
+      "telephone": [
+        "0551-63539777",
+        "15655162240"
+      ],
+      "salesDepartmentAddress": "合肥市包河区石棣路与万佛湖路交口向北100米滨河湾售楼部"
+    },
+    "2": {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/921",
+      "entryName": "新华纺中心",
+      "enterpriseName": "安徽华纺新华置业有限公司",
+      "region": "高新区",
+      "startTime": 1686207600000,
+      "endTime": 1686898800000,
+      "start": "2023-06-08 15:00:00",
+      "end": "2023-06-16 15:00:00",
+      "total": 364,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/FNGT_FH7rSEyYm9nHulIiVMgt2xSQBoCJ6nw841DO3YmBHp7tuPSVXU3DgETWrhYealkaSEwGA2sgW7oJTfpphWJVKxoF6khdEWXSPhAuyUfttzpcwtn3Bxo-MsVzsH6ei675VMMDOv9eSx6JQWO7T7VGsyic6_cHL7IaKtE4xI=",
+          "permit": "20230557,",
+          "name": "二期综合楼"
+        }
+      ],
+      "telephone": [
+        "0551-65575555",
+        "13965146687"
+      ],
+      "salesDepartmentAddress": "蜀山区三乘寺路与香迎路交口新华都汇中心&新华城营销中心"
+    },
+    "3": {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/922",
+      "entryName": "山湖云筑",
+      "enterpriseName": "合肥金中京湖房地产开发有限公司",
+      "region": "蜀山区",
+      "startTime": 1686121200000,
+      "endTime": 1686553200000,
+      "start": "2023-06-07 15:00:00",
+      "end": "2023-06-12 15:00:00",
+      "total": 40,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Yh3iDXEjpA6aZ01ZKCoY8mAr8fI4wKtPQ9tQ_cAeGCHnhWroHa1yXV1hOYh4bo336hpijNIQWHr9TdzmkwEOTV0DLJ6OBQgXH30gIhKSTrzNRRb8LaiQXNUqg7x1e-GfC_h3fHFL6PAv73Z9FgqadYP8-Tbddn9NOkCInyE6lrM=",
+          "permit": "20230555,",
+          "name": "C地块3幢"
+        }
+      ],
+      "telephone": [
+        "0551-65228000",
+        "0551-65222208"
+      ],
+      "salesDepartmentAddress": "合肥市蜀山区植物园南路与樊洼西路交口东南角山湖云筑营销中心"
+    }
+  }
+}

@@ -1,48 +1,50 @@
-import { getBase, type MergeValues, type PreSaleResult } from './base';
+import { type ResultPreSale } from '@/notice/template';
+import { getBase, type PreSaleResult, type Props } from './base';
 import { preSaleDetails } from './details';
 
 export const getPreSale = async (page = 1) => {
   const { values, total } = await getBase(page);
-  const arr = await Promise.all(
-    values.map(async (item) => {
-      return await preSaleDetails(item).then((res) => {
-        return {
-          ...item,
-          ...res,
-        };
-      });
-    }),
-  );
+
   return {
-    values: arr,
+    values,
     total,
   };
 };
 
+// 添加详情
+export const consolidationResultPreSale = async (item: Props) => {
+  return await preSaleDetails(item).then((res) => {
+    return {
+      ...item,
+      ...res,
+    };
+  });
+};
+
 // 作用是把重复名称转化为数组形式
-export const mergeArrays = (arr: PreSaleResult[]) => {
-  const values = arr.reduce<MergeValues>((o, item) => {
+export const mergeArrays = (arr: PreSaleResult[]): ResultPreSale[] => {
+  const values = arr.reduce<ResultPreSale[]>((arr, item) => {
     const { entryName, buildingNumber, permittedArea, releaseDate, time } = item;
-    if (!o.has(entryName)) {
-      o.set(entryName, {
-        ...item,
-        // url: [],
-        // licenseKey: [],
-        buildingNumber: [],
-        permittedArea: [],
-        releaseDate: [],
-        time: [],
-      });
+    let value: ResultPreSale = {
+      ...item,
+      // url: [],
+      // licenseKey: [],
+      buildingNumber: [],
+      permittedArea: [],
+      releaseDate: [],
+      time: [],
+    };
+    const result = arr.find((f) => f.entryName === entryName);
+    if (!result) {
+      arr.push(value);
+    } else {
+      value = result;
     }
-    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    const value = o.get(entryName)!;
-    // value.url.push(url);
-    // value.licenseKey.push(licenseKey);
     value.buildingNumber.push(buildingNumber);
     value.permittedArea.push(permittedArea);
     value.releaseDate.push(releaseDate);
     value.time.push(time);
-    return o;
-  }, new Map());
+    return arr;
+  }, []);
   return values;
 };

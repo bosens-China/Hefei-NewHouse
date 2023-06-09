@@ -1,17 +1,12 @@
-import axios from 'axios';
+import axios, { type AxiosProxyConfig } from 'axios';
 import { BASE_URL } from '../../constant';
 import { getProxy1, getProxy2 } from './api';
 import _ from 'lodash-es';
 import { extension } from '../../utils/base';
 import { getTotal } from '../../utils/reptile';
 
-export interface Proxy {
-  host: string;
-  port: number;
-}
-
 // 验证代理是否通过
-const test = async (url: string, proxy: Proxy) => {
+const test = async (url: string, proxy: AxiosProxyConfig) => {
   const { data: html } = await axios.get<string>(url, {
     proxy,
     timeout: 10000,
@@ -23,11 +18,11 @@ const test = async (url: string, proxy: Proxy) => {
   return proxy;
 };
 
-const errorArr: Proxy[] = [];
+const errorArr: AxiosProxyConfig[] = [];
 let j = 0;
 
 // 并发验证给定参数是否能通过测试
-const concurrentVerification = async (arr: Proxy[]) => {
+const concurrentVerification = async (arr: AxiosProxyConfig[]) => {
   const url = [
     `${BASE_URL}/spf/Scheme`,
     `${BASE_URL}/spf/Permit`,
@@ -45,7 +40,7 @@ const concurrentVerification = async (arr: Proxy[]) => {
       const result = await Promise.any(
         slice.map(async (item, index) => {
           // 给一个递进的过程，防止一瞬间同时请求
-          return extension(async () => await test(url[index], item), (index + 1) * 200);
+          return await extension(async () => await test(url[index], item), (index + 1) * 200);
         }),
       );
       return result;
@@ -61,7 +56,7 @@ const concurrentVerification = async (arr: Proxy[]) => {
   return undefined;
 };
 
-export const getData = async (time?: number): Promise<Proxy> => {
+export const getData = async (time?: number): Promise<AxiosProxyConfig> => {
   await extension(() => {}, time ?? 0);
   const arr = (await Promise.all([getProxy1(), getProxy2()])).flat(2);
   // 过滤掉重复的

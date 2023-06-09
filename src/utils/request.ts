@@ -1,7 +1,9 @@
 import axios from 'axios';
 import { getData } from './proxyPool';
-import { db } from '../database';
+import { proxyDb } from '../database';
 import { extension } from './base';
+
+proxyDb.read();
 
 export const instance = axios.create({
   headers: {
@@ -13,11 +15,12 @@ export const instance = axios.create({
 // 添加请求拦截器
 instance.interceptors.request.use(
   async function (config) {
-    if (!db.data.proxy) {
-      db.data.proxy = await getData();
+    if (!proxyDb.data) {
+      proxyDb.data = await getData();
+      proxyDb.write();
     }
     await extension(() => {});
-    config.proxy = db.data.proxy;
+    config.proxy = proxyDb.data;
 
     return config;
   },
@@ -33,7 +36,7 @@ instance.interceptors.response.use(
   },
   async function (error) {
     const { config } = error;
-    db.data.proxy = await getData();
+    proxyDb.data = false;
     // 如果发生错误，直接包裹起来重新请求
     return await instance(config);
   },

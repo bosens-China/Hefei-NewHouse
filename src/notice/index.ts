@@ -23,7 +23,7 @@ export const notice = async ({
   residueList,
   resultPreSale,
 }: {
-  resultPreSale: Map<string, ResultPreSale>;
+  resultPreSale: ResultPreSale[];
   resultList: ResultList[];
   residueList: ResultList[];
 }) => {
@@ -122,7 +122,7 @@ export const notice = async ({
     };
 
     // 说明被过滤了
-    if (!values.resultList.length && !values.resultPreSale.size) {
+    if (!values.resultList.length && !values.resultPreSale.length) {
       continue;
     }
 

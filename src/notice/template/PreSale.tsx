@@ -2,13 +2,13 @@ import { Supply } from './Supply';
 import { type Props } from './index';
 
 export const PreSale = ({ resultPreSale }: Pick<Props, 'resultPreSale'>) => {
-  return !resultPreSale.size ? (
+  return !resultPreSale.length ? (
     <></>
   ) : (
     <>
-      <h2>本次新增入网楼栋：{resultPreSale.size}个</h2>
+      <h2>本次新增入网楼栋：{resultPreSale.length}个</h2>
       <ul>
-        {Array.from(resultPreSale).map(([name, value]) => {
+        {resultPreSale.map(({ entryName: name, ...value }) => {
           const { buildingAll, buildingNumber } = value;
           const total = buildingNumber.reduce((x, key) => {
             return x + buildingAll[key].numberOfResidences;

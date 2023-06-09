@@ -30,7 +30,6 @@ type Arr = 'buildingNumber' | 'permittedArea' | 'releaseDate' | 'time';
 export type Values = Omit<PreSaleResult, Arr> & {
   [K in keyof Pick<PreSaleResult, Arr>]: Array<PreSaleResult[K]>;
 };
-export type MergeValues = Map<string, Values>;
 
 const analysis = (html: string): Props[] => {
   const $ = load(html);

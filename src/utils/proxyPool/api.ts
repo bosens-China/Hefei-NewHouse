@@ -1,7 +1,6 @@
-import axios from 'axios';
-import { type Proxy } from './index';
+import axios, { type AxiosProxyConfig } from 'axios';
 
-export const getProxy1 = async (): Promise<Proxy[]> => {
+export const getProxy1 = async (): Promise<AxiosProxyConfig[]> => {
   type Root = Root2[];
 
   interface Root2 {
@@ -29,7 +28,7 @@ export const getProxy1 = async (): Promise<Proxy[]> => {
   }
 };
 
-export const getProxy2 = async (): Promise<Proxy[]> => {
+export const getProxy2 = async (): Promise<AxiosProxyConfig[]> => {
   type Root = Array<[string, number, number]>;
   try {
     const { data } = await axios.get<Root>(`http://localhost:8000/?country=%E5%9B%BD%E5%86%85&protocol=0`);

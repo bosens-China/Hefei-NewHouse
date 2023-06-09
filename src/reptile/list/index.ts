@@ -1,21 +1,21 @@
-import { type List } from '../../database';
-import { getList } from './list';
+import { type List } from '../../database/list';
+import { getList, type Props } from './list';
 import { getListDetails } from './listDetails';
 
 export const getListResults = async (page = 1) => {
   const { total, values } = await getList(page);
-  const arr = await Promise.all(
-    values.map(async (f) => {
-      return await getListDetails(f.url).then(async (data): Promise<List> => {
-        return {
-          ...f,
-          ...data,
-        };
-      });
-    }),
-  );
   return {
     total,
-    values: arr,
+    values,
   };
+};
+
+// 添加详情
+export const consolidationResultList = async (f: Props) => {
+  return await getListDetails(f.url).then(async (data): Promise<List> => {
+    return {
+      ...f,
+      ...data,
+    };
+  });
 };

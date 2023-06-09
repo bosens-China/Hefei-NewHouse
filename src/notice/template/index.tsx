@@ -11,7 +11,7 @@ export type ResultPreSale = Values;
 export type ResultList = PropsList & PropsDetails;
 
 export interface Props {
-  resultPreSale: Map<string, ResultPreSale>;
+  resultPreSale: ResultPreSale[];
   resultList: ResultList[];
   residueList: ResultList[];
   currentTime: string;
