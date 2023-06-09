@@ -38,13 +38,8 @@ export const loadingList = async () => {
     }),
   );
   // 保存本次数据
-  listDb.data = {
-    total,
-    current: {
-      ...current,
-      ...residue,
-    },
-  };
+  listDb.data.total = total;
+  listDb.data.current = [...current, ...residue];
 
   listDb.write();
 
