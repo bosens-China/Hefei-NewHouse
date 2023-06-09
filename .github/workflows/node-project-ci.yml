@@ -10,7 +10,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -20,18 +19,14 @@ jobs:
           # otherwise, there would be errors pushing refs to the destination repository.
           fetch-depth: 0
 
-      # - name: Login to Docker Hub
-      #   uses: docker/login-action@v2
-      #   with:
-      #     username: ${{ secrets.DOCKERHUB_USERNAME }}
-      #     password: ${{ secrets.DOCKERHUB_TOKEN }}
-
       - name: Set up Docker Compose
         run: |
           sudo apt-get update
           sudo apt-get install -y docker-compose
+          echo "_PATH=./packages/main" >> "$GITHUB_ENV"
 
       - name: Start services
+        working-directory: ${{env._PATH}}
         run: |
           docker-compose up -d
 
@@ -52,6 +47,7 @@ jobs:
           cache: pnpm
 
       - name: Run tests or build
+        working-directory: ${{env._PATH}}
         env:
           EMAIL_ACCOUNT: ${{ secrets.EMAIL_ACCOUNT }}
           EMAIL_AUTHORIZATION_CODE: ${{ secrets.EMAIL_AUTHORIZATION_CODE }}
@@ -60,6 +56,7 @@ jobs:
           pnpm run start
 
       - name: Stop services
+        working-directory: ${{env._PATH}}
         run: |
           docker-compose down
 
