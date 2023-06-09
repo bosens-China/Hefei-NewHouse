@@ -1,6 +1,30 @@
 {
-  "total": 777,
+  "total": 778,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/933",
+      "entryName": "璟悦湾",
+      "enterpriseName": "合肥卓盛房地产开发有限公司",
+      "region": "新站区",
+      "startTime": 1686294000000,
+      "endTime": 1686553200000,
+      "start": "2023-06-09 15:00:00",
+      "end": "2023-06-12 15:00:00",
+      "total": 92,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/CYpEQxahYWdPvhsOskNDcm8IsFH_px9v7WVzqsRoeF2LAPek9FJgyvVkiRyPRyqsWbgIPJqvO49Fgxo_6CBbnx7TbOV919l7lRU81YWizgWUOOCyLeoWJx98gEywNShKTMcKW_FeJ78ZWx_zuN9-Y8pl-KPuZc5IORXvv3DO1ko=",
+          "permit": "20230561,",
+          "name": "G7幢"
+        }
+      ],
+      "telephone": [
+        "0551-65559888",
+        "18712413099"
+      ],
+      "salesDepartmentAddress": "新站区东方大道以南、卧龙湖路以西招商奥体公园营销中心"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/929",
       "entryName": "璟源台",
@@ -11,7 +35,7 @@
       "start": "2023-06-09 15:00:00",
       "end": "2023-06-12 15:00:00",
       "total": 156,
-      "registrationStatus": "暂未开始",
+      "registrationStatus": "正在登记",
       "building": [
         {
           "url": "http://www.hfzfzlw.com/spf/details/QGyxVjSeZCjYMELrw0Y3hJ6gegjFJN9UGCqqzMpIgwfcLMdpSy9PweEw5va6I2lpJLJz0qJ7nzf4ghNht-sSDq96kTGbmB32QH5-47VO94d3d28_uyynh1PxsMLvp3SqpZCFSrGnW0FeSnXrvkUhScizRfMBROlILn02QcaQY4Y=",
