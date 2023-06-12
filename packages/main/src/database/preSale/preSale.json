@@ -1,4 +1,709 @@
 {
-  "total": 21891,
-  "current": []
+  "total": 21895,
+  "current": [
+    {
+      "entryName": "印湖苑",
+      "buildingNumber": [
+        "3幢"
+      ],
+      "permittedArea": [
+        "6423.32"
+      ],
+      "releaseDate": [
+        1686499200000
+      ],
+      "time": [
+        "2023-06-12"
+      ],
+      "type": "住宅",
+      "id": "2888",
+      "iptstamp": "1686571858969",
+      "buildingAll": {
+        "10幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/PnS6cyvDDoyrjWPqmbUOvfnHXuQuNjkyND_WzOfkQHEnrEdQwJrKoBUoibm6OOgiiSWqSNfaBtX2XyZuPdW5woW1P6s0I-KKepDDPTgdJncq5-9oxyN7JXYRGIA8_UfkiqM5pmroUpCJ3hcX-oL1rcRi6MNEFeIhvgcof37vFxE=",
+          "numberOfResidences": 4,
+          "license": "20220789",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "11",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 3
+        },
+        "2幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/GFKUTyW-CS5S0Yf0LRPG7p-5gYztcHzOKDyU97afF_QJlX4HnRsbJA0lyRwcMqczMW0Wq_O7GDCVpE5aj4K4j44MuuuQg9gwFtM-C0NgTuoU9E1DbNLWhmzcGgv54n5KMWfFGBd2EtlP8vbr9B5Wn0ZTT1FKIKa28_cmRRXVwHY=",
+          "numberOfResidences": 12,
+          "license": "20230139",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "16",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "3幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/EfkQtp5Ou6n6ke_aIjkkkxiB640hgdhaqVg1tbih27ZIs0av5GF_RhbnHedNvyHno0JNIyUk6wgl6HNBMI0LqCFFO-6SjFlN7d3hvVniojpMOlxZcbpD9ix4m4yrs7e-TzjgXwtMxiKy_cfRBHJz-vaTtIo015Y_STlxWb6dI9c=",
+          "numberOfResidences": 60,
+          "license": "20230569",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "15",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "5幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/febdFSoc68Kqg2KGjkP710yxWwAyITfQ8uaRsd-jlvTJHuzx9DvaNUBAYTs-2DtgvUvLZdVP5MRqjKFsmEswp1wO6YMBHUrBNjLEdnFX8RW1OlIyRBNaF5Wdhx2veWPs85W3nH_OcpgKm9nsoE_cJDnUjCWr_VvPZty54hh4xoY=",
+          "numberOfResidences": 2,
+          "license": "20221058",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "18",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "6幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/XSixZiin4osoB7dIe5rI-l12MNH3SAstFeaJ-jf4yk512eMk4AfVQyfTIIbMHeCubI9w6R12EINAql0ieI6d1YIISz8MZ7eZJZaJsjvALQSLMCzI3XM-_pGPxbfYf6l6Q564iR9kej103LhQFjhv68SkBB9d_EtiIiE9hCg2-VA=",
+          "numberOfResidences": 4,
+          "license": "20221059",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "10",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 3
+        },
+        "7幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/eiKO97owY8-9DXEB72NFGdbP-__aSNfvth4dYgC1tOqUBZ3yG6IjW0BlHHXE7IZDfoEIC69qUyD8_ZMwOh5gU4GTO9deia_geUhY-Y8mEb8eezWpL_mAllxAQ-dJnNVS0-47OyMy9-UfiMqMFrKwYWoLnD1oWg8JuJB_F-TUrek=",
+          "numberOfResidences": 3,
+          "license": "20220786",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "18",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "8幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/UtM-rwCkxIXGxwFMOcILpaj9zMQ834Y30kYI71jyONdDwFP4Imvs-EODJv5x93FGA0l4kRywN9_srVdv-ukvKfXiFS_S3itI-aI1g9TtWkzGZn5y2HZhBO-65WiHLe246Rds9UWJfONOHOlF5k6HCdmhUJjxvdj9cUJWrcU0-2A=",
+          "numberOfResidences": 1,
+          "license": "20220787",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "11",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 3
+        },
+        "9幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/dEbKpWcYS6FjiO6oFQqO0MATQEB4TqlxipC_XkjiMt2Il0gFSDKeTJw2UxjMXDDay5N3EECYcQye13250YwHDEsz8sPCTJV6ZC15QPVbeBCtqqY8fFjlH0bZkk06TQD6Pj3D8zn8F54EYFihG-igINFGhnvIleCGDh3rNq8KEUY=",
+          "numberOfResidences": 5,
+          "license": "20220788",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "18",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "S1幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/ZYI3aFl9WzHK1SmeNeIjMTe4g4yX7pmQpIgdkMjM8-NHxckDbSoM8YntzPAAuBkh_qlCItqvYNYzlx8o9ahyqUBsU3NG1cMNTPx8MiOkN-tgzJB7JWzgE_pY0n_kFMfiYE5T5uqjW0dw9-52fxRzwHTVnVi1rezwskg1qWeYsL0=",
+          "numberOfResidences": 0,
+          "license": "20230443",
+          "commercialQuantity": 54,
+          "numberOfFloorsUpstairs": "4",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "0",
+          "otherQuantities": 0
+        },
+        "S2幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/j6nuPqPywv4MEt2TgLQ-zBt-6srXS3cAu4_Ou1VeelhX1XP2q4VsrkrKNezxBHjT_lJmgZHNl6XrVsWiG-a-JyjV98HbQNWmuL5CfOmv4vBUKsaiq70iM7TyBzwOx9ZLk6x_i-0J09__0shALczpJ9N1opP_82f23i8sNf1mWDM=",
+          "numberOfResidences": 0,
+          "license": "20230444",
+          "commercialQuantity": 61,
+          "numberOfFloorsUpstairs": "6",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "0",
+          "otherQuantities": 0
+        },
+        "S3幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/kWjFj3pJVyylslBFgRAPRQu2tUhB2AqRz24yXi1qebErfARIym9X25rKjaUNVvaBX16kvXjugs6UX_HgBYUAtVQY0lnJA1_oEjCB1Po5fEq8_WIyjfLlhflWftg9y3Hu4uR2CHJ4bBC1hpCrF50-PQv_5Gnqhrj9zX-MtdqXm9o=",
+          "numberOfResidences": 0,
+          "license": "20230445",
+          "commercialQuantity": 49,
+          "numberOfFloorsUpstairs": "5",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "0",
+          "otherQuantities": 0
+        },
+        "地库一": {
+          "url": "http://www.hfzfzlw.com/spf/details/KH5ATlVqjdTCgN2JcHT1m-SYakq9sqkXA5Zc-EvE-5KTF46iOQ2baS9Xy6ptEIB-Sq8lhzgTlf44Ac2t2ltwBMDX5oFTqMoOYi9KchQlxCPNVj0sERAXBzk-j197yZIUnJVcnMzzbG9FzQOIB2FIUg5moGSQPez-LjQojO2VBr0=",
+          "numberOfResidences": 0,
+          "license": "20230566",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "0",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 460
+        }
+      },
+      "developer": "合肥蜀伟置业有限公司",
+      "propertyManagementCompany": "安徽伟星物业管理有限公司",
+      "floorArea": "27142.63㎡",
+      "mainSet": "",
+      "greeningRate": "40%",
+      "floorAreaRatio": "1.80%",
+      "numberOfHandChanges": "7",
+      "turnoverRate": "0.01",
+      "region": "蜀山区",
+      "projectAddress": "蜀山区白莲岩路以北、振兴路以西",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/3275-10121-4122-2393142919737"
+    },
+    {
+      "entryName": "璟庭里",
+      "buildingNumber": [
+        "2幢"
+      ],
+      "permittedArea": [
+        "11253.08"
+      ],
+      "releaseDate": [
+        1686499200000
+      ],
+      "time": [
+        "2023-06-12"
+      ],
+      "type": "住宅",
+      "id": "2939",
+      "iptstamp": "1686571858969",
+      "buildingAll": {
+        "1幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/cjZzdAb-5FUiNW3JgLCt7WscD6lqyCKBFxmoLgdvVOpzrAcC22eKOZk8lQexw8lqa8T6SGWU9dgmcf1_OxA6XU1cn3VHRbsQT1-NItzwIC5Caq17Xl9W56shXtTTUaWPqPNBhV_qDQ6aFVEdd4qvfFDzwPjX1oBd2ZNGfr2lXwM=",
+          "numberOfResidences": 92,
+          "license": "20230432",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "25",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "2",
+          "otherQuantities": 0
+        },
+        "2幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/ebXYfqiQdnOszmYzu2HoGGsLIhimjvXrHR2PxGSVayPiWAFhWwwfMLclBVR1iqKbwm6ygnGn667wus4rekvk3MnuHFoCdGLDjjQHewPImTlW4rhvh3dSECqo59Isorw-0H6Fbr4A0XTPnjmZuTV1-ZmEMJjFF1zyGtGwpFt9I0Y=",
+          "numberOfResidences": 92,
+          "license": "20230570",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "23",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "2",
+          "otherQuantities": 0
+        },
+        "5幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/kKfUN0X6hOluU9FeJUNCgYzZINOAsLSHsmgOEkY1qfUvcS65e3sU94VlwYW5wwmfTdF-QuXL7z_QD3QegrE3PloCpsBbLbwNRuCieNnUf2OrcEHfs4mJaaEQY5ziOSLZaTsXtMjDn_JOlymMTlp2XOjZLcYU8NcecqlNrlx9p20=",
+          "numberOfResidences": 8,
+          "license": "20230245",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "16",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "2",
+          "otherQuantities": 0
+        },
+        "6幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/kEuMD0Eq0oyb70tQcZMbtauZiw1DsEIRHAqC4pxqiETe1ofUGFEX1wjAtVph2mkcqyV1mRCceOKlfluNs_s-EGIRhNSCWfTT9icwyRXKIby8Rx2NtR5Pfpq2e4CDAEWkFMnprLVp325AGZdhfT2MZKmGnhnEP1b7rcOb8zkeWD8=",
+          "numberOfResidences": 3,
+          "license": "20230184",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "16",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "2",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥鸣科房地产有限责任公司",
+      "propertyManagementCompany": "",
+      "floorArea": "0㎡",
+      "mainSet": "",
+      "greeningRate": "0%",
+      "floorAreaRatio": "0%",
+      "numberOfHandChanges": "0",
+      "turnoverRate": "0",
+      "region": "滨湖区",
+      "projectAddress": "滨湖区玉龙路与武汉路交口",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/9157-9801-4014-2393142919737"
+    },
+    {
+      "entryName": "锦泓雅苑",
+      "buildingNumber": [
+        "8幢"
+      ],
+      "permittedArea": [
+        "11036.42"
+      ],
+      "releaseDate": [
+        1686499200000
+      ],
+      "time": [
+        "2023-06-12"
+      ],
+      "type": "住宅",
+      "id": "2940",
+      "iptstamp": "1686571858969",
+      "buildingAll": {
+        "10幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/Bi2oyvP9KVb2RSUdx5meu2A9N_2HjWkWb5thnvSDYKL2vOXBl6lRiln-UnY2To10U7SE6UsD29UdYKTaER7v6-UMTmLsnlmJM8j6ryoz5kOBPsJDR84NTxb2AohZiY28QVhleNIOs1ptgtobv9WsE0_uuIVU-7oWvcPwAETgop4=",
+          "numberOfResidences": 7,
+          "license": "20230151",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "12幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/Dzz8E57D_i1aHzq6yuKN64jOROYSwdVwsNMLtyC7VpRYx4VCr_Q8Wokp5bOugbQ5X97ps4s_VmRaDxIwFuADikJXOWv1LJG-EHFAu0ULA1VeHYoRhqA6KngkCcoRleKlLHDWcAGq1McDdUgMXPnlEj_KfQ00wNQn-ulbSK554p8=",
+          "numberOfResidences": 15,
+          "license": "20230304",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "16幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/GxrIm5HSLp6Ar92lVsgMuzmBgEZ6WAoUM1YYQByUb8m3j-Zrbxh8Tnto64mHySG32Bf84IZDrqI98FDGXBBNMK_AYaWFms3NxDg4PLFDO38GrKML4hRcF8txu5-YdXExu-s67d2U2IlitxHZ22QPiMUSPNXAx9plJb9gINAG6iE=",
+          "numberOfResidences": 33,
+          "license": "20230366",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "17幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/HxuaeIQzvE7bmMSLot4F80XZ4XB5pQqgvgf6FKnYUvduGkpzKdM60QqM43Osr3BHsG8_9PXj6ltA_9Lr6IdgBlrYTzl9OV6Q4YDuGu3TY3eMMe8RMkY9x37GTCgQPv1Xp5LjgF4LIQL_ptMyMxFa4-dFn0LAbbriK7Veq383L3Y=",
+          "numberOfResidences": 36,
+          "license": "20230367",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "15",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "3幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/QnwrSOplotDbbIFZE0Kq-xA-LPgwkrQhX2Ecu10JoamFUTclLAafhBRst_ifv9eskwsVnOKOR8XyBb4NWtpFR0vD8xP_jUWuf__CHZqIOUVezlaL35wPY_0-2Qw2Ffu5_PZNLQbHDfM0PGEkpl24NH5xUh67cRf0mcYtJxUh_7A=",
+          "numberOfResidences": 13,
+          "license": "20230186",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "26",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "5幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/Y07KlrAYjm319UAbh8Z9IxkCJoV_mKvzaOFLOPUorAQCanyST0wi3rLfx7O4wqonZ_T4eGtWEAI2BjavZFeXNV6Ec7B75UvrRADmLtAI7i9F5HPbypFRiHNS7qyBS0U-KQF7i4PX68l6ppQfPy1hZMizSmk4ttV9m0z7Gd9sFKQ=",
+          "numberOfResidences": 9,
+          "license": "20230148",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "23",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "6幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/jwW7m3NJ9WV8t-vTe8tNNX4HVozqf77QUQZXaxOGjQ8f2tvr51pTx0QFZSexAUKZNcfnIls0JqxN8-61Fmx94gi2O1X9jSOPmUwPM-XJZNYnK_o9vdeo2oI59TYK4hYgIDut1erjZ1q4GZhDUCmf-vpX2_QqbOQ6v_uxLR-1OUE=",
+          "numberOfResidences": 53,
+          "license": "20230397",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "25",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "7幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/OCTSzj_odi-eE4bqcf2ty9w15PtDYr8bZJMjPkXkBur5GkHHXVjJoGVmphOudFLmO-YTBjqgv9rvSqkK8Jbi91NUH0IxWjAwJNELszxE7wGB53uKrdVkxXzqvUd3BFhPjME6pe5MTJmR2yMYCi06Vn8z9ZnQPz7ehMYl0bgdAFI=",
+          "numberOfResidences": 12,
+          "license": "20230149",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "26",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "8幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/XSiFeXNDj0rwGbjxaEuprHhXz_fdg5plwJ_pDiDmqaK6i25zIt8cKd5h6prA0DgFV2QfnHdtE2MNhtaBAN7WyB9TM7V8zhkcC3tHXd9Tn9FgmMfaeW2WuXbB2aBCKHCjDqPBH59pXSMAKPj3V0cQDp7Rb1VCZeHaP3Yrolwd2xc=",
+          "numberOfResidences": 94,
+          "license": "20230567",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "24",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "9幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/kyEQCZ4kQYLhlPPsiB3l1XRSnjPDT4Rlh2BmmkweWqhj9vfJOJDFPyKXNPpvCswpzWFC6wIGEHVApgSDQ95hQ45HEaMTO2EDPrCkJ4BXw022K-USR53R_M4eYBn-p8zcn7aY9yYYDo4Q6CBD_D807y5whkE-UDxiBBq0WXoCcys=",
+          "numberOfResidences": 29,
+          "license": "20230150",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "非人防地下车库": {
+          "url": "http://www.hfzfzlw.com/spf/details/JYFuViBTRNNtBgr7IVT5PzZ9qOqp5xaW3luqvysQ77kdO9PgIlWCDAIrYyZ_It1XV0IxWNJJ3cT800iI0Kj5O6r4VlPTZFcgMjDbLEuQ7cinMS2LRq6UAsGqG8yWkRq1r6v_OUEYrhNvIpcX4IAeyWC1SMq1stnJ_3hDvkbtABA=",
+          "numberOfResidences": 0,
+          "license": "20230493",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "0",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 577
+        }
+      },
+      "developer": "合肥锦滔房地产开发有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "69566.43㎡",
+      "mainSet": "",
+      "greeningRate": "40%",
+      "floorAreaRatio": "2%",
+      "numberOfHandChanges": "11",
+      "turnoverRate": "0.01",
+      "region": "经济区",
+      "projectAddress": "经开区锦绣大道以南、青龙潭路以西",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/4415-7161-1401-2393142919737"
+    },
+    {
+      "entryName": "璟园",
+      "buildingNumber": [
+        "2-Y5幢"
+      ],
+      "permittedArea": [
+        "5322.87"
+      ],
+      "releaseDate": [
+        1686240000000
+      ],
+      "time": [
+        "2023-06-09"
+      ],
+      "type": "住宅",
+      "id": "2912",
+      "iptstamp": "1686571858969",
+      "buildingAll": {
+        "1-G10幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/C5g_fIhNT4xsp57vNNgcIrT8bAzEt-0Pta27skw139b39ck2l1B0tKzkece-mp7Xi5_TZr6RYkWTAorZPihWHfpPgMEVynp6w9Muld-MhNj8izTovD3ma2_LKiJYeHJ5gzXTdGTnWSwEQM0dXH2QM5tWlL6sD7Ff3YUJM729KtY=",
+          "numberOfResidences": 28,
+          "license": "20230170",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-G2幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/D-z1vASdEoohSgL903-4kfxHJkzaWMbJfSjxDUytY6eYirPuZ8GwjQSfA56VpZAXhpmlN0ghojMAz3NM-ScCH7CqTeSG0ys154dtcxSilXUNriY9jCMvMsmynfTBZ-3jKtHV_7TszWrIHx8l_K_sD5K1S_Quo6_4Mau9jatOOCE=",
+          "numberOfResidences": 4,
+          "license": "20221347",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "23",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-G3幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/Kek5fRl3RBXpC0UqFxhpZd4a6yRaOfyPMyUstEJw5_iuW-avpAzvb5irN3PRRz6-zDeRLyHT9m783WXvEa_IObWjczD0U1Hwgwx206ZzvUyTCUZQQl06XLe10Ip-ITjOZK9YXr-7tCqwGpFZ3RnPSl5Z1sreIQiwj_oiP2gcbMs=",
+          "numberOfResidences": 12,
+          "license": "20221251",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-G5幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/lN4uVOtcBqibRiXjpoBnJ6R_nKz4hgAcJfRr4VfzPdPm0oGGgo0xaJvYzYaPQ4Mtw2DtDrsUEauH6kjIjomZg3yIwJnXYVgNznkcaGpoxeIHMaEbR-DehGYAlj7ZcjJfWPjF6vmHq4xM93_pDkWovX1ZGVeyDoQaSCDS4n7p5h8=",
+          "numberOfResidences": 9,
+          "license": "20221252",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-G6幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/AOGNaA1oxd3Krlt0V91PMPzMd6YeRK8cq9zLucQW6FhbBkGpa8ktrQXqceWtDgIP6E-n26V1IZQVFYWBtscYDTZFR1aCuOY0viUUDJ7frz8tLAqn6o4izz_f9kTIvq3zknErDwFXqIfqmGGnjRMHS1pCv817EVHbIOH400gUwUI=",
+          "numberOfResidences": 15,
+          "license": "20221253",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-G7幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/XcUaLVsFDG20Mv0eTH99iKMFa-DqruVem5Qj7fiA5L-1gQCZQl7wZUHFMm-CFAbrwTEJKiuUBoTgONHGfmylqZdagameHh4UuOWr0Lac6XI68ZnwZ7ftraSnpb1wTg_9p2kpdY-rRtu9IkY7aCHkpF7yTGOSZMlpTT45ahFCixs=",
+          "numberOfResidences": 5,
+          "license": "20221254",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "23",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-G8幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/lTJpBLQASuPrSzrIMyMUBsqUKiKk4poUZ69LwWW70GECq_pZezuroHL1vGn_0yR9LGDN6mn9J5m1NEo8nrtjCKtTrtoQRq1AvNtsOjlXx3XvSkT04Gw_7i_kWVDgzzr7ShRG-qtu3GbBhmyAfWawBtHy-P8VEws7bd0-j_BgX94=",
+          "numberOfResidences": 2,
+          "license": "20221255",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "23",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-G9幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/OThAAtA1dNuXmURkTuV7frF6q3JBLgtOXh8qOQFb_5vAXkCSUlCgYxAZuAiaS8nbQ40xBkKkO1T1azz2kLQcVPOIeF8i9cvtey6HfPvBNfQBxaiH3mizx0IpdIScuZBTQsRa0blJTW7HNf07KRu2fh1fmm3aIVZjW4-velzaOfI=",
+          "numberOfResidences": 21,
+          "license": "20230115",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-Y10幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/citqtSXXtZn4eAeTzC_c4QOl9J4kEUbmkLdTy8-uXyVW5PIO0YR6xvf1AKJ8p7qUUBA26UQrYwsx9CbjpMW2-y2RwfkksXTrgzFLsmngkVHX430R_Ki-1na2EoCaBdpKax9vQQkM6WcZR-k-_38hbWF8BLj6l6EQHDLMVUorsjw=",
+          "numberOfResidences": 5,
+          "license": "20221348",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "9",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-Y1幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/ZfL2xmr-TntFsbTFjq7utVM94QUXdxGmVN3B2K9B0hkTdrSrykyjiCMkLMkzfzRZBq1-8-LU2syXLPZKAo6poa9pZb3eSXJsBGOIdRaUF0VD0XDwUzd2KpuanGpfBoZ7ThKmv6BcyW9lSIJUZebTu1tCqt3VqD3kTjBhIIVUo60=",
+          "numberOfResidences": 7,
+          "license": "20230114",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-Y2幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/kBgY6boL8fBXPqRXomYHNvswWgF3e_QTGPvb_c7tOCU7gsg_ougVniIg2LedSTLtEuqp9oR3GpuELb8elCnSQfZl__BDWwBW1FQcHqLBIMxARcT2Yi4R_A-mDO0WMuTKTEKLb5t4zlxExDZveZkeMrm0zhWNHSs2lVUZ1BFpE8c=",
+          "numberOfResidences": 5,
+          "license": "20221256",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "7",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-Y3幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/QCYWkKfwMqtRFguqem7fGzKQnvbsGxKassfyWArJlPTwyrr8Om2H2q8BUtb9E_a2GQnNsPkXIWk5QtuRYGmxUextO30xYINvWmhfHO1KoJOjeyl7j8eIsXDqbFb2HJsrhHxqTb4uMYl3KluPfWASznT3DDKh-bFUyxUuVMVaYL4=",
+          "numberOfResidences": 4,
+          "license": "20221257",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-Y5幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/P0InNI0nR2rYCaxsLEuUWEPvK6SRiqks17z_6s0Sr_mIHjZph5D3PVUF_JLJ7DlSYOeLZCVCku97GD9ROJt3_2lj-2MMA2AY2n-KyyrtHb8ZvzNx050SRocPkVPnqTlUBt_wDxurbo9eU4EjKCtJj1MF9B7IEoiQqMNOvAVV15c=",
+          "numberOfResidences": 4,
+          "license": "20221258",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "7",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-Y6幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/Xmu9j0WVnK1A_VCXeKh_rF6xIgaJiULLM1tZjDHPMQarJ50ARyHxfdOk6M2aScH6cyZ1PsxLaTWmCYJIotIDF2kRpoyTtnzdV4MrKiQc7uJiw3iHh-Lw7FAUKpxJOHXBYGEzqaX4jSbcRCPaQaL3F3GPKRdkfGILZnMYdqMBCAw=",
+          "numberOfResidences": 2,
+          "license": "20221259",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-Y7幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/LJk_XhxPDeoHcQNHCPzS1Ks3s730FEopRKZERZIOgzDDPV-MEJEUzRtcaco85fPzsVQf164G4wW-DyYuWv8FpW5QGRFCkt3Lum-er4hCo6LsPEV-INrAWWBcZixIk0exoKhuCcsYHklbpYmlPG2Zvhzttl9BesvlgOqmwLYiN2c=",
+          "numberOfResidences": 5,
+          "license": "20221260",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-Y8幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/cDNEZzGzcHkNtgCnrn8tS2AH4_pQ0twJ3TIYAhp_1D50jQVngjdW-0U29xgr1oNFFpD0uagagTr0maskmrQCOMPDj24SWCWU3FBFi06MEWLmkjvtvp56_59h_-g0zNyKMv8t9zEar0yR6_Hf4WL2Uz1K9admZfm5NdiPuhdnjv4=",
+          "numberOfResidences": 3,
+          "license": "20221261",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "9",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-Y9幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/CdUKE_7kRydgtgq4sS_XacAbLm7gTT32vHCAOZdP4GyPF2908iLRo_MhXCcwi5ucSEe_3Cs_XWKRXKr2TnqDeGRQgVwpYgUKCshGocGgdQDIIKLBjp1Iq_Pi806jig2AUtilEV4XGeXJGEyNZNCyPqExOd-xQo30Lau4JE65VS8=",
+          "numberOfResidences": 3,
+          "license": "20221262",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "1-非人防地下车": {
+          "url": "http://www.hfzfzlw.com/spf/details/Vi00e4sP802jOnbSN2N2Yc9M4MpHCCpyleymRX0bE4pHDLURjPYEE27oBsrPyWyzrq8YUqbEu2Cmkq0tNr8N4JTU3D_bwXqsOYqYiVdQKEx9n_RC0xJVZWg85-E-KJZENi6vCM6lb1A02_4C_3ehpR2VutIWEo4YTMMpumb5eTE=",
+          "numberOfResidences": 0,
+          "license": "20230458",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "0",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 842
+        },
+        "2-G1幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/bsyn7d12Iq06nxBAEHtBAAjSOHT8_oB9_gU-isD8zNAENeQsd0_gVhi5ez1vLu3drlJ1J-tvd3ZR-jZcbqpCu4fBcnkrkm0sGQ933VF28mgcT_z0-TipMUfXB9SBdrW-lkZDxKQFM7jEQXIGvSf66BTt0vBRRvrtLHvONd4QULY=",
+          "numberOfResidences": 1,
+          "license": "20230313",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "2-G2幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/Oa6XpHqjrKmRxyYO4-1IAaPdxg8LeHVm9ZfYG-CY7Y35TxNRgCxpM7uFaEU5t27QMR2qDy2RYpsqe1qGH2qymxrTEDBJ6vqWf3dH4hOGLQbW5Jtsu-9LxXhrmSrRmY2epUJAwyhgcrO1ZOxi13mqj8H8SrWOMw9rfTkdtC-1IMM=",
+          "numberOfResidences": 7,
+          "license": "20230371",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "18",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "2-G3幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/dYiU7HQvFcMn4-KYcEnqpzQRgBvzZvzIawebf_yUHXgT50Pkxggk10H2qWVD_RJgvQqdsrOtep9LGKXAYJc2J4Wr3ncHzkcE5fxAR57e7WPgX7wE4Y8-zPi-6t14-Lri0PF4vPxZpz62h3VMxVT9P4aKjr1CUBrWpQKKqb8YxG0=",
+          "numberOfResidences": 13,
+          "license": "20230372",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "2-Y1幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/dw0cltLkNBdvswaF3mf5rJcQKP0l2Th9YqM_zIVxvNy_bCHvxyTdIzAD-lRLsHBSp0eh1bjyOHO0QEPWjHM-P98MZ_vUl-Of1P_i0kp0AEyGuW5BJNqd7-fxV14KFTIFDwwf_5P9emmD0QDpnny9pZY9naALJIx2SsZPioETetk=",
+          "numberOfResidences": 15,
+          "license": "20230312",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "2-Y2幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/hJpjG8gzWFVR4UovO1NwvZmYXPluB1qX_H8CTIIyFIx0_eAPFxWzF6F7WSRraxWwH18AIJdcDYpUP8BRehNSXClDndQU-7bK3tY0Vo8ntss03lXVfjSVvh9ofkSfh6N_c9kK7jc4ERZWpAv1vLdyHZ7t91EhDrlOmIofQi4Jygw=",
+          "numberOfResidences": 10,
+          "license": "20230244",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "2-Y3幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/h08I4WUUfmeGwkgSROra9T63_Uyy_dttU2M87cr36TI6r3pLzbcIri7Ij6lczdtvSkqk2u0Iqe-rkz81ObYf7_Xl7g-YjOafTZU_wyVLnuJIUzDrdglbXbORVYQpEbo_o8iBR1kczK9rkXpRTN5_hqlymB2ZnFDSixdLpKEJfyA=",
+          "numberOfResidences": 20,
+          "license": "20230472",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "9",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "2-Y5幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/RHdeype0W_fWjrgF3PKc6mJdyF4KinXbzXfDhkm58veKrBvK0rphAATd4E2_2DampgZJtSkqsTvdTVPPbVmdOWnMbckcJxg8fMANN5fBJt9Vkp39YGCXNEu87WdWfAbHpZJKWnrNhVdHfco3PLXRwKd0h2k_Aol9IYUbIblAmiM=",
+          "numberOfResidences": 41,
+          "license": "20230565",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "11",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "2-Y6幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/IoQa-pt365cKE94JZ6NUa2yYh8tTbFILs6dgQDVRyhzPWPV53hTtSx0rr4_1F_rS0EFdYpBmaeNgpKlvYZuxXvKmoeWYM3JhJzuEJm1FSY_YXowkrO5JeKwnR8OIW5AQK9FyRoXA52T2ir6EJ-v9MsAcvQnPtYWDXKeY9bNl6II=",
+          "numberOfResidences": 3,
+          "license": "20230314",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "2-Y7幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/nLAW9WI-Or850MbghvzMdRCLUDlW-hpu_9PC8P7gDhowjlaXZrPrpqERDBt6HfecqwESBsJDtUkXi6JjTZRQg6NLKBN3QBlj-H4kOY7Muhqy0LApXSCgiCX2kzp0izchLKtNVRFbtZ1pgw3SLuMEFeoVu_-7_cf07cXTqsnxsao=",
+          "numberOfResidences": 5,
+          "license": "20230200",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "11",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "4-G1幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/EItsD58hHcymb8pbbVJAWvK36R4qfk8CxDTriu-wP8phU50TTGuqzble_X2_mm3oyug1eh7Sxen-jQpuxelHxTmUATCJSIc9m_M5quWX33f7CJy56gDaF1aYgRfVrDedxav0MIsq9lJ_lAX2aiTQxZ8EBJdJ6micSRILgp371Rk=",
+          "numberOfResidences": 17,
+          "license": "20230448",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "23",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "4-G2幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/mGpnwxf1d3qD4M_YAkvjeNRo5iiFRZrdTgflHzXWu5szwrnZVBulHTNPD47rMYUbGXlruzB2S2bOfeVAkfWaYPuW5y7u2U2MH6Rukr7zMTQ5DeHrM0rTLDOq0dM04foOG8JUYVswjS8_HHB0K6RyulxJoSNCGAJwBh8XDE4l51o=",
+          "numberOfResidences": 45,
+          "license": "20230470",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "24",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "4-Y3幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/bMqXScOdENWy8rNYdHrvKL6iHAUCs27SlDlEnnB_9ark5zcjlx99rqdrFIbtYQSUmZbXhnf6eB0ayIFcRYDFev_ratxEdsUsBAWBe4GlK1UdxnsYJz_uaDQDQcoU08SKpuesZlaM1b1Zt7kVIBmUFYppT05Dn3ZTCcuBEb-WPjA=",
+          "numberOfResidences": 15,
+          "license": "20230428",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "11",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "4-Y5幢": {
+          "url": "http://www.hfzfzlw.com/spf/details/cZ4pvQMKf-VAjEr2whAfseM-WLeevOc7EiVJ0ki02LFvs9gpvc6M-chcTwwrgIIuMHJVHyaxoF57YpYcNrkmSqfw5sq6Fo6jGyjqzX14x4dZWquLbBTt5UKLiHRkazVMgzHU9ceXtX4UJRzgvQs0zb7Zh9jXo9LFsDVicWSKG4M=",
+          "numberOfResidences": 34,
+          "license": "20230471",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "11",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥启盛房地产开发有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "0㎡",
+      "mainSet": "",
+      "greeningRate": "0%",
+      "floorAreaRatio": "0%",
+      "numberOfHandChanges": "23",
+      "turnoverRate": "0.01",
+      "region": "经济区",
+      "projectAddress": "天都路和芙蓉路交口",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/6422-12371-6646-2393142919737"
+    }
+  ]
 }
