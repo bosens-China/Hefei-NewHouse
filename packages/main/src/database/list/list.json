@@ -1,6 +1,241 @@
 {
-  "total": 781,
+  "total": 785,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/939",
+      "entryName": "璟庭里",
+      "enterpriseName": "合肥鸣科房地产有限责任公司",
+      "region": "滨湖区",
+      "startTime": 1686639600000,
+      "endTime": 1687158000000,
+      "start": "2023-06-13 15:00:00",
+      "end": "2023-06-19 15:00:00",
+      "total": 93,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Z6jNpGGGqMK8LtHRwZdO3YVdTYVkWZ9WWoxS40_SJFMyj-T1gffnDELGvCI2PGSVT-tiH1igv5DXdfJKWcf1NT6CHtb1RZOo_pO3sKIYvniH7Qsk9wXDESxdVQsil5WrYUM52AuFJEDb0qOSYIFo5rY0E2Nd0-MFiKFiNFBAIw4=",
+          "permit": "20230570,",
+          "name": "2幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/NC6gOXCvlObq-sxnxoNtbHCb22tvedNVt07lTGrzbkFgl0_RAVV_HLTsMOQro_5nNAmmg8A0-CIhnzhp3T0RZcsgv0_SEEDFdtHaD0WHTkLvZECMhXIcasqIIShsgsuFeml8z1tWAVcUyX7F-ODqtRG26yxfuq6vUvG6t6hTgko=",
+          "permit": "20230184,",
+          "name": "6幢"
+        }
+      ],
+      "telephone": [
+        "0551-65251111",
+        "15155178827"
+      ],
+      "salesDepartmentAddress": "滨湖区烟墩街道杭州路向西 100 米远大璟庭里城市会客厅"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/938",
+      "entryName": "时代书院",
+      "enterpriseName": "安徽省安高资产运营管理有限公司",
+      "region": "蜀山区",
+      "startTime": 1686639600000,
+      "endTime": 1686898800000,
+      "start": "2023-06-13 15:00:00",
+      "end": "2023-06-16 15:00:00",
+      "total": 115,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/N7scPq3e_0LQ_rj0zh9q7fY4IJxXvac45WJ-nMknouBvjGkGo6hgXAy1efHYSlWEIKiblPJHB38XDPkGCSmSilNlIbi65ALHJ8KsHsi9TU3GVajgVWgmQIzrzXUTE55OZEgRwkZUqvocvmW8Kb_IdvFjGzMG3e6MaLo_KoDuh7o=",
+          "permit": "20211341,",
+          "name": "A地块Y10幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/HHIoDasvxQ0CC1PmH6KZs4FcpC7lLjpH2VlwOK69zPmHd5VdM36PRRGKfgOK2l-fRe5wv2xaMKNMErQTnvgMv2rdOdNDzias-6pdAq5p-pmjwQijnX5EmkztP9eYA0TNP3UFxXxNp-2O5uyPOnZIxMJzoy9IvabZz92n1eMa6ow=",
+          "permit": "20211342,",
+          "name": "A地块Y11幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Ce5YfFlvivT91W-9smgq0NbOwbRHCcCiTq0TJURGFHP71yY3deU_39AM0gZRL1RxS7L4GNHBCPT5BKKEyx7GDeFqlWwtVWVMDdDM4YNRZZFhFEcZJ92UbuYzkjXMkJ9JV1cCnPjHjPcWRh9CIgdY_tOsQQtqrajRPo7j2k3dWWk=",
+          "permit": "20220076,",
+          "name": "A地块Y15幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/A7TyTkoGkaX6pUeVgbIGSP3N7UiiRkPS9J06WutX75v_BDAv-IRBqywL_zMCueSB2mYevHVM3JfCAKyLZSVyEne2LL0hbX859wNLQ5FLFVJdIsg15fLICW996_Hj5IQ09DizTHbL8dosb-9dasFgETxXSD3jcmx9GKTLQitnOkQ=",
+          "permit": "20211344,",
+          "name": "A地块Y16幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/kXzu3JAx-GyEKSBUVFaN2QBHS-nmlmoLDL9fx8y8eLa8Hggibzg-5Ujy11OnWFGrkND2x1ZDWd6yaquNLLiYf3srGSxEkb2ygzDwXdTiCuEfd4DKY1crTvl7ceQ77rQYdRdW2AlcBQnCcUBlhiJGiiCbtWwGGTUm7vry-23hi-I=",
+          "permit": "20220077,",
+          "name": "A地块Y17幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/fzckGlOnNZW6JkrP0RWH0JP3nyla9iFvV1UQxfhS1zKmaPrfOLsxwoRbTVL50KJeQYZGVt2yXRVtY1_YAC1DV3s0Iz0nAl8IqcNeg0xJ6VcThjmx2pD0vIMh5zWHd0CIHxqt0xBaLymFDnpMy8sd7QyISUOzvIQ8rhbo1WiYy9k=",
+          "permit": "20211339,",
+          "name": "A地块Y1幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/H-7N9kJMbg7I2MnU0JjEFWjjFFYvcNyV01hWpE_de6nHRlyMyNNkzUY0Sx17Ao2HHFSIjsbgKGnZyILc4lKXLcxn9IF1vAOs-BXKg1n2gtEamuKE1_td6S68lNolCI6EWfNyF98eEjDvS5qPKC1OXxtW0fzI0AUvfzOUtONP13U=",
+          "permit": "20211276,",
+          "name": "A地块Y2幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/MJCuBvsB50wNIjaJ3ZoOwva3g0iV3nBOf8rq-0ye7Bqmc31ktUIabWqm1K9NBG7HgLXTHyxo4PHzoVvOb-aaDIuo3zUMUdIw_7iElUPNfvSYz06cafS1kE3v2uIoQedKGERmMdx2PTtNd1wmSWG9XnwoVCZswqYu8aa7VFq5ZH0=",
+          "permit": "20211277,",
+          "name": "A地块Y3幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/MsCsa1kAOGef5JL7nMv3ppXxDxtwVZ6VFldCk7pb5fCUDOan4rNyzPz7zXr2HyBQCDTQGoMKXphyig4XMP0EgyUeBnMpKEa9Ic6pfsP39FFwBskw83nY1WtqVtqiq9LZ0uSMMakLVBnDLB9pJ2WboEIfySSDzFBoUqb0AJ01LFE=",
+          "permit": "20211267,",
+          "name": "A地块Y5幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/cHs5Najrkxz5kDXdqrmNryOwoT9TpiT3vn5QWqCNftdpDEDHgN3Rwn3GehqMkT9uqUZgd-4V9PAwfTAxw0KvYVQUK9X0FrPCCgzs_Nr4kzZ0Q73H3g9qt1yFPQTp7MKBjKS-jPVlaBQ6LV1oPRF0vBQdu-T_DvuLQMxoQAqgm04=",
+          "permit": "20211268,",
+          "name": "A地块Y6幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/a2p8IMfRQDA58JozKOoXb5yNlKdTnsjdiotDsshpbAMA5Ush0ahNRLPpd1u2QRLubjjRpqwjt-GZ2lwa4skKenRSUJ7LBnDRCjIeAxDsWQtNy5VXXNa7aWpTqU8uDSXRAaxAclD7JxV1NigOdJqbyt6D0Gq9ZUCxUlnzh_sjTf0=",
+          "permit": "20211340,",
+          "name": "A地块Y7幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/ZLVQhjwJDHJfJ9LNyVUCUVOL2LoUaGyXAMry49BMI4D-kTH1DDHbMGd5iwDnQgwrmkUfzTrqEtDOxwnslwLXjj_BycdZ_iYH__PNsa5sTlzioEBxX_Qvat7XQDOfy5VpRa47_xYaCKS71pe17n9rY041i3u78HgDj3dpBNYACAI=",
+          "permit": "20211269,",
+          "name": "A地块Y8幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/XQKAgn_p5N8jtYDtyKyMn1S-tM-hHr4cZy1ZybjMFDw-3lynWqNON5DHKFndHI3vmYOW5iKjSdgPqxm9SDTlZURYO_RukqSCCA4qL2j_zL4NLuBXm7TfmWb0WtQkYTdAvleXdeKtusf-VNgEXWTRLkfRbO6WVlD_VfypJW07iWg=",
+          "permit": "20211270,",
+          "name": "A地块Y9幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/GGBtxtisyyFJnKMf8nPzTiPV8uHSqpPt13YnXy8a1139yvKaAz5hDY92WiIDtDkaUQ3pkJWg49VGapFaGGyDvOYc8uDzM44BA684JgWOfT-_9H1H257p8RAIgHiBuGy2f1jynWZP-12sopZVXvjbT-DOKUlVZ_bnBvUNxN49_GM=",
+          "permit": "20211266,",
+          "name": "B地块G1幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/PdzqZFZqtObYazmrHsfn9Jyi0msLu-WOxV3PLl53uNFlHbJcyXCeOYAPs_xCxmbQnhfHKlkLLpocFP7m-NAoRdzqYknlEtlDiXYIIToevWfDNqmxUW5AwgSGDXGSC9z2GVZ_sC6X2B23mOTSUckdBEedHISce19xNcwih9421Xk=",
+          "permit": "20220078,",
+          "name": "B地块G2幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/VIwv9HRFBOulFbi_k5p-99kuddtDbhfZcNOIAa43KcZoclHnWXOZUnN6Lljbqv4lXYnfWbvoJ22YLw4AUcBeIdocupbpuA2EPqwX6ZXyh2mRdhft-Gg2NTHGFTGBaqSYKKfI8FRijQb-CWVxYRP-qZSGDxGGdt06n2F66LmWW64=",
+          "permit": "20211337,",
+          "name": "B地块G3幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/KxaNj4ePhjRNTaLlfN4mo-w08_JPHYlQL5L6Q4vpfY2YVR9sE8fycHN22Pq-Um-JZ4HVvSa2Gp-O22MN9d94LGWY222jelNjJUFrfrbYBJXKOtV19qbg1AnCn0bsIN058YEBN7pzHiML-sK8QxSBXFHvzifIiUCv44wjAU-K1zc=",
+          "permit": "20211338,",
+          "name": "B地块G5幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/jqMNRFxJXXooSiNa4uPK0qJzPDkhbsMhqdffcKy26k-2w2LV0dv2YOK6EI0UtupfSFbz6lMRtpV0giy1OL6aURKtVPnMItS6wsN9siWzjj8JoiaPAFcxYtJXOj0XFamExb8imHpDWNp4wfpm8P4b0JkueRSGID_e3SfAU0_2mx8=",
+          "permit": "20210937,",
+          "name": "B地块Y11幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/jatGrW2eeywP41RVBlm79mqZmDCo47tIsL3XTLpqjejhAuPhyn5XBgI-FOYcaTjCEh1PJTYRsf48NA86zF_AJpmhG4rIHzzHmMKX5w_lqEH5HtObIy6jIl_eHVSFKyU06CNOsKZS1sQQdL2_oxVetxdMbAFMvUDnpuH1-HjwLSg=",
+          "permit": "20220080,",
+          "name": "B地块Y12幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/ZIZJnB_sWwXNstWdKSPbQywIX3dSDxpbEKKajhjTi669Da8D9eBDfl8BU48Vx-lYz4bmpmzPnZMvHPc71pGkBsTt3YmkKte_ydGL6UCk8u9u3CJ_IvPwemuTygPd7qDIzShXgIBzeD0wcZkm_fwxQT1ZSehTSgY-_4z06CE9Jt8=",
+          "permit": "20211132,",
+          "name": "B地块Y16幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/RPB7by4xEQKpCUmvRvU60q9xm7ai46tATMjBdoSX7P6NBl9440pnTVZ2mm0atdK7xQrbJEscesPS8pNl_oMmhzBzx_fZVFPKJ_b1CHoT5DVUlY_fgJD3RQvdZGNNJ1mqHG-hoKh2ghPKZZhd3e4jCfuTD3VV8z-VEiTW0KVq1M0=",
+          "permit": "20211129,",
+          "name": "B地块Y1幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/aSR6mVNRjZlf-w4EYs3QN-vWXqCjz2G51zDi7BYhlHHDVUfpGXky2zZXdLOLB-uoBAg9N_3YxMqxVnnAe6KLFm6L61FrCi0xWFUZtgVrgEsZQJunHFX483oKrFNvynR4dbAUlaoCMUyMqDinKp88xlppBg4GlA863N4zlCG8IJY=",
+          "permit": "20211130,",
+          "name": "B地块Y2幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/NokEhDN-osttLVWbnXemKuRCt9QuT0LihZgS5CsSQ79HODl05JGKbJucjar4GTKlz7D82f_XDO9C0V544eBEJwFZiQGEWe-L1E6oVqgJk1XVmEp9JBUBE0ktcEKM7QPknJbVr0M5J2VUB3ODcagCBUhd41umaquENjEH1-X5GAI=",
+          "permit": "20211239,",
+          "name": "B地块Y3幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/HlZuTlp0LkAAryt_2kMVTWuyVtLkLCzHKFspc2HWlrLfsZoK0Outbe5Yq7cszxhVIZVtMORL2GrOi_Jhb738lOJYPynvHx7rIldC4YK-n6hFDWw3aa7KBd2wnvVKspeTng8ujvzk8x7sbkY5CcTLLo7-ZBlRrBfsNDnEab6W_Zc=",
+          "permit": "20220079,",
+          "name": "B地块Y5幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/GCISc2xbvz0RbuGaYZ0UQlg1LvEzvabeT05vPdkLFmikP2htTNLvnF4N2Gdf5-A9nFdb8lPK8MGBUILilGPfWuIYhsI9UAp8gftNyqwjGTLaI3PmCYQXowuH7jwbIf3c24-YhuojmnMy90PlOvUggqf7yDe2h6h4C3qjb8g8EcA=",
+          "permit": "20211240,",
+          "name": "B地块Y6幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/YmqZt0d58oFmV-i41Jm3bZ7y1DRPfzV13xLE1Gn5AI--IOEfJOldZZMSmCB3jPtC_CDTRxsXJT3vL5FYrh2K2sYN9njtzUvW6c4jRt82PBMV5f0GyuNQ3ZgYJxE2n0NuWzJn7uNNFIVVgvOORNEUaSdfOX0zcxJLtG8GRVn2jwE=",
+          "permit": "20211131,",
+          "name": "B地块Y7幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/ZbVrJkzUkBAWsAclYXFz-OO6g8_0EE5AaHo6lAJLr2qEQaCoNoV4hIRmk13ChjvAZaYvvUmuVWJDUPeqXSelV66Hpp6ZFC0gD4yhSsped4ceH-OgbVxKMyhk0bTbbE8QI8NDoWkVeApEEoORms61q3DpRKetOc_xchiDZgWeGLg=",
+          "permit": "20210935,",
+          "name": "B地块Y8幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/W59JK2YaZU-2_8R3bVW-OHlTxpqEuaHXq-3VB_tMlkljQCjVvveP7vzI5ui4t0ktBptdYrxREmvWwD5L_b5g1CaxBFKSnf9_l8QbwScrbumJ06CMcR0kgM0mkur_c-ZDbbr_PkmH0VuHS_kzk7jWoWDQHdolNL2fztB0N-zW8AU=",
+          "permit": "20211241,",
+          "name": "B地块Y9幢"
+        }
+      ],
+      "telephone": [
+        "0551-65269888"
+      ],
+      "salesDepartmentAddress": "蜀山区金水湾路与三乘寺交口"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/937",
+      "entryName": "锦泓雅苑",
+      "enterpriseName": "合肥锦滔房地产开发有限公司",
+      "region": "经济区",
+      "startTime": 1686639600000,
+      "endTime": 1686898800000,
+      "start": "2023-06-13 15:00:00",
+      "end": "2023-06-16 15:00:00",
+      "total": 94,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/OeedATUPouZDct6SSayoueyjRgvSQhhSyEDSYBvaiWEMoXwMQI7b1mJZlr1TgcbvOey6n28rGF3eM1RMc1olzggCx8Gp8DQzb1RJARKTKN1JCBccnpU30je-ror2hGj4ZPM_Pol1g2E2OUSW4G4OqbmZIiwMuYEnoRKRpRCi10A=",
+          "permit": "20230567,",
+          "name": "8幢"
+        }
+      ],
+      "telephone": [
+        "0551-82288888",
+        "18715058826"
+      ],
+      "salesDepartmentAddress": "合肥市经开区锦绣大道以南，青龙潭路以西龙湖翠湖壹号售楼部"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/935",
+      "entryName": "印湖苑",
+      "enterpriseName": "合肥蜀伟置业有限公司",
+      "region": "蜀山区",
+      "startTime": 1686639600000,
+      "endTime": 1686898800000,
+      "start": "2023-06-13 15:00:00",
+      "end": "2023-06-16 15:00:00",
+      "total": 60,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/B4W50h_ZyWnnOIvShQrtotZP8Yh1BFG1mdGhbttfJIP_V6ofmRbddEZZglHah_b4bMUTqQf4-Mns5pgWI6rOWjRkZjpn0_LMVwz1-QsjJVk5_cI1-KRfivA-DlR4HtRSOwKHd5GXedujEzZu0Dn2Y2XyqvvQt3e6C2zyPNIwdzg=",
+          "permit": "20230569,",
+          "name": "3幢"
+        }
+      ],
+      "telephone": [
+        "0551-66161666",
+        "13866737989"
+      ],
+      "salesDepartmentAddress": "合肥市蜀山区白莲岩路与振兴路交汇处"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/940",
       "entryName": "云境景轩",
@@ -23,54 +258,6 @@
         "0551-66039999"
       ],
       "salesDepartmentAddress": "合肥市庐阳区北松路以东、紫兰街以北"
-    },
-    {
-      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/934",
-      "entryName": "璟园",
-      "enterpriseName": "合肥启盛房地产开发有限公司",
-      "region": "经济区",
-      "startTime": 1686380400000,
-      "endTime": 1686639600000,
-      "start": "2023-06-10 15:00:00",
-      "end": "2023-06-13 15:00:00",
-      "total": 41,
-      "registrationStatus": "正在登记",
-      "building": [
-        {
-          "url": "http://www.hfzfzlw.com/spf/details/R2UANWmD3hR3r8Uq1bewRweNB8tGPGKtvg8ZiZHD9moHNjh7WhFdQ_XgSF5fIMw93OEpHINNaUiFCGxzegcexOwQ43QyzZS5Oy6Ak61mooLzKOUhrUunaHczITLOA0Amm7-IG_M-bG6IO0MWIrUubzKFa2e5_aU0LgSVVpwO3Hs=",
-          "permit": "20230565,",
-          "name": "2-Y5幢"
-        }
-      ],
-      "telephone": [
-        "0551-63889777",
-        "15556908742"
-      ],
-      "salesDepartmentAddress": "经开区芙蓉路与天都路交口东北角璟园营销中心"
-    },
-    {
-      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/928",
-      "entryName": "悦璟轩",
-      "enterpriseName": "合肥和汇房地产开发有限公司",
-      "region": "包河区",
-      "startTime": 1686380400000,
-      "endTime": 1686639600000,
-      "start": "2023-06-10 15:00:00",
-      "end": "2023-06-13 15:00:00",
-      "total": 68,
-      "registrationStatus": "正在登记",
-      "building": [
-        {
-          "url": "http://www.hfzfzlw.com/spf/details/GAeeamoUkKL3z1LrMtfiica19DsIekwiep1oT9qDPCVJdqF7NAMjgCJ4AOFxJLq7ICxd6QRK9V5pqLVPVl3qETp4aF4ql_uacj-UQuybkw82_jp8-PmqtlnMuvcV87pwcECPQRh6PMOjdSl9QW_ceyQcNyeD0fte34yaRXCkif4=",
-          "permit": "20230564,",
-          "name": "G16幢"
-        }
-      ],
-      "telephone": [
-        "0551-62729999",
-        "13965135227"
-      ],
-      "salesDepartmentAddress": "合肥市包河区上海路与牯牛降路交口保利和光熙悦营销中心"
     },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/921",
