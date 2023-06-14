@@ -24,10 +24,15 @@ export const PreSale = ({ resultPreSale }: Pick<Props, 'resultPreSale'>) => {
                 {buildingNumber.map((item) => {
                   const obj = buildingAll[item];
                   return (
-                    <a href={obj.url} class="mr-12" style={{ color: '#000' }}>
-                      {item}，地上层数：{obj.numberOfFloorsUpstairs}，地下层数：
-                      {obj.numberOfUndergroundFloors}
-                    </a>
+                    <>
+                      <a href={obj.url} style={{ color: '#000', textDecoration: 'none' }}>
+                        {item}
+                      </a>
+                      <span class="mr-12">
+                        地上层数：{obj.numberOfFloorsUpstairs}，地下层数：
+                        {obj.numberOfUndergroundFloors}
+                      </span>
+                    </>
                   );
                 })}
               </p>

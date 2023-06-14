@@ -3,12 +3,8 @@ import { getBase, type PreSaleResult, type Props } from './base';
 import { preSaleDetails } from './details';
 
 export const getPreSale = async (page = 1) => {
-  const { values, total } = await getBase(page);
-
-  return {
-    values,
-    total,
-  };
+  const result = await getBase(page);
+  return result;
 };
 
 // 添加详情

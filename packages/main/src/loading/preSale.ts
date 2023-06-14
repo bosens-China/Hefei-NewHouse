@@ -23,14 +23,13 @@ export const loadingPreSale = async () => {
   // 只返回今天和之后的
   const result = mergeArrays(
     await Promise.all(
-      (currentTotal
-        ? values.slice(0, total - currentTotal)
-        : values.filter((f) => {
-            return dayjs(current).isSameOrBefore(dayjs(f.releaseDate), 'D');
-          })
-      ).map(async (item) => {
-        return await consolidationResultPreSale(item);
-      }),
+      (currentTotal ? values.slice(0, total - currentTotal) : values)
+        .filter((f) => {
+          return dayjs(current).isSameOrBefore(dayjs(f.releaseDate), 'D');
+        })
+        .map(async (item) => {
+          return await consolidationResultPreSale(item);
+        }),
     ),
   );
   preSaleDb.data.total = total;
