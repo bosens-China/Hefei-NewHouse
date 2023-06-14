@@ -1,6 +1,98 @@
 {
-  "total": 785,
+  "total": 788,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/932",
+      "entryName": "尚如院",
+      "enterpriseName": "安徽省高速滨科房地产开发有限公司",
+      "region": "滨湖区",
+      "startTime": 1686898800000,
+      "endTime": 1687158000000,
+      "start": "2023-06-16 15:00:00",
+      "end": "2023-06-19 15:00:00",
+      "total": 92,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/k0mIF4GAhkA7JmWAF_4GxmqVMG_S6I72LCYj0HML8tgi6_epynyED-Uo8SdnxXzf2s3fZ8BTIB7aasDdD8k1RyGHp6EZFznt2if9rSEoSBmdJb48plXDZpJHqONq3sxr9xHjVIBknU_FAACjY89-EAArPYqVIBkIM0heXNI3fNw=",
+          "permit": "20230571,",
+          "name": "G3幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/mc_vxag3Mhtp5iNciWvogx1j5QNX6vaGdN7QQvgtWVkdXANHvfoZtOXIWAoYDIYlXnah3fFWkzAiew-ynXxK-5xf1oygFq8YuOYpmeZLl9_Ek2BZrgNQ9RD9K0deeycpn6IPpAAFdoUsGiCcNdfRpHt3MSa_6aXu85nG4y84mHY=",
+          "permit": "20230572,",
+          "name": "G7幢"
+        }
+      ],
+      "telephone": [
+        "0551-66180666",
+        "13635658192"
+      ],
+      "salesDepartmentAddress": "合肥市包河区西藏路高速徽风皖韵酒店一楼高速尚如院城市展厅"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/944",
+      "entryName": "尚阖院",
+      "enterpriseName": "安徽省高速高投房地产开发有限公司",
+      "region": "滨湖区",
+      "startTime": 1686726000000,
+      "endTime": 1687158000000,
+      "start": "2023-06-14 15:00:00",
+      "end": "2023-06-19 15:00:00",
+      "total": 31,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/TfXG6wPV7zy22LmNzg5yK5-4mnz4BgoHY0GJ9j7RfQgxJW3P_hNZ6D0qHtKN4scG8if4cMj7CvGWS-5sI42txbNVuE1C0d4lmxo8xVgTbQrLbw_lrk6TEOWetlgUdhAMFvBPF8a4J7KvcSTLRY9tlLLKKPwdsFxpOJ2LFPxLLM4=",
+          "permit": "20230133,",
+          "name": "27幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/hE8V-hXXJNqtzMLW0ntOHlnWh25CYe53iobyIgsX26FhdTQUDUmnaBB_V8mcnvwWFuuOp0SS68Dv8O0mh-0SFJ8Gla-9R3lGIsp6g7gWnUKNcGKw1Vp_ZTSDR96nWYI7HTF919FB_AwXKu_7TfpRLDIgRL9mhLdrlOvVTdjobfQ=",
+          "permit": "20230575,",
+          "name": "32幢"
+        }
+      ],
+      "telephone": [
+        "0551-62169999",
+        "0551-65183109"
+      ],
+      "salesDepartmentAddress": "合肥市滨湖区四川路与嘉陵江路交口"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/942",
+      "entryName": "璟园",
+      "enterpriseName": "合肥启盛房地产开发有限公司",
+      "region": "经济区",
+      "startTime": 1686726000000,
+      "endTime": 1687158000000,
+      "start": "2023-06-14 15:00:00",
+      "end": "2023-06-19 15:00:00",
+      "total": 144,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/bQ1AWz0uuoAywhyLtxhaN4vRAPtiW7SgxYU_SARR6KZ3zx5sKLYVjnJBqC79B7kkQ2Zzu1OZKjDi_ydkSPzx2lsaoEgf5QOP8kSljKRC9UEN1V5_HEi30m9YtUkIiW8RRrmDD5iASVjaM9CLfIz8_4KzJtCFy1sdOZgDC1ZTsYY=",
+          "permit": "20230576,",
+          "name": "2-G5幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/ONyaI4PxTyD5UvVvqB9f3ShVO-AjZZleJQrLTVJgIiaTI-40RsgeNc3yMFnK-YNlmfmYzv6UVLmGz8kVA4Y7G7oJEhZVH2LVhoceQdCQC5t186ox5XWwFvu_wkLrZSh5SlLfwJB1SNtEwFkfe9RRJNSBlDsbQrho_ZCsgzY3R0w=",
+          "permit": "20230577,",
+          "name": "4-Y1幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/GbO9ji-_UqhrbcPdIl4xMk7y89T7pILbOaUbfXo96nu52OSSblZbKuGuMt10nnmkM01-5CPK3B2nFMt28KQQj94Slwwawypf5C-qqtCPPmrdcXCp7NOcmcvAjqklu1GZUZUSdo8C-FQqXcjLDRsctGWabn4UeNGIxbYLmkZHtUU=",
+          "permit": "20230578,",
+          "name": "5-G2幢"
+        }
+      ],
+      "telephone": [
+        "0551-63889777",
+        "15556908742"
+      ],
+      "salesDepartmentAddress": "合肥市经开区芙蓉路与天都路交口东北角璟园营销中心"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/939",
       "entryName": "璟庭里",
