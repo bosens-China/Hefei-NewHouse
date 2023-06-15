@@ -1,6 +1,83 @@
 {
-  "total": 788,
+  "total": 791,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/932",
+      "entryName": "尚如院",
+      "enterpriseName": "安徽省高速滨科房地产开发有限公司",
+      "region": "滨湖区",
+      "startTime": 1686898800000,
+      "endTime": 1687158000000,
+      "start": "2023-06-16 15:00:00",
+      "end": "2023-06-19 15:00:00",
+      "total": 92,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Y4mUChhTZ_k-srr1lX4HUqkn5QfSF80GjmjmSFqkd__m-n8AgCg4XGTXkbIHJjjTw6b7D3oL8o1kZIHM1ilkG2vTTevRNslgcxsBMRNaYlx1jYk3awLMN8D3hykRowRGwXlE17PwuY9CBGvZgW5tfzmckalgii1zgeRst_xk64M=",
+          "permit": "20230571,",
+          "name": "G3幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/PbayhKIKr6XRn5ALKw_YFnrYdvPA2jNIFX55zNRMr-uZoJRRBXdGFWkyH_dHkwGPTBjeOEKoczodjrgvHl5DgRTYzwVUfsjN6TSOXvYqsXaVFQKU_hgQvJ40Yn_saABTdWy_-fd-RzIpe2qXeqyKPE_DmuT0yPc18Sd1ju1foCY=",
+          "permit": "20230572,",
+          "name": "G7幢"
+        }
+      ],
+      "telephone": [
+        "0551-66180666",
+        "13635658192"
+      ],
+      "salesDepartmentAddress": "合肥市包河区西藏路高速徽风皖韵酒店一楼高速尚如院城市展厅"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/945",
+      "entryName": "星耀学苑",
+      "enterpriseName": "安徽新华学府置业有限公司",
+      "region": "蜀山区",
+      "startTime": 1686812400000,
+      "endTime": 1687158000000,
+      "start": "2023-06-15 15:00:00",
+      "end": "2023-06-19 15:00:00",
+      "total": 52,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Gs1mgNNDK22Wlz80Crt9H7k-G2RtqeKhNjScukB5-woqZqIxUZtyLNbi2e5TkjkDoGJcypA6BPgyqJ9Yb79cCOJWbBkPVVvpMoAyx94zW62d4WGXTQY62WX-vRVm21LCk30VNVcNGOUEpANMtAawCM4I7mzCRC5RKVp_ncBLEeg=",
+          "permit": "20230579,",
+          "name": "5幢"
+        }
+      ],
+      "telephone": [
+        "0551-65571111",
+        "13965146687"
+      ],
+      "salesDepartmentAddress": "蜀山区三乘寺路与佛岭寨路交口新华星耀学府营销中心"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/931",
+      "entryName": "都汇时代中心",
+      "enterpriseName": "安徽新华房地产有限公司",
+      "region": "蜀山区",
+      "startTime": 1686812400000,
+      "endTime": 1687158000000,
+      "start": "2023-06-15 15:00:00",
+      "end": "2023-06-19 15:00:00",
+      "total": 92,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/dQl7kZMukQAxtzK6tFMatYu4t0JstYzKY3KFx2x3ZBQMg0VRIvBgcrwqp2TcYRVnDaqmYHPpbJdc9HVHbBppY7GTkL1wqJEiRVg4C15uxrvERwFZQtPj067GxuMWY_OhXpfyext_YI8POeFZ2GnD8bPK-RTtH6HxrT9YZBUfUvA=",
+          "permit": "20230580,",
+          "name": "7幢"
+        }
+      ],
+      "telephone": [
+        "0551-65571111",
+        "13866784077"
+      ],
+      "salesDepartmentAddress": "蜀山区三乘寺路与香迎路交口新华都汇中心营销中心"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/932",
       "entryName": "尚如院",
