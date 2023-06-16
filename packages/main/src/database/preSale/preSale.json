@@ -1,4 +1,106 @@
 {
-  "total": 21907,
-  "current": []
+  "total": 21908,
+  "current": [
+    {
+      "entryName": "雍境湾二期",
+      "buildingNumber": [
+        "BH202226地块1幢"
+      ],
+      "permittedArea": [
+        "6639.8"
+      ],
+      "releaseDate": [
+        1686844800000
+      ],
+      "time": [
+        "2023-06-16"
+      ],
+      "type": "住宅",
+      "id": "2944",
+      "iptstamp": "1686884701755",
+      "buildingAll": {
+        "BH202226地块11": {
+          "url": "http://www.hfzfzlw.com/spf/details/ECoNCWizZuFX_F6opHzxKD85Kn7mc4o5zMW4YlFtORcX6bRE3xsbDNrxT49pW4coouhXx-s5JBhp9mFGDm045tmNkvsuFc_v5sQB8P1UVcN03_D09YFtNy-ifkZHcbgniJEsdR_GtwexEFkI2QuY8QY89uET2sTiGmpz5f3w8yw=",
+          "numberOfResidences": 0,
+          "license": "20230242",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "10",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "BH202226地块12": {
+          "url": "http://www.hfzfzlw.com/spf/details/hPbrlI0PGzV5H_KgMkih75uO8UUTJiPhJIAa1aUC34mDmsDcFUxzZNt_1YZyx_5ODuB82lzb0tInJNHbHsLYcj8u8sdsATHpR4bdJDWojAiEF_td1wEDQ13k7vDDt-5QEzPrhfqXw1H4yztk0IbpzwqEafTK0C7tJ0g8G5gs1gc=",
+          "numberOfResidences": 0,
+          "license": "20230243",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "10",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "BH202226地块1": {
+          "url": "http://www.hfzfzlw.com/spf/details/U7beW9UhDnzEOaR77keRM1vnqHjMvTvqA1VMvSS8wcf7WHbAshsqjf2r85p_djbcPZ4W5tSwV1icROH8cHPA7EjQx1sLmoWWd3d03wxgN8t7oIHqcaUxFFizROIN24uCCCFw5Jm1QIy9p_XpTOTwLyogfUDuW95ihFzdogPgoyI=",
+          "numberOfResidences": 0,
+          "license": "20230584",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "10",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "BH202226地块3": {
+          "url": "http://www.hfzfzlw.com/spf/details/dA0nkPYIepvdkVd70CteGnKvhVR-sNsQ3VdFM7u1cI6rKZMypiJk51kZ4qIZxMirOycg_W-2T-dUCusuxRpx5b2caxglkBC8tONCAe8-OSEFSZ6EqH6Eov4J4yEBfaqRtVJwBMt-HMruBgldhGoxhOhv0lRogBv29ttsPM-RmrY=",
+          "numberOfResidences": 0,
+          "license": "20230434",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "10",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "BH202226地块6": {
+          "url": "http://www.hfzfzlw.com/spf/details/MbA9fA8GlQaxWicyDi6deFyP-52BQ2dA_cMQcmpAmkLoF65jKfWrwodwNdUEUD55ofIdK-Cry9Xk24V8bmO2xsYxVB4_haxccKvInqcaIUHuP4vvujmKGwL3TuLAYEFgxKWYARB-bzfmGy1_fffUmi4vZatB8FeOMGbyelyuyAM=",
+          "numberOfResidences": 0,
+          "license": "20230447",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "9",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "BH202226地块7": {
+          "url": "http://www.hfzfzlw.com/spf/details/FjrP5Mpk9Me8Ab6LL6tYpH67-1MeorifaKPp-K8PFBUOqFzfCRVQT8Dr4W4MNsXSSMd2IchmDMcWMg-29-c_2T1VwkD6DqObZHJjYyt3PzSBRLJ1gx0yAuZSq80O7902AdKEgbq8PvNw75Xz7UGB5RK-EIZHehF0h9iiFoFo8s0=",
+          "numberOfResidences": 0,
+          "license": "20230361",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "10",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "BH202226地块9": {
+          "url": "http://www.hfzfzlw.com/spf/details/HpOX1bYFxmB2BRMNNp5ETn2LE4LxqDP_yYsMyz2VxX0aRlt8PFWBBa-LBnHWoS0-OICsesXYer_xw1rmeAMh_5FvqTfTnwiv17CmUsHquzVRSJSA5kCC8p4Kmie8foSlPrXh3nGIUbR6ZVYix-iOo1W646Rwtd8gs6OSbxNxooE=",
+          "numberOfResidences": 0,
+          "license": "20230362",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "10",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥盈盛房地产开发有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "0㎡",
+      "mainSet": "",
+      "greeningRate": "0%",
+      "floorAreaRatio": "0%",
+      "numberOfHandChanges": "1",
+      "turnoverRate": "0",
+      "region": "包河区",
+      "projectAddress": "包河区吉林路以东、黄河路以北",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/7213-14462-8696-2393996402411"
+    }
+  ]
 }
