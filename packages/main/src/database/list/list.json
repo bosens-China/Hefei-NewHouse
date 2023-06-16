@@ -1,6 +1,54 @@
 {
-  "total": 792,
+  "total": 794,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/946",
+      "entryName": "滨宸里",
+      "enterpriseName": "合肥星衍置业有限公司",
+      "region": "滨湖区",
+      "startTime": 1686985200000,
+      "endTime": 1687244400000,
+      "start": "2023-06-17 15:00:00",
+      "end": "2023-06-20 15:00:00",
+      "total": 50,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/cABGH93LCSr1Z1nqYv68ApKrDcMmwqJ-xSBtsVMOOdrIQuvBHD8ljQDS1L_ao0HDCP1fd83nJ3HtAwGj8AsLg-uTJvZSbkdhdre3gARXSuDEMxaVitnqxAxi7LGPGH_Gzl_kndMZsWnGSwuUVZdBkld9j7xt7GYWqSmGSXSS96c=",
+          "permit": "20230585,",
+          "name": "13幢"
+        }
+      ],
+      "telephone": [
+        "0551-65559888",
+        "13865935185"
+      ],
+      "salesDepartmentAddress": "合肥市滨湖区遵义路与西藏路交口"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/943",
+      "entryName": "雍境湾二期",
+      "enterpriseName": "合肥盈盛房地产开发有限公司",
+      "region": "包河区",
+      "startTime": 1686985200000,
+      "endTime": 1687244400000,
+      "start": "2023-06-17 15:00:00",
+      "end": "2023-06-20 15:00:00",
+      "total": 60,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/M_UquhAZtEYyuEoBnJMBGwWZ-OEcllMTmz9taJEFaIpMq2L0MyFuT5LxK4LswQibfO2emxm7A5gMqMSsdCS69Teu5VieiquwhgetdGMftBDAuslfBcYTrnQEjaE-33xFPRTA18y6gJr3aejGhP0YPOcGinjBIDJcIoapVyJOJJQ=",
+          "permit": "20230584,",
+          "name": "BH202226地块1幢"
+        }
+      ],
+      "telephone": [
+        "0551-67680000",
+        "18656946337"
+      ],
+      "salesDepartmentAddress": "合肥市包河区花园大道以南、巢湖南路以西雍境湾营销中心"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/932",
       "entryName": "尚如院",
