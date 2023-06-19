@@ -18,25 +18,17 @@
 
 - Fork 项目
 - 把下面环境变量填写到仓库中， Settings => Secrets and variables => Actions => New repository secret
-- 等待定时运行
+- 修改 [mailbox.json](./packages/data/mailbox/mailbox.json) 文件，按照 [MailboxProps](./packages/data/mailbox/index.ts) 格式填写（注意数组形式保存 JSON）
+- 推送代码等待定时运行
 
 ## 环境变量说明
 
 注意，所有的环境变量都要通过字符串的形式传递，如果是要求对象等形式，需要使用 `JSON.stringify` 来进行字符串话。
 
-| 名称                     | 类型                  | 描述           |
-| ------------------------ | --------------------- | -------------- |
-| EMAIL_ACCOUNT            | `string`              | 发送邮箱地址   |
-| EMAIL_AUTHORIZATION_CODE | `string`              | 发送邮箱授权码 |
-| MAILBOX                  | `Array<MAILBOX_ITEM>` | 收件人配置     |
-
-### MAILBOX_ITEM
-
-| 名称           | 类型            | 描述                                                  |
-| -------------- | --------------- | ----------------------------------------------------- |
-| mailbox        | `string`        | 收件人邮箱地址                                        |
-| exclusionZone  | `Array<string>` | 排除的区域                                            |
-| monitoringArea | `Array<string>` | 包含的区域，如果存在此参数不会使用 exclusionZone 参数 |
+| 名称                     | 类型     | 描述           |
+| ------------------------ | -------- | -------------- |
+| EMAIL_ACCOUNT            | `string` | 发送邮箱地址   |
+| EMAIL_AUTHORIZATION_CODE | `string` | 发送邮箱授权码 |
 
 <!-- **DOCKERHUB_USERNAME**
 

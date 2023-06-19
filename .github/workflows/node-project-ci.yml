@@ -23,7 +23,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y docker-compose
-          echo "_PATH=./packages/main" >> "$GITHUB_ENV"
+          echo "_PATH=./packages/reptile" >> "$GITHUB_ENV"
 
       - name: Start services
         working-directory: ${{env._PATH}}
@@ -51,7 +51,6 @@ jobs:
         env:
           EMAIL_ACCOUNT: ${{ secrets.EMAIL_ACCOUNT }}
           EMAIL_AUTHORIZATION_CODE: ${{ secrets.EMAIL_AUTHORIZATION_CODE }}
-          MAILBOX: ${{ secrets.MAILBOX }}
         run: |
           pnpm run start
 
