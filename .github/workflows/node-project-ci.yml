@@ -24,10 +24,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y docker-compose
 
-      - name: Start services
-        run: |
-          pnpm -F @new-house/reptile up
-
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
@@ -43,6 +39,10 @@ jobs:
           node-version: 16.14.2
           # 缓存 pnpm 依赖
           cache: pnpm
+
+      - name: Start services
+        run: |
+          pnpm -F @new-house/reptile up
 
       - name: Run tests or build
         env:
