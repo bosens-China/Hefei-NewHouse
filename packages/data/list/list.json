@@ -1,4 +1,112 @@
 {
-  "total": 0,
-  "current": []
+  "total": 798,
+  "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/956",
+      "entryName": "雍境湾二期",
+      "enterpriseName": "合肥盈盛房地产开发有限公司",
+      "region": "包河区",
+      "startTime": 1687330800000,
+      "endTime": 1687676400000,
+      "start": "2023-06-21 15:00:00",
+      "end": "2023-06-25 15:00:00",
+      "total": 97,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Qq_e5Muq5FHMv5Ead9t8y9Kw9so3mMHRR4D7mWVfXrZlcp16UrNW23Ie7vUtqokWQ-QGCS_xVE-tGz1BNFOZkF5OePaO1ZcknUNUoNnfc-VuUxnAjDIdZGN3Zdfe9SbgSSY34Q80YKsm49OPPWO2HqLK_eq70JYCw5Z8JoFlHv0=",
+          "permit": "20230592,",
+          "name": "BH202226地块2幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/kuaryX1ryS6M45vEq44Z2Y7162MNinnk1lyL4qnNSLsaw1f9KWSWdLXnN5teNE_vJkueGWfPA2N7iiGdJzmlSjEu89t5eUiPOCNIL7acFj9qJOohthNkCXQhWPFMEBGq3eJPGIIVEdpjnkh0A7rVjqqVDlz03sL7PgTDyRQaC48=",
+          "permit": "20230593,",
+          "name": "BH202226地块5幢"
+        }
+      ],
+      "telephone": [
+        "0551-67680000",
+        "18019596007"
+      ],
+      "salesDepartmentAddress": "合肥市包河区花园大道以南、巢湖南路以西雍境湾营销中心"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/955",
+      "entryName": "雍境湾二期",
+      "enterpriseName": "合肥盈盛房地产开发有限公司",
+      "region": "包河区",
+      "startTime": 1687330800000,
+      "endTime": 1687676400000,
+      "start": "2023-06-21 15:00:00",
+      "end": "2023-06-25 15:00:00",
+      "total": 68,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/NUVSzcNxO9q8U2AmDMVv90OIr0GQNFdU5n8ZMAdOjQN5SkRQVedg1RnTKGRxmRkklk1ReaEMOnBsLCMsgqOKfcVUvIMoV-osaxm3WyhzaxPKNoLRt-yIh7TtlBwZyPFZNQfFoXBHIjAXevg-CTOTwMcvxCWV9Bxe2U8o05UB-j4=",
+          "permit": "20230603,",
+          "name": "BH202226地块13幢"
+        }
+      ],
+      "telephone": [
+        "0551-67680000",
+        "18019596007"
+      ],
+      "salesDepartmentAddress": "合肥市包河区花园大道以南、巢湖南路以西雍境湾营销中心"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/954",
+      "entryName": "光年世纪城",
+      "enterpriseName": "合肥锦湖房地产开发有限公司",
+      "region": "高新区",
+      "startTime": 1687330800000,
+      "endTime": 1687762800000,
+      "start": "2023-06-21 15:00:00",
+      "end": "2023-06-26 15:00:00",
+      "total": 104,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/HJxCMdAANKBT8E1-1ESjhnZ7ybJQloNJ2sfmBUnTeIRcPm2K_6JOSdcxK8yZMMoG2RDD2lBPAsS9M63XQIeoXI641ysgZ7oU2HV5xeGACpgZ3OXh44xmcOXbOS-_GU6QbG-Ti3boZgBNF82IXCdqoWDOLUgDMyEy3cNlTBZJzUM=",
+          "permit": "20230590,",
+          "name": "6幢"
+        }
+      ],
+      "telephone": [
+        "0551-69007777",
+        "18155109651"
+      ],
+      "salesDepartmentAddress": "合肥市高新区石镜路与皖水路交口东100米"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/950",
+      "entryName": "雍润府",
+      "enterpriseName": "合肥璟盛房地产开发有限公司",
+      "region": "包河区",
+      "startTime": 1687330800000,
+      "endTime": 1687676400000,
+      "start": "2023-06-21 15:00:00",
+      "end": "2023-06-25 15:00:00",
+      "total": 204,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/jysZ-ujWcu7atu_YwDv3lxzTVxbMfBjlyRtrlWfWupnZJAeBpt-ckHCpEisFOUFl2X1Ks4WroYaVqS_AtKcK1kKIoVXCiFfrOiZGA5zU5XpBdGZGiQVoa4fI4NWUBkUZPBXH4wZWCbc60a-OkH_rUPEUIwWgshBONXkiMBA_Qqc=",
+          "permit": "20230599,",
+          "name": "C地块2幢"
+        },
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/N6-SyhkoUT1ChXlMu1unGeDterVyIyc7Z8G4Oq3xHCRxBj9-o10K_ssKfQaNYiQj_DV_ZM6nb1aYZt4_kYb_wP2EIDrohWDjZi8pfWwEOJlNngXdqoKBmNZhcmAyv0gGJr86ZhZ4hv-goDCpnKSemckpMlvG-Gzev0IiONllasA=",
+          "permit": "20230600,",
+          "name": "C地块5幢"
+        }
+      ],
+      "telephone": [
+        "0551-65388000",
+        "",
+        "15156980007"
+      ],
+      "salesDepartmentAddress": "合肥市包河区郎溪路与历口路交汇处雍润府营销中心"
+    }
+  ]
 }
