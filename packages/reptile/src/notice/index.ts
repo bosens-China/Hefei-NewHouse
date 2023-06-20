@@ -43,7 +43,11 @@ export const notice = async ({
 
   const allMailboxs = MAILBOX;
   const sentEmails: string[] = [];
-  for (const { mailbox, monitoringArea, exclusionZone, deadline, trialDeadline } of allMailboxs) {
+  for (const { mailbox, monitoringArea, exclusionZone, deadline, trialDeadline, _superuser } of allMailboxs) {
+    // 开发环境下，只测试有 _superuser标识的用户
+    if (!process.env.GITHUB_TOKEN && !_superuser) {
+      continue;
+    }
     // 试用过了或者订阅时间过了，跳过
     if (trialDeadline && !deadline && dayjs().isSameOrAfter(dayjs(trialDeadline), 'm')) {
       continue;

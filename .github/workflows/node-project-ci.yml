@@ -23,12 +23,10 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y docker-compose
-          echo "_PATH=./packages/reptile" >> "$GITHUB_ENV"
 
       - name: Start services
-        working-directory: ${{env._PATH}}
         run: |
-          docker-compose up -d
+          pnpm -F @new-house/reptile up
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
@@ -47,17 +45,16 @@ jobs:
           cache: pnpm
 
       - name: Run tests or build
-        working-directory: ${{env._PATH}}
         env:
           EMAIL_ACCOUNT: ${{ secrets.EMAIL_ACCOUNT }}
           EMAIL_AUTHORIZATION_CODE: ${{ secrets.EMAIL_AUTHORIZATION_CODE }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          pnpm run start
+          pnpm -F @new-house/reptile start
 
       - name: Stop services
-        working-directory: ${{env._PATH}}
         run: |
-          docker-compose down
+          pnpm -F @new-house/reptile down
 
       - name: Check for changes
         run: |

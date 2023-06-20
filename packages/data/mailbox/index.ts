@@ -29,6 +29,8 @@ export interface MailboxProps {
   deadline?: string;
   // 试用截止日期
   trialDeadline?: string;
+  // 是否超级用户
+  _superuser: boolean;
 }
 
 export type MailboxData = Array<MailboxProps>;

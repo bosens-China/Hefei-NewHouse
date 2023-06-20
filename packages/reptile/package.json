@@ -30,6 +30,8 @@
   },
   "scripts": {
     "checkForErrors": "tsc --noEmit",
-    "start": "webpack"
+    "start": "webpack",
+    "up": "docker-compose up -d",
+    "down": "docker-compose down"
   }
 }
