@@ -31,8 +31,9 @@ export const loadingPreSale = async () => {
         }),
     ),
   );
+  // 过滤掉之前储存的current重复的楼幢
   const realResults = _.uniqBy([...filteringValue, ...current], (item) => {
-    return `${item.entryName}${item.buildingNumber.join(',')}`;
+    return item.entryName;
   });
 
   preSaleDb.data.total = total;

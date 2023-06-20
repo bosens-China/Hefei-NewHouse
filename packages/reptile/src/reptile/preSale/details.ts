@@ -2,7 +2,7 @@
 import { instance } from '../../utils/request';
 import { type Element, load } from 'cheerio';
 import { BASE_URL } from '../../constant';
-import { PreSaleBuilding, preSaleDetailsProps, RecodeProps } from '@new-house/data/preSale';
+import { PreSaleBuilding, preSaleDetailsProps, PreSaleProps, RecodeProps } from '@new-house/data/preSale';
 
 function nscaler(a: string) {
   let b = '';
@@ -114,7 +114,8 @@ const analysis = (html: string, detailsUrl: string): preSaleDetailsProps => {
         break;
     }
   });
-  const buildingAll: Record<string, PreSaleBuilding> = {};
+  const licenseKeyAll: Record<string, PreSaleBuilding> = {};
+
   $('.nav_2_2 td').each((_i, el) => {
     const a = $(el).find('a');
     const li = $(el).find('li');
@@ -128,9 +129,11 @@ const analysis = (html: string, detailsUrl: string): preSaleDetailsProps => {
     const [license, commercialQuantity] = splitInformation(li.get(1));
     const [numberOfFloorsUpstairs, numberOfOffices] = splitInformation(li.get(2));
     const [numberOfUndergroundFloors, otherQuantities] = splitInformation(li.get(3));
-    buildingAll[name] = {
+
+    licenseKeyAll[license] = {
       url: `${BASE_URL}${url}`,
-      // name,
+      // 这里是因为楼栋详情页面展示的name不全，超出文字会被截取掉
+      name,
       numberOfResidences: Number.parseInt(numberOfResidences),
       license,
       commercialQuantity: Number.parseInt(commercialQuantity),
@@ -140,8 +143,9 @@ const analysis = (html: string, detailsUrl: string): preSaleDetailsProps => {
       otherQuantities: Number.parseInt(otherQuantities),
     };
   });
+
   return {
-    buildingAll,
+    licenseKeyAll,
     developer,
     propertyManagementCompany,
     floorArea,
@@ -156,7 +160,7 @@ const analysis = (html: string, detailsUrl: string): preSaleDetailsProps => {
   };
 };
 
-export const preSaleDetails = async (props: RecodeProps) => {
+export const preSaleDetails = async (props: PreSaleProps) => {
   const href = `${BASE_URL}/spf/item/${recode(props)}`;
   const { data: html } = await instance.get<string>(href);
   return analysis(html, href);

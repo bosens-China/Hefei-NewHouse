@@ -20,6 +20,7 @@ const analysis = (html: string): PreSaleProps[] => {
   let type: string;
   let id: string;
   const iptstamp = $('#iptstamp').val() as string;
+  let licenseKey = '';
 
   $('tr:not(.table_bg)').each((_i, el) => {
     $(el)
@@ -30,7 +31,7 @@ const analysis = (html: string): PreSaleProps[] => {
         switch (index) {
           case 0:
             // url = `${BASE_URL}${a.attr('href') ?? ''}`;
-            // licenseKey = a.text().trim();
+            licenseKey = a.text().trim();
             break;
           case 1:
             id = a.attr('id') ?? '';
@@ -54,7 +55,7 @@ const analysis = (html: string): PreSaleProps[] => {
 
     arr.push({
       // url,
-      // licenseKey,
+      licenseKey,
       entryName,
       buildingNumber,
       permittedArea,

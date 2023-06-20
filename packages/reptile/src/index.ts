@@ -18,11 +18,13 @@ const App = async () => {
     residueList,
   });
   console.timeEnd('发送通知');
-
-  process.exit(0);
 };
 
 console.log(`当前时间: ${dayjs().format('YYYY-MM-DD HH:mm:ss')}`);
-App().catch((e) => {
-  throw e;
-});
+App()
+  .then(() => {
+    process.exit(0);
+  })
+  .catch((e) => {
+    throw e;
+  });

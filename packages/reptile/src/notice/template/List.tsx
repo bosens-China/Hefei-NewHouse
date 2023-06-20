@@ -26,7 +26,9 @@ export const List = ({ resultList, title = <h2>本次新增摇号项目：{resul
               </p>
               <p>总数：{item.total}</p>
               <p>登记状态：{item.registrationStatus}</p>
-
+              <p>
+                开始起止时间：{item.start} ~ {item.end}
+              </p>
               <details>
                 <summary>展开其他信息</summary>
                 <p>开发商：{item.enterpriseName}</p>
@@ -34,15 +36,14 @@ export const List = ({ resultList, title = <h2>本次新增摇号项目：{resul
                   楼幢：
                   {item.building.map((li) => {
                     return (
-                      <a style={{ color: '#000' }} className="mr-12" href={li.url}>
+                      <a style={{ color: '#000', textDecoration: 'revert' }} className="mr-12" href={li.url}>
                         {li.name}
                       </a>
                     );
                   })}
                 </p>
                 <Supply {...item}></Supply>
-                <p>开始时间：{item.start}</p>
-                <p>结束时间：{item.end}</p>
+
                 <p>
                   联系电话：
                   {item.telephone.map((phone) => {

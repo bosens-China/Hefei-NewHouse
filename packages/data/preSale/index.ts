@@ -11,8 +11,8 @@ export interface RecodeProps {
 
 export interface PreSaleBuilding {
   url: string;
-  // 名称;
-  // name: string;
+  // 名称
+  name: string;
   // 许可证
   license: string;
   // 楼上层数
@@ -32,7 +32,7 @@ export interface PreSaleBuilding {
 export interface PreSaleProps extends RecodeProps {
   // url: string;
   // 许可证
-  // licenseKey: string;
+  licenseKey: string;
   // 项目名称
   entryName: string;
   // 楼栋号
@@ -69,13 +69,13 @@ export interface preSaleDetailsProps {
   projectAddress: string;
   // 详情地址
   detailsUrl: string;
-  // 楼幢信息
-  buildingAll: Record<string, PreSaleBuilding>;
+  // 许可证信息
+  licenseKeyAll: Record<string, PreSaleBuilding>;
 }
 
 export type PreSaleResult = PreSaleProps & preSaleDetailsProps;
 
-type Arr = 'buildingNumber' | 'permittedArea' | 'releaseDate' | 'time';
+type Arr = 'buildingNumber' | 'licenseKey' | 'permittedArea' | 'releaseDate' | 'time';
 
 export type PreSaleValues = Omit<PreSaleResult, Arr> & {
   [K in keyof Pick<PreSaleResult, Arr>]: Array<PreSaleResult[K]>;
