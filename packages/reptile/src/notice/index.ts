@@ -43,9 +43,12 @@ export const notice = async ({
 
   const allMailboxs = MAILBOX;
   const sentEmails: string[] = [];
-  for (const { mailbox, monitoringArea, exclusionZone, deadline } of allMailboxs) {
-    // 期限过期跳过
-    if (deadline && dayjs().isSameOrAfter(dayjs(deadline))) {
+  for (const { mailbox, monitoringArea, exclusionZone, deadline, trialDeadline } of allMailboxs) {
+    // 试用过了或者订阅时间过了，跳过
+    if (trialDeadline && !deadline && dayjs().isSameOrAfter(dayjs(trialDeadline), 'm')) {
+      continue;
+    }
+    if (deadline && dayjs().isSameOrAfter(dayjs(deadline), 'm')) {
       continue;
     }
     // monitoringArea, exclusionZone 相当于白名单和黑名单，以白名单为主如果都存在
@@ -110,6 +113,10 @@ export const notice = async ({
           return true;
         }
       }),
+      remind: {
+        deadline,
+        trialDeadline,
+      },
     };
 
     // 说明被过滤了

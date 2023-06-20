@@ -2,7 +2,7 @@ name: Node Project CI
 
 on:
   schedule:
-    - cron: '0 3,7,12 * * *'
+    - cron: '0 3,7,9,12 * * *'
   push:
     branches:
       - master

@@ -25,7 +25,7 @@ export const PreSale = ({ resultPreSale }: Pick<Props, 'resultPreSale'>) => {
                   const obj = buildingAll[item];
                   return (
                     <>
-                      <a href={obj.url} style={{ color: '#000', textDecoration: 'none' }}>
+                      <a href={obj.url} style={{ color: '#000' }}>
                         {item}
                       </a>
                       <span class="mr-12">

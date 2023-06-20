@@ -1,18 +1,8 @@
-import { config } from 'dotenv';
+import './init';
 import { notice } from './notice';
 import { loadingList } from './loading/list';
 import { loadingPreSale } from './loading/preSale';
 import dayjs from 'dayjs';
-import isSameOrBefore from 'dayjs/plugin/isSameOrBefore';
-import 'dayjs/locale/zh-cn';
-import isSameOrAfter from 'dayjs/plugin/isSameOrAfter';
-
-dayjs.extend(isSameOrAfter);
-dayjs.extend(isSameOrBefore);
-dayjs.locale('zh-cn');
-
-config();
-config({ path: '.env.local' });
 
 const App = async () => {
   console.time('爬取预售结束');

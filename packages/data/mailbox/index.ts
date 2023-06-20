@@ -27,6 +27,8 @@ export interface MailboxProps {
   remarks?: string;
   // 截止日期
   deadline?: string;
+  // 试用截止日期
+  trialDeadline?: string;
 }
 
 export type MailboxData = Array<MailboxProps>;
