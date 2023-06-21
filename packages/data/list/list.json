@@ -1,6 +1,56 @@
 {
-  "total": 798,
+  "total": 800,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/925",
+      "entryName": "云启华章花园",
+      "enterpriseName": "安徽怀信置业有限责任公司",
+      "region": "包河区",
+      "startTime": 1687676400000,
+      "endTime": 1687935600000,
+      "start": "2023-06-25 15:00:00",
+      "end": "2023-06-28 15:00:00",
+      "total": 64,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Bfi-sqz7YgPjOpZuMBMhoXGWJmwXUad72NzI1KOvM_uwVtsyZGczX9Qsr47yrzzdC2hpIhWCm-R7cchfZZ7Q8tXXvyjHm-o_Ow-ImXMyJtkvkbrrZUsGYsG8W8TV-OlKdCwFyEGLmYnPyZIMOcCKCKF91F8DNRdWF2dgsvfAXpw=",
+          "permit": "20230591,",
+          "name": "7幢"
+        }
+      ],
+      "telephone": [
+        "0551-65279888",
+        "",
+        "18155104253"
+      ],
+      "salesDepartmentAddress": "繁华大道贡街对面明悦广场东侧"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/924",
+      "entryName": "云启华章花园",
+      "enterpriseName": "安徽怀信置业有限责任公司",
+      "region": "包河区",
+      "startTime": 1687417200000,
+      "endTime": 1687676400000,
+      "start": "2023-06-22 15:00:00",
+      "end": "2023-06-25 15:00:00",
+      "total": 96,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/a9zNQmm4y0KPYS7kyOwhqGGR4iJAJMHs1P-TKU8HYrYK0vMdE7YaBC5zlBhNlFNcbHE0mXo7oP61sPZSZxx-udZPie2lT6wYdICz-HG4n9WKayOpc8-7WLytm9c0eB8ZAVAC_Ls_ej6yTTp8SwwfdyTpMgkiSPCIy2TSUOrHM6E=",
+          "permit": "20230563,",
+          "name": "9幢"
+        }
+      ],
+      "telephone": [
+        "0551-65279888",
+        "",
+        "18155104253"
+      ],
+      "salesDepartmentAddress": "繁华大道贡街对面明悦广场东侧"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/956",
       "entryName": "雍境湾二期",
