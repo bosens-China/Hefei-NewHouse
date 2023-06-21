@@ -1,6 +1,144 @@
 {
-  "total": 21924,
+  "total": 21930,
   "current": [
+    {
+      "licenseKey": [
+        "20230610",
+        "20230609",
+        "20230608"
+      ],
+      "entryName": "朗拾里",
+      "buildingNumber": [
+        "G21幢",
+        "G13幢",
+        "G8幢"
+      ],
+      "permittedArea": [
+        "6534.48",
+        "4895.32",
+        "4893.96"
+      ],
+      "releaseDate": [
+        1687276800000,
+        1687276800000,
+        1687276800000
+      ],
+      "time": [
+        "2023-06-21",
+        "2023-06-21",
+        "2023-06-21"
+      ],
+      "type": "住宅",
+      "id": "2930",
+      "iptstamp": "1687331251052",
+      "licenseKeyAll": {
+        "20230608": {
+          "url": "http://www.hfzfzlw.com/spf/details/cBuP4R4jPVTO0RVpU9crxZ0IV51r5gL-s2SHqrPPzf8FFYdzbv7Z5p1ivDlL_5TrpNZxBMo1oZRYpcVoAVQjNTSXjJxpYqZlUKcO7jmVrhkEVp09OdSHskY6AKTK4L4jAJDvjnZ1ZC5_Oa9kBzLu3-kGubDmqKAVf7nHm0myhOU=",
+          "name": "G8幢",
+          "numberOfResidences": 34,
+          "license": "20230608",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "20230609": {
+          "url": "http://www.hfzfzlw.com/spf/details/fICt2NU_H-k7qk2UCX-Bg9FD2Ga_S8GrF_BQQFGqyVKVy_n8pPsTkEZuW3jIsTWd-AAc41oN0BdB_lKm70GTnwTTvQ5DV0icPZPFT_w89-8KV8RRfnZfekGCOOfJTfKGXuB2zEptm4jipqCdXbiP-Mq0uGNxsNlz_cB0O1a26HA=",
+          "name": "G13幢",
+          "numberOfResidences": 34,
+          "license": "20230609",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "20230610": {
+          "url": "http://www.hfzfzlw.com/spf/details/Byp2ukuCd6INQ8zo9bslr5ZR0mJiBjTxh1Ctk_TOQ1NtKZWm_lMp_PIyFfmkN4pTjO0VdRn_0BWeLMazvvD085hNgOXuzo3tM8UhuWPtW7Pezfd5oTbmCl0yJXzehzIyJfrxvkwv70Z_BNmFM42NtX_QQI98dDeLxPNsoezbBSE=",
+          "name": "G21幢",
+          "numberOfResidences": 68,
+          "license": "20230610",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥科辰地产有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "0㎡",
+      "mainSet": "",
+      "greeningRate": "0%",
+      "floorAreaRatio": "0%",
+      "numberOfHandChanges": "26",
+      "turnoverRate": "0.02",
+      "region": "包河区",
+      "projectAddress": "包河区历口路以西、太平湖路以南",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/5043-11245-5465-2394882512015"
+    },
+    {
+      "licenseKey": [
+        "20230607",
+        "20230606"
+      ],
+      "entryName": "青云轩",
+      "buildingNumber": [
+        "3幢",
+        "2幢"
+      ],
+      "permittedArea": [
+        "10836",
+        "10836.48"
+      ],
+      "releaseDate": [
+        1687276800000,
+        1687276800000
+      ],
+      "time": [
+        "2023-06-21",
+        "2023-06-21"
+      ],
+      "type": "住宅",
+      "id": "2959",
+      "iptstamp": "1687331251052",
+      "licenseKeyAll": {
+        "20230606": {
+          "url": "http://www.hfzfzlw.com/spf/details/QjTNWdXbYSUB1zrzPzmDwBdrQ1nw7MORFncET3jzMOb022VqBbph3Zu-K-AymLpAcXiNUy_rvs3nZIIWq02GGLLpundZ6X-CVwpZYtglx-8xtEQlu7QkYL4nmA3gohPs8fLdVzkxZsTEvl1o4oXAVOOMkCHVsl13wXsk3qavYeQ=",
+          "name": "2幢",
+          "numberOfResidences": 72,
+          "license": "20230606",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "25",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "20230607": {
+          "url": "http://www.hfzfzlw.com/spf/details/MJ0ZT34ZQwkD6NQ7135UsORmo3bWFTuTuBA-E5_zk6EJbiWSSgACMUqaaHBDdHo6u7DU2cplBZNNECAJrBfWK-i_8JpbHo602uRd5dVVcAft6LPfO1DmoAeopo30eX6i2oT5PuypzbBUsiwZIfxCRFbW7cB754mrRH_d950ELM8=",
+          "name": "3幢",
+          "numberOfResidences": 72,
+          "license": "20230607",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "25",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥卓乔房地产开发有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "16145.82㎡",
+      "mainSet": "",
+      "greeningRate": "42%",
+      "floorAreaRatio": "2.0%",
+      "numberOfHandChanges": "0",
+      "turnoverRate": "0",
+      "region": "滨湖区",
+      "projectAddress": "滨湖科学城上海路以东、迎淮路以北",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/6622-12848-7131-2394882512015"
+    },
     {
       "licenseKey": [
         "20230604"
@@ -20,10 +158,10 @@
       ],
       "type": "住宅",
       "id": "2891",
-      "iptstamp": "1687316869469",
+      "iptstamp": "1687331251052",
       "licenseKeyAll": {
         "20230604": {
-          "url": "http://www.hfzfzlw.com/spf/details/KQrJNy9Sbj8bTGUp0H3Wy7PBurIQ0AKexhaue61EQ4b4TbgL9FSdao0bvxjW1s_e_ZgbOCOP6a-ejaYUGWBKOrZxHvKsxjyBvsgxyEmGsl2QgqOceGIdiEowA6hbG3zyg8x7lok40D9Jvf5HczG6kgacmTMYCkIVz0XMnm6PVvI=",
+          "url": "http://www.hfzfzlw.com/spf/details/Ino5qH4TO1VHECLJJ5V15YuJPIGfgqkAHrBxUEw5KgZPEdmGa9OvqXdMLLF1qs2Bk4EWnxJILIqdJhH3zccIPN3YrAd6Is3ssfzNL82quHmkX6MqnZufZw6YuyJC6Eby_EnuYdmfFGKIVm-yk0OCtGjMR3ErPUZzMKYH5jbvpmU=",
           "name": "2幢",
           "numberOfResidences": 41,
           "license": "20230604",
@@ -44,7 +182,7 @@
       "turnoverRate": "0.04",
       "region": "瑶海区",
       "projectAddress": "合肥市瑶海区临泉东路与通达路交口向北300米",
-      "detailsUrl": "http://www.hfzfzlw.com/spf/item/8885-14103-8131-2394823937637"
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/2581-9796-3824-2394882512015"
     },
     {
       "licenseKey": [

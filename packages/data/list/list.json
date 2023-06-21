@@ -1,6 +1,108 @@
 {
-  "total": 800,
+  "total": 804,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/947",
+      "entryName": "君澜雅筑",
+      "enterpriseName": "合肥秀徽房地产开发有限公司",
+      "region": "包河区",
+      "startTime": 1687676400000,
+      "endTime": 1687935600000,
+      "start": "2023-06-25 15:00:00",
+      "end": "2023-06-28 15:00:00",
+      "total": 68,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/fCg7FOUkLmi25pQ7QJ85m96L5-cmI0BVwj2_ypI9R8wDgpnucqWxee_iMKKG40X2neKFmzc3yVTUvb1hZtfotiOnCIJg72H5QxaWhY3Lvc7UlOoIyTRel37U2iWrRM0Ti162QHkgmXQiqu9GtHd3E5r8akRjBq8OlZw2O-wji6o=",
+          "permit": "20230601,",
+          "name": "7幢"
+        }
+      ],
+      "telephone": [
+        "0551-62588000",
+        "",
+        "18755156156"
+      ],
+      "salesDepartmentAddress": "包河区潜口路与高铁路交口"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/925",
+      "entryName": "云启华章花园",
+      "enterpriseName": "安徽怀信置业有限责任公司",
+      "region": "包河区",
+      "startTime": 1687676400000,
+      "endTime": 1687935600000,
+      "start": "2023-06-25 15:00:00",
+      "end": "2023-06-28 15:00:00",
+      "total": 64,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/M41eHdqdGu7odufEeE50lF3TU894-mX7th81277tbTSs6JFJRUsMVxEAuDPOC7dP44WFgQrITPLPMeFynHe5is15fj_x6jvK5Xvypj7nKITOtpuizo6236feFprbEseJF4fKdGi-T5Doo62G8ZMHqU9ciSEsAPjUbxpFn57BePM=",
+          "permit": "20230591,",
+          "name": "7幢"
+        }
+      ],
+      "telephone": [
+        "0551-65279888",
+        "",
+        "18155104253"
+      ],
+      "salesDepartmentAddress": "繁华大道贡街对面明悦广场东侧"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/936",
+      "entryName": "锦如园",
+      "enterpriseName": "合肥梁泽置业有限公司",
+      "region": "包河区",
+      "startTime": 1687417200000,
+      "endTime": 1687676400000,
+      "start": "2023-06-22 15:00:00",
+      "end": "2023-06-25 15:00:00",
+      "total": 68,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/U99oL4-ocnc1NCT-AFtaHQDW5bldZUSOe4TVN0mG3qsgyD3K1vM0Jut0EMayKTYL_mVfA22I92iZ0XVaEsdix3b4h4aVzfetGjo3a_x79Mglb7fAdhMjhHPBTpLhxLq4H4_zo0zpio-z1OtFS5oS2L1FtynILx2-Sp8WA7ZgujQ=",
+          "permit": "20230602,",
+          "name": "5幢"
+        }
+      ],
+      "telephone": [
+        "0551-66105555",
+        "",
+        "",
+        "",
+        "18655159173"
+      ],
+      "salesDepartmentAddress": "合肥市包河区祁门路与葛大店路交口"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/924",
+      "entryName": "云启华章花园",
+      "enterpriseName": "安徽怀信置业有限责任公司",
+      "region": "包河区",
+      "startTime": 1687417200000,
+      "endTime": 1687676400000,
+      "start": "2023-06-22 15:00:00",
+      "end": "2023-06-25 15:00:00",
+      "total": 96,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/RcN4te6X8Mr5YXoXHVK_tH5eh_ZiqkmlkQf2_KPe9kNnlZYdChJz0pqPAY-u03JECLT8ojFsTYsdP4AjXMPSoY2HjMmKRzcTHg_GZRrZV-Ed0iItkH21_OCLYGJPvVEMFQLlCAlbZ7hD44PdQPeXOA3I5Q81pAl90vQAwes2ahY=",
+          "permit": "20230563,",
+          "name": "9幢"
+        }
+      ],
+      "telephone": [
+        "0551-65279888",
+        "",
+        "18155104253"
+      ],
+      "salesDepartmentAddress": "繁华大道贡街对面明悦广场东侧"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/925",
       "entryName": "云启华章花园",
@@ -61,7 +163,7 @@
       "start": "2023-06-21 15:00:00",
       "end": "2023-06-25 15:00:00",
       "total": 97,
-      "registrationStatus": "暂未开始",
+      "registrationStatus": "正在登记",
       "building": [
         {
           "url": "http://www.hfzfzlw.com/spf/details/Qq_e5Muq5FHMv5Ead9t8y9Kw9so3mMHRR4D7mWVfXrZlcp16UrNW23Ie7vUtqokWQ-QGCS_xVE-tGz1BNFOZkF5OePaO1ZcknUNUoNnfc-VuUxnAjDIdZGN3Zdfe9SbgSSY34Q80YKsm49OPPWO2HqLK_eq70JYCw5Z8JoFlHv0=",
@@ -90,7 +192,7 @@
       "start": "2023-06-21 15:00:00",
       "end": "2023-06-25 15:00:00",
       "total": 68,
-      "registrationStatus": "暂未开始",
+      "registrationStatus": "正在登记",
       "building": [
         {
           "url": "http://www.hfzfzlw.com/spf/details/NUVSzcNxO9q8U2AmDMVv90OIr0GQNFdU5n8ZMAdOjQN5SkRQVedg1RnTKGRxmRkklk1ReaEMOnBsLCMsgqOKfcVUvIMoV-osaxm3WyhzaxPKNoLRt-yIh7TtlBwZyPFZNQfFoXBHIjAXevg-CTOTwMcvxCWV9Bxe2U8o05UB-j4=",
@@ -114,7 +216,7 @@
       "start": "2023-06-21 15:00:00",
       "end": "2023-06-26 15:00:00",
       "total": 104,
-      "registrationStatus": "暂未开始",
+      "registrationStatus": "正在登记",
       "building": [
         {
           "url": "http://www.hfzfzlw.com/spf/details/HJxCMdAANKBT8E1-1ESjhnZ7ybJQloNJ2sfmBUnTeIRcPm2K_6JOSdcxK8yZMMoG2RDD2lBPAsS9M63XQIeoXI641ysgZ7oU2HV5xeGACpgZ3OXh44xmcOXbOS-_GU6QbG-Ti3boZgBNF82IXCdqoWDOLUgDMyEy3cNlTBZJzUM=",
@@ -138,7 +240,7 @@
       "start": "2023-06-21 15:00:00",
       "end": "2023-06-25 15:00:00",
       "total": 204,
-      "registrationStatus": "暂未开始",
+      "registrationStatus": "正在登记",
       "building": [
         {
           "url": "http://www.hfzfzlw.com/spf/details/jysZ-ujWcu7atu_YwDv3lxzTVxbMfBjlyRtrlWfWupnZJAeBpt-ckHCpEisFOUFl2X1Ks4WroYaVqS_AtKcK1kKIoVXCiFfrOiZGA5zU5XpBdGZGiQVoa4fI4NWUBkUZPBXH4wZWCbc60a-OkH_rUPEUIwWgshBONXkiMBA_Qqc=",
