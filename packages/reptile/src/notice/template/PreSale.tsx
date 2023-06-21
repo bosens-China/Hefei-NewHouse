@@ -21,11 +21,11 @@ export const PreSale = ({ resultPreSale }: Pick<Props, 'resultPreSale'>) => {
               <p>区域：{value.region}</p>
               <>
                 <p style={{ marginBottom: '8px' }}>楼幢：</p>
-                <ul style={{ paddingTop: 0, paddingBottom: 0 }}>
+                <ul style={{ padding: 0 }}>
                   {licenseKey.map((item) => {
                     const obj = licenseKeyAll[item];
                     return (
-                      <li>
+                      <li style={{ listStyle: 'none' }}>
                         <a href={obj.url} style={{ color: '#000', textDecoration: 'revert' }}>
                           {item}
                         </a>

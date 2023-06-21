@@ -1,6 +1,6 @@
 import { type JSXInternal } from 'preact/src/jsx';
 import { Supply } from './Supply';
-import { Props } from './index';
+import { type Props } from './index';
 
 interface ListProps {
   title?: JSXInternal.Element;
@@ -26,7 +26,7 @@ export const List = ({ resultList, title = <h2>本次新增摇号项目：{resul
               </p>
               <p>总数：{item.total}</p>
               <p>登记状态：{item.registrationStatus}</p>
-              <p>
+              <p style={{ color: '#000' }}>
                 开始起止时间：{item.start} ~ {item.end}
               </p>
               <details>
