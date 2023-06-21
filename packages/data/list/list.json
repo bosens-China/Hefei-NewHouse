@@ -1,6 +1,56 @@
 {
-  "total": 804,
+  "total": 806,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/947",
+      "entryName": "君澜雅筑",
+      "enterpriseName": "合肥秀徽房地产开发有限公司",
+      "region": "包河区",
+      "startTime": 1687676400000,
+      "endTime": 1687935600000,
+      "start": "2023-06-25 15:00:00",
+      "end": "2023-06-28 15:00:00",
+      "total": 68,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/m6snQCrZwUBbpnaVnWb8EtiOnZecA8NdqKE9eFRdZwbSzbuGwhf_JktSt2m6w5jY9FX8r4jDDH4v8248ySmGoWgtzeYFNBwN033jqo74dgJS20nuAtVokQGdg2t-TWMRpb1-9WS67RLqSkC4gim1R8dKXHx6pw3G-mLtn72w6bY=",
+          "permit": "20230601,",
+          "name": "7幢"
+        }
+      ],
+      "telephone": [
+        "0551-62588000",
+        "",
+        "18755156156"
+      ],
+      "salesDepartmentAddress": "包河区潜口路与高铁路交口"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/925",
+      "entryName": "云启华章花园",
+      "enterpriseName": "安徽怀信置业有限责任公司",
+      "region": "包河区",
+      "startTime": 1687676400000,
+      "endTime": 1687935600000,
+      "start": "2023-06-25 15:00:00",
+      "end": "2023-06-28 15:00:00",
+      "total": 64,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/FLAaUwAi1Klb447OT4ZXx-1e2jBZ4Pp01EgJ_-HbdwZMXla2_uXc9Q2K8kw9tFv_b5AXxtn1DgdhR785S6RN0Sq5zb16_9eosfFeL-uXKAW75vJzFzbOCTQVC3-_o1XpxH2zmRutHpw_uAxkiVqd3VE3fZm12qHelkre_Bbct3I=",
+          "permit": "20230591,",
+          "name": "7幢"
+        }
+      ],
+      "telephone": [
+        "0551-65279888",
+        "",
+        "18155104253"
+      ],
+      "salesDepartmentAddress": "繁华大道贡街对面明悦广场东侧"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/947",
       "entryName": "君澜雅筑",

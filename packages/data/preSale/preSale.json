@@ -1,6 +1,202 @@
 {
-  "total": 21930,
+  "total": 21935,
   "current": [
+    {
+      "licenseKey": [
+        "20230605"
+      ],
+      "entryName": "青云轩",
+      "buildingNumber": [
+        "1幢"
+      ],
+      "permittedArea": [
+        "10388.41"
+      ],
+      "releaseDate": [
+        1687276800000
+      ],
+      "time": [
+        "2023-06-21"
+      ],
+      "type": "住宅",
+      "id": "2959",
+      "iptstamp": "1687338467624",
+      "licenseKeyAll": {
+        "20230605": {
+          "url": "http://www.hfzfzlw.com/spf/details/eLd2u_LHrqvjURjl8JtbXT5ln7EJN5An70EW53UUWYf5aNFl4yZ_E72fLYjQC9NaBwHtJuIjBAQcAtcHU8l9is3HLGLGWTVvXWDb8f803BdYycI8-0hfpsJuGqEads8U4WxdY09EJUyC47N1p6ngDnybE9DwKFUrYFZYS7-yBHA=",
+          "name": "1幢",
+          "numberOfResidences": 69,
+          "license": "20230605",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "24",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "2",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥卓乔房地产开发有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "16145.82㎡",
+      "mainSet": "",
+      "greeningRate": "42%",
+      "floorAreaRatio": "2.0%",
+      "numberOfHandChanges": "0",
+      "turnoverRate": "0",
+      "region": "滨湖区",
+      "projectAddress": "滨湖科学城上海路以东、迎淮路以北",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/9856-14840-9123-2394889634356"
+    },
+    {
+      "licenseKey": [
+        "20230610",
+        "20230608"
+      ],
+      "entryName": "朗拾里",
+      "buildingNumber": [
+        "G21幢",
+        "G8幢"
+      ],
+      "permittedArea": [
+        "6534.48",
+        "4893.96"
+      ],
+      "releaseDate": [
+        1687276800000,
+        1687276800000
+      ],
+      "time": [
+        "2023-06-21",
+        "2023-06-21"
+      ],
+      "type": "住宅",
+      "id": "2930",
+      "iptstamp": "1687338467624",
+      "licenseKeyAll": {
+        "20230608": {
+          "url": "http://www.hfzfzlw.com/spf/details/XssZY8aq1_NMxYSyZ0o5djv2i0ZG31Fel9Zs4Md8hEnk-AdP7_gJkDmn9guNVxKpdV-h21CpNEbjID5x_DvdtqNJp3Gme4iUPkm5fFQcWS-h-PZSNSYgUrKGYU3Ib-_y5R3apIJvvcdR_uDyxZ3QO1VHmBdzKJzthHFPuqrXLtk=",
+          "name": "G8幢",
+          "numberOfResidences": 34,
+          "license": "20230608",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "20230610": {
+          "url": "http://www.hfzfzlw.com/spf/details/APs1BVJMGA_RbeXQpHiKP9IWE2EYY45Uk3ogEv1WQojV2Gc7Up-mxUh0sLL_Ui4KWUK1e9pv6cJkkT8s2Z3uZu1b03v3hHp--EIe3tq6VnE0uj0B8gKE6bJ2lD__6o48zsm6cTvNFsbmomJzeuD59bUxcXp4lbNreht9gx628xE=",
+          "name": "G21幢",
+          "numberOfResidences": 68,
+          "license": "20230610",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥科辰地产有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "0㎡",
+      "mainSet": "",
+      "greeningRate": "0%",
+      "floorAreaRatio": "0%",
+      "numberOfHandChanges": "26",
+      "turnoverRate": "0.02",
+      "region": "包河区",
+      "projectAddress": "包河区历口路以西、太平湖路以南",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/1727-9759-3979-2394889634356"
+    },
+    {
+      "licenseKey": [
+        "20230604"
+      ],
+      "entryName": "繁华轩",
+      "buildingNumber": [
+        "2幢"
+      ],
+      "permittedArea": [
+        "4141.73"
+      ],
+      "releaseDate": [
+        1687276800000
+      ],
+      "time": [
+        "2023-06-21"
+      ],
+      "type": "住宅",
+      "id": "2891",
+      "iptstamp": "1687338467624",
+      "licenseKeyAll": {
+        "20230604": {
+          "url": "http://www.hfzfzlw.com/spf/details/FxRU52a7WKVfemHbsqGu3JWBTwIMqdCA13cIduOiNpXGdJDPhernehhB-CC80gkZgWG9IeMQM019Ail-FCkm8Z4DzBCzXdhszTRTG26A8F0m5zjNQq55Bob41DtsAOGeqMZETIpt1lhrJBOwdK6-a4strtchVNlgXdKzy8aO4K0=",
+          "name": "2幢",
+          "numberOfResidences": 41,
+          "license": "20230604",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥市瑶海区文一地产有限公司",
+      "propertyManagementCompany": "安徽省文一智慧社区服务有限公司",
+      "floorArea": "23960.52㎡",
+      "mainSet": "一室一厅",
+      "greeningRate": "40%",
+      "floorAreaRatio": "1.6%",
+      "numberOfHandChanges": "15",
+      "turnoverRate": "0.04",
+      "region": "瑶海区",
+      "projectAddress": "合肥市瑶海区临泉东路与通达路交口向北300米",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/6958-6112-0140-2394889634356"
+    },
+    {
+      "licenseKey": [
+        "20230611"
+      ],
+      "entryName": "臻和园",
+      "buildingNumber": [
+        "5幢"
+      ],
+      "permittedArea": [
+        "9728.21"
+      ],
+      "releaseDate": [
+        1687276800000
+      ],
+      "time": [
+        "2023-06-21"
+      ],
+      "type": "住宅",
+      "id": "2925",
+      "iptstamp": "1687338467624",
+      "licenseKeyAll": {
+        "20230611": {
+          "url": "http://www.hfzfzlw.com/spf/details/Ao6gqo-1wC0UWYBnk7pcINKr-FBKFKVpxL6B3uKBrFJgST4R4uX8Rw1DVw6zot8pq7R3yiUBgVL72WW_kjLqocMdPCuupHy2FSFEx4FbKGw_FNNU8IhB2HYdjGqp8THz0JTndGvcteSzNPB12G7RlmPw0WULqSYKKJQqLxiTVhM=",
+          "name": "5幢",
+          "numberOfResidences": 68,
+          "license": "20230611",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "2",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥朗盛房地产开发有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "0㎡",
+      "mainSet": "",
+      "greeningRate": "0%",
+      "floorAreaRatio": "0%",
+      "numberOfHandChanges": "5",
+      "turnoverRate": "0.01",
+      "region": "包河区",
+      "projectAddress": "包河区南二环与关麓路交口东南角",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/8313-10823-5072-2394889634356"
+    },
     {
       "licenseKey": [
         "20230610",
