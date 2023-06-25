@@ -1,6 +1,51 @@
 {
-  "total": 21937,
+  "total": 21938,
   "current": [
+    {
+      "licenseKey": [
+        "20230617"
+      ],
+      "entryName": "湖光秋色花园",
+      "buildingNumber": [
+        "2幢"
+      ],
+      "permittedArea": [
+        "3977.6"
+      ],
+      "releaseDate": [
+        1687622400000
+      ],
+      "time": [
+        "2023-06-25"
+      ],
+      "type": "住宅",
+      "id": "2810",
+      "iptstamp": "1687684063673",
+      "licenseKeyAll": {
+        "20230617": {
+          "url": "http://www.hfzfzlw.com/spf/details/e1UTMxrUKsh3-uEB1x6InX_AQMWKUFaNPwzb2lS83w_V1V1nf3syh2JFlgk9LNJq-bFK1-8P91PEnSdXEZxMPlcP7qLhlvnSv2bY3wKW5Yz8oZetVDbeJ4daGlEIl2QuII0kB3P2yQmuSdSF7dQ1COZ8Of3shOet-5IeLT_x0dk=",
+          "name": "2幢",
+          "numberOfResidences": 32,
+          "license": "20230617",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥瀚嘉房地产开发有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "0㎡",
+      "mainSet": "",
+      "greeningRate": "40.01%",
+      "floorAreaRatio": "1.8%",
+      "numberOfHandChanges": "10",
+      "turnoverRate": "0.01",
+      "region": "新站区",
+      "projectAddress": "新站区魏武路与文忠路交口西300米路南",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/6237-10717-4797-2394396038348"
+    },
     {
       "licenseKey": [
         "20230617"
