@@ -1,4 +1,172 @@
 {
-  "total": 21938,
-  "current": []
+  "total": 21944,
+  "current": [
+    {
+      "licenseKey": [
+        "20230622",
+        "20230623",
+        "20230621"
+      ],
+      "entryName": "山湖云筑",
+      "buildingNumber": [
+        "A地块3幢",
+        "C地块2幢",
+        "A地块4幢"
+      ],
+      "permittedArea": [
+        "1743.14",
+        "5641.2",
+        "1741.18"
+      ],
+      "releaseDate": [
+        1687708800000,
+        1687708800000,
+        1687708800000
+      ],
+      "time": [
+        "2023-06-26",
+        "2023-06-26",
+        "2023-06-26"
+      ],
+      "type": "住宅",
+      "id": "2862",
+      "iptstamp": "1687781713210",
+      "licenseKeyAll": {
+        "20230621": {
+          "url": "http://www.hfzfzlw.com/spf/details/TysRJ2C3iCctm91giq8HZ3qxwKL6bHo9B7nkPmczXEpfu_47OyAsDRp1MCvNpTHfUVe9lb9eurRAPZeBrC5LEFrJkj3VKsY7GZGRgU91uz6La71SilPVbwbdgpjmqZpOFCoys9Boflmm9JiKegoA77t76AkjDjjHqilMqJcSkEA=",
+          "name": "A地块4幢",
+          "numberOfResidences": 14,
+          "license": "20230621",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "7",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "20230622": {
+          "url": "http://www.hfzfzlw.com/spf/details/Bq6ws5mabX4aeC8rHHVj8EqLeELZeySvDpjBufnheDjvp0PUwJ3rQwHbXj8dvARJJk8B_CRT3mQoabveHvQH2c2MvDwm5X6C7SmCMjtnceu_kBYKTQZhDTmFwi1he_uMJsBIXAU0K5PNhu1oA6dHv_uIpYQeDUeR3GiCQ-5KN1o=",
+          "name": "A地块3幢",
+          "numberOfResidences": 14,
+          "license": "20230622",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "7",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "20230623": {
+          "url": "http://www.hfzfzlw.com/spf/details/gVy8e5Q5Kq4wvN-EtuIm3P1FrxA83Dh-tJdS0a1kMWa5mdKNAfgqYyFeuUqa26otg3GRylSPOhOl890eG4Tz5vG0f5Keirjrant_YkXH5kdyATINqNJmlGU5LH07yE6slVq6dGE-5U3IEikneUaYoJDQj-Lbbue65XyAr_foVbk=",
+          "name": "C地块2幢",
+          "numberOfResidences": 52,
+          "license": "20230623",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "18",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥金中京湖房地产开发有限公司",
+      "propertyManagementCompany": "北京金隅物业管理有限责任公司",
+      "floorArea": "75609.86㎡",
+      "mainSet": "120-135",
+      "greeningRate": "40%",
+      "floorAreaRatio": "1.8%",
+      "numberOfHandChanges": "26",
+      "turnoverRate": "0.01",
+      "region": "蜀山区",
+      "projectAddress": "蜀山区樊洼路以南，社岗路以西",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/5976-14929-8994-2394492428520"
+    },
+    {
+      "licenseKey": [
+        "20230620"
+      ],
+      "entryName": "云启锦悦花园",
+      "buildingNumber": [
+        "1幢"
+      ],
+      "permittedArea": [
+        "7212"
+      ],
+      "releaseDate": [
+        1687708800000
+      ],
+      "time": [
+        "2023-06-26"
+      ],
+      "type": "住宅",
+      "id": "2923",
+      "iptstamp": "1687781713210",
+      "licenseKeyAll": {
+        "20230620": {
+          "url": "http://www.hfzfzlw.com/spf/details/cQW09yCPGnKY0WuxmNszTQCFHsd-gClRK6Yq7V7CR0FjIRaZrQsrIfdDPEFwAYArkrd2g6lpzmhePHkUq1bta2sX32i0nzIBQg0SWS6ginLp1-973aTcSwoOrOm1zqOT5XMmEaoxjNHEKyufnWzoku_IOI_i9oQkAu3Gzmk_nMY=",
+          "name": "1幢",
+          "numberOfResidences": 60,
+          "license": "20230620",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "15",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "安徽启信置业有限责任公司",
+      "propertyManagementCompany": "",
+      "floorArea": "0㎡",
+      "mainSet": "",
+      "greeningRate": "0%",
+      "floorAreaRatio": "0%",
+      "numberOfHandChanges": "0",
+      "turnoverRate": "0",
+      "region": "经济区",
+      "projectAddress": "经开区佛掌路以东、石门路以北",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/2744-9739-3981-2394492428520"
+    },
+    {
+      "licenseKey": [
+        "20230624"
+      ],
+      "entryName": "璟园",
+      "buildingNumber": [
+        "2-G6幢"
+      ],
+      "permittedArea": [
+        "9655.04"
+      ],
+      "releaseDate": [
+        1687708800000
+      ],
+      "time": [
+        "2023-06-26"
+      ],
+      "type": "住宅",
+      "id": "2912",
+      "iptstamp": "1687781713210",
+      "licenseKeyAll": {
+        "20230624": {
+          "url": "http://www.hfzfzlw.com/spf/details/KozUDhH2e0uGJ7kAsTJwpL2rFi0kkUmwKBO5p6pufZqPeG7UMmLdYIOvOt4FGKNMJQ19NP33ZaEiupa4IG5oUBWCiXdgAc-Rsjpt5r9h_yviWsJ6ldyWGYM-W-gUnoMWun5_UCvLq0nMtfdBzpSm09QvGPVxS_lnJYeXfQWsg28=",
+          "name": "2-G6幢",
+          "numberOfResidences": 68,
+          "license": "20230624",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥启盛房地产开发有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "0㎡",
+      "mainSet": "",
+      "greeningRate": "0%",
+      "floorAreaRatio": "0%",
+      "numberOfHandChanges": "29",
+      "turnoverRate": "0.01",
+      "region": "经济区",
+      "projectAddress": "天都路和芙蓉路交口",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/4172-14838-9113-2394492428520"
+    }
+  ]
 }
