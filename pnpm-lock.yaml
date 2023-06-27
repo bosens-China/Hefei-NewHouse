@@ -1227,7 +1227,7 @@ packages:
       webpack: ^4.40.0 || ^5.0.0
     dependencies:
       esbuild: 0.17.19
-      get-tsconfig: 4.6.0
+      get-tsconfig: 4.6.2
       loader-utils: 2.0.4
       webpack: 5.88.0_2hn7vho22rhjehqsqmz7nlusea
       webpack-sources: 1.4.3
@@ -1725,8 +1725,8 @@ packages:
       get-intrinsic: 1.2.1
     dev: true
 
-  /get-tsconfig/4.6.0:
-    resolution: {integrity: sha512-lgbo68hHTQnFddybKbbs/RDRJnJT5YyGy2kQzVwbq+g67X73i+5MVTval34QxGkOe9X5Ujf1UYpCaphLyltjEg==}
+  /get-tsconfig/4.6.2:
+    resolution: {integrity: sha512-E5XrT4CbbXcXWy+1jChlZmrmCwd5KGx502kDCXJJ7y898TtWW9FwoG5HfOLVRKmlmDGkWN2HM9Ho+/Y8F0sJDg==}
     dependencies:
       resolve-pkg-maps: 1.0.0
     dev: true
