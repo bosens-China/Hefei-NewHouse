@@ -57,7 +57,7 @@ importers:
       preact-render-to-string: ^6.1.0
       raw-loader: ^4.0.2
       run-node-webpack-plugin: ^1.3.0
-      typescript: ^5.1.3
+      typescript: ^5.1.5
       webpack: ^5.88.0
       webpack-cli: ^5.1.4
       webpack-node-externals: ^3.0.0
@@ -79,7 +79,7 @@ importers:
       nodemailer: 6.9.3
       raw-loader: 4.0.2_webpack@5.88.0
       run-node-webpack-plugin: 1.3.0_webpack@5.88.0
-      typescript: 5.1.3
+      typescript: 5.1.5
       webpack: 5.88.0_2hn7vho22rhjehqsqmz7nlusea
       webpack-cli: 5.1.4_webpack@5.88.0
       webpack-node-externals: 3.0.0
@@ -894,7 +894,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001508
-      electron-to-chromium: 1.4.441
+      electron-to-chromium: 1.4.442
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11_browserslist@4.21.9
     dev: true
@@ -1125,8 +1125,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /electron-to-chromium/1.4.441:
-    resolution: {integrity: sha512-LlCgQ8zgYZPymf5H4aE9itwiIWH4YlCiv1HFLmmcBeFYi5E+3eaIFnjHzYtcFQbaKfAW+CqZ9pgxo33DZuoqPg==}
+  /electron-to-chromium/1.4.442:
+    resolution: {integrity: sha512-RkrZF//Ya+0aJq2NM3OdisNh5ZodZq1rdXOS96G8DdDgpDKqKE81yTbbQ3F/4CKm1JBPsGu1Lp/akkna2xO06Q==}
     dev: true
 
   /emojis-list/3.0.0:
@@ -2671,12 +2671,12 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
-      terser: 5.18.1
+      terser: 5.18.2
       webpack: 5.88.0_2hn7vho22rhjehqsqmz7nlusea
     dev: true
 
-  /terser/5.18.1:
-    resolution: {integrity: sha512-j1n0Ao919h/Ai5r43VAnfV/7azUYW43GPxK7qSATzrsERfW7+y2QW9Cp9ufnRF5CQUWbnLSo7UJokSWCqg4tsQ==}
+  /terser/5.18.2:
+    resolution: {integrity: sha512-Ah19JS86ypbJzTzvUCX7KOsEIhDaRONungA4aYBjEP3JZRf4ocuDzTg4QWZnPn9DEMiMYGJPiSOy7aykoCc70w==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -2746,8 +2746,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript/5.1.3:
-    resolution: {integrity: sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==}
+  /typescript/5.1.5:
+    resolution: {integrity: sha512-FOH+WN/DQjUvN6WgW+c4Ml3yi0PH+a/8q+kNIfRehv1wLhWONedw85iu+vQ39Wp49IzTJEsZ2lyLXpBF7mkF1g==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
