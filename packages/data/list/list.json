@@ -72,35 +72,6 @@
         "15551187995"
       ],
       "salesDepartmentAddress": "合肥市经开区莲花路与石门路交汇处皖投云启锦上/锦悦营销中心"
-    },
-    {
-      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/951",
-      "entryName": "臻樾府",
-      "enterpriseName": "安徽腾瑞置业有限公司",
-      "region": "庐阳区",
-      "startTime": 1687856400000,
-      "endTime": 1688115600000,
-      "start": "2023-06-27 17:00:00",
-      "end": "2023-06-30 17:00:00",
-      "total": 80,
-      "registrationStatus": "正在登记",
-      "building": [
-        {
-          "url": "http://www.hfzfzlw.com/spf/details/T8Ybe2h8Cfs60pmBFjIOmrYmArJtpK8kmzAs7i_wVM8kfKbEITL4aJJj_pNxP5OyEMNIZmvEOd84UdeZeweKjP6smYjtsvpO3T1hv2x5XM_wD3frLxqEt7U_sFMpvr5FlLyLddSROySanN2i_OMPFHTjuK6sIbrZZcIUlIWrLsM=",
-          "permit": "20230625,",
-          "name": "10幢"
-        },
-        {
-          "url": "http://www.hfzfzlw.com/spf/details/CL_ys_fplKQHS0KlbNImLV52eZ3QOBnLUsl6yfQQ4Kjicc38-w2JsVTe6Io-8O7Euhdx9hga80EMk0GtgKM6fFMZgEp59TARbJ2T8I2suratcdYvBgSu3vxvbnH8WluyiIWZca4dWlwB3z2rtUn4z3FrjZnWDI4Jev4rtLLjO5g=",
-          "permit": "20230626,",
-          "name": "12幢"
-        }
-      ],
-      "telephone": [
-        "0551-65899999",
-        "17755117656"
-      ],
-      "salesDepartmentAddress": "合肥市庐阳区八公山路与兴杨路交口兴港和昌湖畔天樾营销中心"
     }
   ]
 }
