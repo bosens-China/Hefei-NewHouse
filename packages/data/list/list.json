@@ -1,6 +1,54 @@
 {
-  "total": 813,
+  "total": 815,
   "current": [
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/966",
+      "entryName": "云启锦上花园",
+      "enterpriseName": "安徽启信置业有限责任公司",
+      "region": "经济区",
+      "startTime": 1688108400000,
+      "endTime": 1688367600000,
+      "start": "2023-06-30 15:00:00",
+      "end": "2023-07-03 15:00:00",
+      "total": 92,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/jyafnyUAbVok_hKJSAQ741HyN6eaJAB7YQX_uVkON8NG-vt3ul4W-dVIRvxSi8glM_oCY0JMaVWqzhXsG4NI7Xrtc8mBVjJoLPe3X5c0K2AGumoolD1kn9Ukn2SyeslmcN3sud6E2oI2yXZY4Qhec7pkB08tW4-Crgiwo4PbMwk=",
+          "permit": "20230630,",
+          "name": "6幢"
+        }
+      ],
+      "telephone": [
+        "0551-64908888",
+        "15551187995"
+      ],
+      "salesDepartmentAddress": "合肥市经开区莲花路与石门路交汇处皖投云启锦上/锦悦营销中心"
+    },
+    {
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/964",
+      "entryName": "云启锦悦花园",
+      "enterpriseName": "安徽启信置业有限责任公司",
+      "region": "经济区",
+      "startTime": 1688108400000,
+      "endTime": 1688367600000,
+      "start": "2023-06-30 15:00:00",
+      "end": "2023-07-03 15:00:00",
+      "total": 60,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Pnzs7Ag_ww-J_-uXgwdgAGyD7ER6UFZw6hipZ5eYWoGrL_-dN4WESQjWwh5T-RTTsBbQ0nNSsuK_SZI_yAIG12bYnDsU0-s8HlLxvXJD1DyBIskP_pYp0yoCMoUvwLe8G3wsZdd5op4mjO_fLU3PzYxr4GkKymFxk2atkJ0mAWY=",
+          "permit": "20230620,",
+          "name": "1幢"
+        }
+      ],
+      "telephone": [
+        "0551-64908888",
+        "15551187995"
+      ],
+      "salesDepartmentAddress": "合肥市经开区莲花路与石门路交汇处皖投云启锦上/锦悦营销中心"
+    },
     {
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/951",
       "entryName": "臻樾府",
@@ -87,30 +135,6 @@
         "15656562757"
       ],
       "salesDepartmentAddress": "合肥市新站区魏武路与文忠路交口西300米湖光秋色花园营销中心"
-    },
-    {
-      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/953",
-      "entryName": "璟园",
-      "enterpriseName": "合肥启盛房地产开发有限公司",
-      "region": "经济区",
-      "startTime": 1687780800000,
-      "endTime": 1688040000000,
-      "start": "2023-06-26 20:00:00",
-      "end": "2023-06-29 20:00:00",
-      "total": 68,
-      "registrationStatus": "正在登记",
-      "building": [
-        {
-          "url": "http://www.hfzfzlw.com/spf/details/Z65JrwCxwgK-uGpV0zbo0V41Jml8dG9IbhPBxRDMIjx9kpSFX2uvHeRw6iCInzrN9__mBYX-Wx301VZ_wqo3zu5F3LT3PUdLsYx0miCYsFcsebnxSfCFVHR3g-h_LTcjq0M8hjFOA1nMwwOIg3WfmINF7qX2nAjHEElOqSK8FKY=",
-          "permit": "20230624,",
-          "name": "2-G6幢"
-        }
-      ],
-      "telephone": [
-        "0551-63889777",
-        "15556908742"
-      ],
-      "salesDepartmentAddress": "合肥市经开区芙蓉路与天都路交口东北角璟园营销中心"
     }
   ]
 }

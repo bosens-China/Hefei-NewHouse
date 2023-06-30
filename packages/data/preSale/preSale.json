@@ -1,95 +1,50 @@
 {
-  "total": 21951,
+  "total": 21953,
   "current": [
     {
       "licenseKey": [
-        "20230630"
+        "20230655"
       ],
-      "entryName": "云启锦上花园",
+      "entryName": "悦璟轩",
       "buildingNumber": [
-        "6幢"
+        "G12幢"
       ],
       "permittedArea": [
-        "9997.41"
+        "10728.96"
       ],
       "releaseDate": [
-        1687968000000
+        1688054400000
       ],
       "time": [
-        "2023-06-29"
+        "2023-06-30"
       ],
       "type": "住宅",
-      "id": "2942",
-      "iptstamp": "1688029715453",
+      "id": "2917",
+      "iptstamp": "1688094844660",
       "licenseKeyAll": {
-        "20230630": {
-          "url": "http://www.hfzfzlw.com/spf/details/VGCm9e01bZRcQiYL5a5yNkP5a3kOZLgyNZQOVjWlY6NltlswBxTxWzHPvduTqSurJJVBvSCPq4gGLxvy6TgQzmIOQEWS3C6KOE-EmjSUE8FRd4WUkONo0x0hFVSY-54kUx0r9gOHpTzUdHz11lMvsYSMGjnlgnC3-zEAbtBQ4SY=",
-          "name": "6幢",
-          "numberOfResidences": 92,
-          "license": "20230630",
+        "20230655": {
+          "url": "http://www.hfzfzlw.com/spf/details/XWW1foRmhf2DMw1oxuSt7zK-DCj1BT-9MnsZULOr6gqFeD9xWudP4mzoG5BjfqZZDuUdSzfSaJzzWA2xIIuKuT0h3buhzm9uUeiNSjlXQGZNjv1p4wfBUpp-NmDWRHNfFcFXP4tze_lrFT_3TSfl0s0D6Bo5nYFvsSCCgR867vo=",
+          "name": "G12幢",
+          "numberOfResidences": 96,
+          "license": "20230655",
           "commercialQuantity": 0,
-          "numberOfFloorsUpstairs": "23",
+          "numberOfFloorsUpstairs": "25",
           "numberOfOffices": 0,
           "numberOfUndergroundFloors": "1",
           "otherQuantities": 0
         }
       },
-      "developer": "安徽启信置业有限责任公司",
+      "developer": "合肥和汇房地产开发有限公司",
       "propertyManagementCompany": "",
       "floorArea": "0㎡",
-      "mainSet": "",
-      "greeningRate": "0%",
-      "floorAreaRatio": "0%",
-      "numberOfHandChanges": "1",
-      "turnoverRate": "0",
-      "region": "经济区",
-      "projectAddress": "经开区莲花路以东、石门路以北",
-      "detailsUrl": "http://www.hfzfzlw.com/spf/item/2020-9875-4110-2399057421618"
-    },
-    {
-      "licenseKey": [
-        "20230630"
-      ],
-      "entryName": "云启锦上花园",
-      "buildingNumber": [
-        "6幢"
-      ],
-      "permittedArea": [
-        "9997.41"
-      ],
-      "releaseDate": [
-        1687968000000
-      ],
-      "time": [
-        "2023-06-29"
-      ],
-      "type": "住宅",
-      "id": "2942",
-      "iptstamp": "1688022461560",
-      "licenseKeyAll": {
-        "20230630": {
-          "url": "http://www.hfzfzlw.com/spf/details/OwKwbwcrQel_PnE4x1qKoxXLZF7k7m7MSObVg1p7s6Eydcd3Rhp6TlKSA4yElJ7Tvcox8a4TarP8v1LhtKC7pT57IIei5fmQrhTlLYS4v1txs0LMKXYJXQ2eb3uMuhEY4_Vig6CJyJavMWK4eFfZs1kfqnAOmAlQ9l_odB78RzI=",
-          "name": "6幢",
-          "numberOfResidences": 92,
-          "license": "20230630",
-          "commercialQuantity": 0,
-          "numberOfFloorsUpstairs": "23",
-          "numberOfOffices": 0,
-          "numberOfUndergroundFloors": "1",
-          "otherQuantities": 0
-        }
-      },
-      "developer": "安徽启信置业有限责任公司",
-      "propertyManagementCompany": "",
-      "floorArea": "0㎡",
-      "mainSet": "",
-      "greeningRate": "0%",
-      "floorAreaRatio": "0%",
-      "numberOfHandChanges": "1",
-      "turnoverRate": "0",
-      "region": "经济区",
-      "projectAddress": "经开区莲花路以东、石门路以北",
-      "detailsUrl": "http://www.hfzfzlw.com/spf/item/3694-7037-1272-2399055632130"
+      "mainSet": "109㎡3房2厅2卫；125㎡4房2厅2卫；128㎡4房2厅2卫；107㎡3房2",
+      "greeningRate": "42.01%",
+      "floorAreaRatio": "2.3%",
+      "numberOfHandChanges": "11",
+      "turnoverRate": "0.01",
+      "region": "包河区",
+      "projectAddress": "安徽省合肥市包河区牯牛降路以南上海路以西",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/7686-8879-3155-2399076966330"
     }
   ]
 }
