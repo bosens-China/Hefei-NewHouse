@@ -18,6 +18,7 @@ export interface DetailsProps {
 }
 
 export interface ListProps {
+  id: string;
   url: string;
   entryName: string;
   // building: string[];
@@ -33,17 +34,17 @@ export interface ListProps {
 
 export type List = ListProps & DetailsProps;
 
+// 数据库结构
 export interface ListData {
-  total: number;
-  current: List[];
+  total?: number;
+  // 新增值
+  newValueAdded?: List[];
+  // 上一次值
+  lastValue?: List[];
 }
 
 const currentDirname = dirname(fileURLToPath(import.meta.url));
 const file = join(currentDirname, 'list.json');
 
-const defaultData: ListData = {
-  total: 0,
-  current: [],
-};
 const adapter = new JSONFileSync<ListData>(file);
-export const listDb = new LowSync<ListData>(adapter, defaultData);
+export const listDb = new LowSync<ListData>(adapter, {});

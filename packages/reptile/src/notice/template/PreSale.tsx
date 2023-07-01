@@ -27,7 +27,7 @@ export const PreSale = ({ resultPreSale }: Pick<Props, 'resultPreSale'>) => {
                     return (
                       <li style={{ listStyle: 'none' }}>
                         <a href={obj.url} style={{ color: '#000', textDecoration: 'revert' }}>
-                          {item}
+                          {obj.name}
                         </a>
                         <span class="mr-12">
                           地上层数：{obj.numberOfFloorsUpstairs}，地下层数：

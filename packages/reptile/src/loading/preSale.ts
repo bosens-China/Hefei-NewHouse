@@ -7,7 +7,10 @@ import { preSaleDb } from '@new-house/data/preSale';
 export const loadingPreSale = async () => {
   preSaleDb.read();
   const { values, total } = await getPreSale();
-  const { total: currentTotal = 0, current = [] } = preSaleDb.data;
+  const { total: currentTotal = 0, newValueAdded = [], lastValue = [] } = preSaleDb.data;
+  const lastAllData = [...newValueAdded, ...lastValue];
+  const lastSetId = lastAllData.map((f) => f.id);
+
   let page = 1;
   if (currentTotal) {
     page = Math.ceil((total - currentTotal) / NUMBER_OF_PRE_SALE_COLUMNS) + 1;
@@ -21,7 +24,9 @@ export const loadingPreSale = async () => {
   // 只返回今天和之后的
   const result = mergeArrays(
     await Promise.all(
-      (currentTotal ? values.slice(0, total - currentTotal) : values)
+      values
+        // 过滤掉已经发送的id
+        .filter((f) => !lastSetId.includes(f.id))
         .filter((f) => {
           return dayjs().isSameOrBefore(dayjs(f.releaseDate), 'D');
         })
@@ -30,13 +35,11 @@ export const loadingPreSale = async () => {
         }),
     ),
   );
-  // 过滤掉过期的预售许可证
-  const realResults = [...result, ...current].filter((f) => {
+  preSaleDb.data.total = total;
+  preSaleDb.data.lastValue = lastAllData.filter((f) => {
     return f.releaseDate.some((f) => dayjs().isSameOrBefore(dayjs(f), 'D'));
   });
-
-  preSaleDb.data.total = total;
-  preSaleDb.data.current = realResults;
+  preSaleDb.data.newValueAdded = result;
   preSaleDb.write();
 
   return result;

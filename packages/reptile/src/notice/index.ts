@@ -43,7 +43,15 @@ export const notice = async ({
 
   const allMailboxs = MAILBOX;
   const sentEmails: string[] = [];
-  for (const { mailbox, monitoringArea, exclusionZone, deadline, trialDeadline, _superuser } of allMailboxs) {
+  for (const {
+    mailbox,
+    monitoringArea,
+    exclusionZone,
+    deadline,
+    trialDeadline,
+    _superuser,
+    disableAllListDisplays,
+  } of allMailboxs) {
     // 开发环境下，只测试有 _superuser标识的用户
     if (!process.env.GITHUB_TOKEN && !_superuser) {
       continue;
@@ -104,6 +112,7 @@ export const notice = async ({
     );
 
     const values: TemplateProps = {
+      disableAllListDisplays,
       residueList,
       resultPreSale,
       currentTime: dayjs().format('YYYY-MM-DD HH:mm:ss'),

@@ -30,7 +30,9 @@ export interface MailboxProps {
   // 试用截止日期
   trialDeadline?: string;
   // 是否超级用户
-  _superuser: boolean;
+  _superuser?: boolean;
+  // 禁用全部摇号列表展示
+  disableAllListDisplays?: boolean;
 }
 
 export type MailboxData = Array<MailboxProps>;

@@ -20,6 +20,7 @@ const analysis = (html: string): ListProps[] => {
         const value = $(item).text().trim();
         switch (index) {
           case 0:
+            obj.id = $(item).find('span').text().trim();
             obj.url = `${BASE_URL}${a.attr('href') ?? ''}`;
             obj.entryName = a.text().trim();
             return;

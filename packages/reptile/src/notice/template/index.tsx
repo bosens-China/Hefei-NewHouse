@@ -14,6 +14,7 @@ export interface Props {
   residueList: ListData[];
   currentTime: string;
   remind: Pick<MailboxProps, 'deadline' | 'trialDeadline'>;
+  disableAllListDisplays?: boolean;
 }
 
 const App = (props: Props) => {
@@ -21,7 +22,9 @@ const App = (props: Props) => {
     <>
       <PreSale resultPreSale={props.resultPreSale}></PreSale>
       <List resultList={props.resultList}></List>
-      <List resultList={props.residueList} title={<h2>其他正在摇号项目（{props.residueList.length}个）：</h2>}></List>
+      {props.disableAllListDisplays && (
+        <List resultList={props.residueList} title={<h2>其他正在摇号项目（{props.residueList.length}个）：</h2>}></List>
+      )}
       <Remind remind={props.remind}></Remind>
       <p>本次爬取时间：{props.currentTime}</p>
       <style>{style}</style>

@@ -81,17 +81,17 @@ export type PreSaleValues = Omit<PreSaleResult, Arr> & {
   [K in keyof Pick<PreSaleResult, Arr>]: Array<PreSaleResult[K]>;
 };
 
+// 数据库结构
 export interface PreSaleData {
-  current: PreSaleValues[];
-  total: number;
+  total?: number;
+  // 新增值
+  newValueAdded?: PreSaleValues[];
+  // 上一次值
+  lastValue?: PreSaleValues[];
 }
 
 const currentDirname = dirname(fileURLToPath(import.meta.url));
 const file = join(currentDirname, 'preSale.json');
 
-const defaultData: PreSaleData = {
-  current: [],
-  total: 0,
-};
 const adapter = new JSONFileSync<PreSaleData>(file);
-export const preSaleDb = new LowSync<PreSaleData>(adapter, defaultData);
+export const preSaleDb = new LowSync<PreSaleData>(adapter, {});
