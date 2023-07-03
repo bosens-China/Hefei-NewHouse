@@ -1,7 +1,6 @@
 {
   "total": 21957,
-  "lastValue": [],
-  "newValueAdded": [
+  "lastValue": [
     {
       "licenseKey": [
         "20230666"
@@ -47,5 +46,6 @@
       "projectAddress": "合肥市新站区铜陵北路与项王东路交口东北角",
       "detailsUrl": "http://www.hfzfzlw.com/spf/item/7331-6692-0762-2399841842760"
     }
-  ]
+  ],
+  "newValueAdded": []
 }

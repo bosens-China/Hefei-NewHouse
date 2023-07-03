@@ -1,5 +1,31 @@
 {
-  "total": 816,
+  "total": 817,
   "lastValue": [],
-  "newValueAdded": []
+  "newValueAdded": [
+    {
+      "id": "2306047",
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/967",
+      "entryName": "璟悦湾",
+      "enterpriseName": "合肥卓盛房地产开发有限公司",
+      "region": "新站区",
+      "startTime": 1688454000000,
+      "endTime": 1688713200000,
+      "start": "2023-07-04 15:00:00",
+      "end": "2023-07-07 15:00:00",
+      "total": 60,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/W4V8mLu7CuFnlhA0LY6Ve_mOlF95pzZyKlIDPN2xxcqwxT4kglO_TnJdiiWO0Ugkoh8-0tC20VTZyaLub_cQa4d6q9xI_WSv_AMosRETjiGNJcus_q44UgfuUIt8GHXqR1foxJ4D1gPrxIsGTAiqYeZHOCo8Ly3TBxiLhoqYcvw=",
+          "permit": "20230666,",
+          "name": "XG6幢"
+        }
+      ],
+      "telephone": [
+        "0551-65559888",
+        "18712413099"
+      ],
+      "salesDepartmentAddress": "新站区东方大道以南、卧龙湖路以西招商奥体公园营销中心"
+    }
+  ]
 }
