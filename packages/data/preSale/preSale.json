@@ -1,51 +1,5 @@
 {
   "total": 21957,
-  "lastValue": [
-    {
-      "licenseKey": [
-        "20230666"
-      ],
-      "entryName": "璟悦湾",
-      "buildingNumber": [
-        "XG6幢"
-      ],
-      "permittedArea": [
-        "6444.3"
-      ],
-      "releaseDate": [
-        1688313600000
-      ],
-      "time": [
-        "2023-07-03"
-      ],
-      "type": "住宅",
-      "id": "2860",
-      "iptstamp": "1688375371940",
-      "licenseKeyAll": {
-        "20230666": {
-          "url": "http://www.hfzfzlw.com/spf/details/UUWsrWyYiXREUP5vvWNaFYKj45OVftM-KaV3YuDlLDt8Q487vIJftDq--ncdkGSHC1yv2chKyTI4d67qlBT-IuzMuzmUqyJSHtIL5V7BeZn-xRoPlLRIQK9JaDQWVkjcfcIvXqTtkcM-uP4_PjoCQpUw8GyD_-0pEfBPucGci2U=",
-          "name": "XG6幢",
-          "numberOfResidences": 60,
-          "license": "20230666",
-          "commercialQuantity": 0,
-          "numberOfFloorsUpstairs": "16",
-          "numberOfOffices": 0,
-          "numberOfUndergroundFloors": "1",
-          "otherQuantities": 0
-        }
-      },
-      "developer": "合肥卓盛房地产开发有限公司",
-      "propertyManagementCompany": "",
-      "floorArea": "0㎡",
-      "mainSet": "",
-      "greeningRate": "0%",
-      "floorAreaRatio": "0%",
-      "numberOfHandChanges": "26",
-      "turnoverRate": "0.01",
-      "region": "新站区",
-      "projectAddress": "合肥市新站区铜陵北路与项王东路交口东北角",
-      "detailsUrl": "http://www.hfzfzlw.com/spf/item/7331-6692-0762-2399841842760"
-    }
-  ],
+  "lastValue": [],
   "newValueAdded": []
 }

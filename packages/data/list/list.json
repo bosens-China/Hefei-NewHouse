@@ -1,7 +1,6 @@
 {
-  "total": 817,
-  "lastValue": [],
-  "newValueAdded": [
+  "total": 818,
+  "lastValue": [
     {
       "id": "2306047",
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/967",
@@ -13,7 +12,7 @@
       "start": "2023-07-04 15:00:00",
       "end": "2023-07-07 15:00:00",
       "total": 60,
-      "registrationStatus": "暂未开始",
+      "registrationStatus": "正在登记",
       "building": [
         {
           "url": "http://www.hfzfzlw.com/spf/details/W4V8mLu7CuFnlhA0LY6Ve_mOlF95pzZyKlIDPN2xxcqwxT4kglO_TnJdiiWO0Ugkoh8-0tC20VTZyaLub_cQa4d6q9xI_WSv_AMosRETjiGNJcus_q44UgfuUIt8GHXqR1foxJ4D1gPrxIsGTAiqYeZHOCo8Ly3TBxiLhoqYcvw=",
@@ -26,6 +25,32 @@
         "18712413099"
       ],
       "salesDepartmentAddress": "新站区东方大道以南、卧龙湖路以西招商奥体公园营销中心"
+    }
+  ],
+  "newValueAdded": [
+    {
+      "id": "2306042",
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/962",
+      "entryName": "朗书轩",
+      "enterpriseName": "安徽省文一投资控股集团新站高新置业有限公司",
+      "region": "新站区",
+      "startTime": 1688454000000,
+      "endTime": 1688713200000,
+      "start": "2023-07-04 15:00:00",
+      "end": "2023-07-07 15:00:00",
+      "total": 66,
+      "registrationStatus": "正在登记",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/f_IZ2yakgXvkBA4CpFtw8LQAlv00ITlSTbal_uD7511aX_9JnSYzscqVGMiEbhY8j40RQ-C6PpSpMwtKlbUm3Wf7Sagqit3I_eRNGAUsm4dTMbrWOUbfbc-wvIq2cr61Agtzgvc0JsGJd8uQvXROszQ8xo67X3_s1DbATig827I=",
+          "permit": "20230659,",
+          "name": "13幢"
+        }
+      ],
+      "telephone": [
+        "0551-67299999"
+      ],
+      "salesDepartmentAddress": "合肥市新站区会棚路与相城路交口朗书轩营销中心"
     }
   ]
 }
