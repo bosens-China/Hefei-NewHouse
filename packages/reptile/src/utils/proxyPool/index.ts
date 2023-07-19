@@ -67,6 +67,10 @@ export const getData = async (time?: number): Promise<AxiosProxyConfig> => {
     return !!errorArr.find((f) => _.isEqual(f, arr1) || _.isEqual(f, arr2));
   });
 
+  if (!filteringValue.length) {
+    throw new Error(`爬取运行错误，当前爬取列表数量为0`);
+  }
+
   const result = await concurrentVerification(filteringValue);
 
   if (result) {
