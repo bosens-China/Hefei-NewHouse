@@ -52,7 +52,7 @@ importers:
       esbuild: ^0.17.19
       esbuild-loader: ^3.0.1
       lodash-es: ^4.17.21
-      nodemailer: ^6.9.3
+      nodemailer: ^6.9.4
       preact: ^10.16.0
       preact-render-to-string: ^6.2.0
       raw-loader: ^4.0.2
@@ -76,7 +76,7 @@ importers:
       '@types/nodemailer': 6.4.8
       esbuild: 0.17.19
       esbuild-loader: 3.0.1_webpack@5.88.2
-      nodemailer: 6.9.3
+      nodemailer: 6.9.4
       raw-loader: 4.0.2_webpack@5.88.2
       run-node-webpack-plugin: 1.3.0_webpack@5.88.2
       typescript: 5.1.6
@@ -2200,8 +2200,8 @@ packages:
     resolution: {integrity: sha512-uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==}
     dev: true
 
-  /nodemailer/6.9.3:
-    resolution: {integrity: sha512-fy9v3NgTzBngrMFkDsKEj0r02U7jm6XfC3b52eoNV+GCrGj+s8pt5OqhiJdWKuw51zCTdiNR/IUD1z33LIIGpg==}
+  /nodemailer/6.9.4:
+    resolution: {integrity: sha512-CXjQvrQZV4+6X5wP6ZIgdehJamI63MFoYFGGPtHudWym9qaEHDNdPzaj5bfMCvxG1vhAileSWW90q7nL0N36mA==}
     engines: {node: '>=6.0.0'}
     dev: true
 

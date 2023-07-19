@@ -1,5 +1,51 @@
 {
-  "total": 21981,
+  "total": 21982,
   "lastValue": [],
-  "newValueAdded": []
+  "newValueAdded": [
+    {
+      "licenseKey": [
+        "20230690"
+      ],
+      "entryName": "繁华轩",
+      "buildingNumber": [
+        "8幢"
+      ],
+      "permittedArea": [
+        "4206.01"
+      ],
+      "releaseDate": [
+        1689696000000
+      ],
+      "time": [
+        "2023-07-19"
+      ],
+      "type": "住宅",
+      "id": "2891",
+      "iptstamp": "1689768752113",
+      "licenseKeyAll": {
+        "20230690": {
+          "url": "http://www.hfzfzlw.com/spf/details/lK_QuepoC9trIyBTw6ZnFf33nT3uPgnT9mW5cqmCFXLTZhbJCJu3zQ9v6PhCSotBwWX8ICDyhWgksUzTbHdUy3F6VZFW2Um4YO4h0Ob2UungsES_uhG4mJp8eESxP9gPVbmoetOav99Iy0S-Vx7oVK-JWujEVK8wDjDpHkACYa8=",
+          "name": "8幢",
+          "numberOfResidences": 40,
+          "license": "20230690",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "11",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥市瑶海区文一地产有限公司",
+      "propertyManagementCompany": "安徽省文一智慧社区服务有限公司",
+      "floorArea": "23960.52㎡",
+      "mainSet": "一室一厅",
+      "greeningRate": "40%",
+      "floorAreaRatio": "1.6%",
+      "numberOfHandChanges": "16",
+      "turnoverRate": "0.04",
+      "region": "瑶海区",
+      "projectAddress": "合肥市瑶海区临泉东路与通达路交口向北300米",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/4821-15070-9098-2397439415228"
+    }
+  ]
 }
