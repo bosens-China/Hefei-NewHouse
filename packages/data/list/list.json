@@ -1,5 +1,31 @@
 {
-  "total": 823,
+  "total": 824,
   "lastValue": [],
-  "newValueAdded": []
+  "newValueAdded": [
+    {
+      "id": "2307003",
+      "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/970",
+      "entryName": "繁华轩",
+      "enterpriseName": "合肥市瑶海区文一地产有限公司",
+      "region": "瑶海区",
+      "startTime": 1689922800000,
+      "endTime": 1690182000000,
+      "start": "2023-07-21 15:00:00",
+      "end": "2023-07-24 15:00:00",
+      "total": 40,
+      "registrationStatus": "暂未开始",
+      "building": [
+        {
+          "url": "http://www.hfzfzlw.com/spf/details/Xz1kBcPJrTSN7wnp8fVjhkhbrz9sF7JzqE8dm_gRWfnE9vzIciuzaKWebP1qLs_EgHHl0tSxRgmK6MyPXKfQmgpRNY6rBgYAhpQ90og0LL-blNtGAAJSbnyHLZdm-bpisSqVdHJOfRSoA9BRR-0qc7MXVu-xjNPvQQvJOOVFKt8=",
+          "permit": "20230690,",
+          "name": "8幢"
+        }
+      ],
+      "telephone": [
+        "0551-64372222",
+        "18956077892"
+      ],
+      "salesDepartmentAddress": "合肥市瑶海区临泉东路与通达路交口向北300米"
+    }
+  ]
 }
