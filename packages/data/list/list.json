@@ -1,7 +1,6 @@
 {
   "total": 824,
-  "lastValue": [],
-  "newValueAdded": [
+  "lastValue": [
     {
       "id": "2307003",
       "url": "http://www.hfzfzlw.com/spf/detail/viewscheme/970",
@@ -27,5 +26,6 @@
       ],
       "salesDepartmentAddress": "合肥市瑶海区临泉东路与通达路交口向北300米"
     }
-  ]
+  ],
+  "newValueAdded": []
 }
