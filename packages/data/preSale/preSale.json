@@ -1,7 +1,6 @@
 {
-  "total": 21986,
-  "lastValue": [],
-  "newValueAdded": [
+  "total": 21989,
+  "lastValue": [
     {
       "licenseKey": [
         "20230693",
@@ -62,6 +61,114 @@
       "region": "滨湖区",
       "projectAddress": "合肥市滨湖区嘉陵江路与四川路交口",
       "detailsUrl": "http://www.hfzfzlw.com/spf/item/1535-8329-2546-2370297398803"
+    }
+  ],
+  "newValueAdded": [
+    {
+      "licenseKey": [
+        "20230695",
+        "20230696"
+      ],
+      "entryName": "锦泓雅苑",
+      "buildingNumber": [
+        "2幢",
+        "11幢"
+      ],
+      "permittedArea": [
+        "11746",
+        "7568"
+      ],
+      "releaseDate": [
+        1690128000000,
+        1690128000000
+      ],
+      "time": [
+        "2023-07-24",
+        "2023-07-24"
+      ],
+      "type": "住宅",
+      "id": "2940",
+      "iptstamp": "1690200778855",
+      "licenseKeyAll": {
+        "20230695": {
+          "url": "http://www.hfzfzlw.com/spf/details/aMyZllaThgjzIPZSfVhTUGCjvJzRl7_FS7uQRBtAYQi4xavSESxiAfaF7EtcObK8tXkzK6wUnaC4JOQM-2NvLluHeIAHup_qVZoWhJSmPdBoW4D-EWH3tNNYKx1-tiBtYOYOCxOAtpeyJ6pLe1GjIS2eihYpxlxu1paPDGDTqOI=",
+          "name": "2幢",
+          "numberOfResidences": 100,
+          "license": "20230695",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "26",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "20230696": {
+          "url": "http://www.hfzfzlw.com/spf/details/jsfaBxknlR2cIEaq5HFwnq9HrfgjdbLy90egXWFGR4oy3NELCAZXGMkE772PGiMi-U05SgmWRcLEllHtMikLYq1STtYcTrQBT7m6xLMo7z9OAm6q7_yms6-Z3cA6xE3y9k4xRfhi-Ojqj7me0Q3WNQwRVyYSwtraBbGkfrGLMxA=",
+          "name": "11幢",
+          "numberOfResidences": 64,
+          "license": "20230696",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "17",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥锦滔房地产开发有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "69566.43㎡",
+      "mainSet": "",
+      "greeningRate": "40%",
+      "floorAreaRatio": "2%",
+      "numberOfHandChanges": "15",
+      "turnoverRate": "0.01",
+      "region": "经济区",
+      "projectAddress": "经开区锦绣大道以南、青龙潭路以西",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/0969-12886-7126-2370500449911"
+    },
+    {
+      "licenseKey": [
+        "20220250"
+      ],
+      "entryName": "云境景轩",
+      "buildingNumber": [
+        "10幢"
+      ],
+      "permittedArea": [
+        "2596.62"
+      ],
+      "releaseDate": [
+        1690128000000
+      ],
+      "time": [
+        "2023-07-24"
+      ],
+      "type": "住宅",
+      "id": "2773",
+      "iptstamp": "1690200778855",
+      "licenseKeyAll": {
+        "20220250": {
+          "url": "http://www.hfzfzlw.com/spf/details/MWuwTK3Ipcdzx6Xb2Dpf59gL_xvPyI83jM-fvpBcf-LdXyMMFYdmUQ-FV-eX57Sl2A_sijyf5YCzUBL1r9HWA0qB6XJuTgwRztifW8jPADxIXznL-hB_YkoJNpsqMm_hLkK9QXI_DA_baAjCpqIx3ql7IFs96HIvaIUobN8wX7o=",
+          "name": "10幢",
+          "numberOfResidences": 0,
+          "license": "20220250",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "8",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "2",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "合肥祥创置业有限公司",
+      "propertyManagementCompany": "",
+      "floorArea": "23236.69㎡",
+      "mainSet": "三室一厅",
+      "greeningRate": "40%",
+      "floorAreaRatio": "1.06%",
+      "numberOfHandChanges": "24",
+      "turnoverRate": "0.04",
+      "region": "庐阳区",
+      "projectAddress": "安徽省合肥市庐阳区北松路以东、紫兰街以北",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/1920-6773-1325-2370500449911"
     }
   ]
 }
