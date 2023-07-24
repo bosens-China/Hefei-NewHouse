@@ -1,5 +1,67 @@
 {
-  "total": 21984,
+  "total": 21986,
   "lastValue": [],
-  "newValueAdded": []
+  "newValueAdded": [
+    {
+      "licenseKey": [
+        "20230693",
+        "20230694"
+      ],
+      "entryName": "尚阖院",
+      "buildingNumber": [
+        "2幢",
+        "9幢"
+      ],
+      "permittedArea": [
+        "5540.94",
+        "8841.71"
+      ],
+      "releaseDate": [
+        1690128000000,
+        1690128000000
+      ],
+      "time": [
+        "2023-07-24",
+        "2023-07-24"
+      ],
+      "type": "住宅",
+      "id": "2936",
+      "iptstamp": "1690189683306",
+      "licenseKeyAll": {
+        "20230693": {
+          "url": "http://www.hfzfzlw.com/spf/details/UFMg85iBt4Xve8Wg7bJsVr4cqPPLwrHrUjpGjfKkaVYj0MyxG-FCrte2ZZSzJS7PU6z88XZ_E2o4cM6BOrsSLM1Bc1n0pRzGgd88TLg9xfyAymnV-HdN3Vl1XJkAEpL6nozziEH6MvHI0AbaT-TInKIDiRvD2Fbj7IIA2ForRGc=",
+          "name": "2幢",
+          "numberOfResidences": 39,
+          "license": "20230693",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "10",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        },
+        "20230694": {
+          "url": "http://www.hfzfzlw.com/spf/details/JY4ydy5XZeFrt5rFNWSwi78kxS3hhwPgd1sUyWMsEbU3PXOPzQ8HNUIKbI8F7GZQY5mruEq7U3dfMEn7lnSGsDgmLMf8DOdR_5_s5SjbXOuIzURwrD7f9pYG2r5af0KjDkfLsavs6p-3kuJ_M54sliZZEWb5_taVcp_YWyLQyzE=",
+          "name": "9幢",
+          "numberOfResidences": 62,
+          "license": "20230694",
+          "commercialQuantity": 0,
+          "numberOfFloorsUpstairs": "16",
+          "numberOfOffices": 0,
+          "numberOfUndergroundFloors": "1",
+          "otherQuantities": 0
+        }
+      },
+      "developer": "安徽省高速高投房地产开发有限公司",
+      "propertyManagementCompany": "安徽省高速地产物业管理服务有限公司",
+      "floorArea": "112724.23㎡",
+      "mainSet": "",
+      "greeningRate": "42%",
+      "floorAreaRatio": "2.2%",
+      "numberOfHandChanges": "4",
+      "turnoverRate": "0.01",
+      "region": "滨湖区",
+      "projectAddress": "合肥市滨湖区嘉陵江路与四川路交口",
+      "detailsUrl": "http://www.hfzfzlw.com/spf/item/1535-8329-2546-2370297398803"
+    }
+  ]
 }
