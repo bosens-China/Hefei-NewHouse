@@ -6,7 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/lodash-es": "^4.17.8",
-    "@types/nodemailer": "^6.4.8",
+    "@types/nodemailer": "^6.4.9",
     "esbuild": "^0.17.19",
     "esbuild-loader": "^3.0.1",
     "nodemailer": "^6.9.4",
